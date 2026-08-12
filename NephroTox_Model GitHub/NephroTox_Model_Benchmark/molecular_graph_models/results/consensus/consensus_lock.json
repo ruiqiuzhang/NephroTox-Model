@@ -1,0 +1,29 @@
+{
+  "classification_threshold": 0.5,
+  "development_consensus_predictions": "results/consensus/development_consensus_oof.csv",
+  "development_consensus_predictions_sha256": "5df9068aae53f502310102d22e4008c8a9664b19d9d9cd9f8d4a4cfddee46ee3",
+  "development_input_sha256": {
+    "attentivefp": "4f94b511a5d6085f00dfd04ab319449505c5746101535d981bb636e737f16814",
+    "dmpnn": "3aa3de52f50b3af8517576073a41c72d011356c1d54296cb1b4cc10403351e59",
+    "gine": "269ca48f4d78dbd6b1a4f9f0fbc94a52f5b74f217de1f0f065b89d2d2aa4758d"
+  },
+  "independent_test_consensus_predictions": "results/consensus/independent_test_consensus_predictions.csv",
+  "independent_test_consensus_predictions_sha256": "304ea362cc56ed65002e9cb77abfbf6d3997d03e9ddf3aeb177ef7d5abbe28d7",
+  "independent_test_input_sha256": {
+    "attentivefp": "cd9cb1b126bde28ea4b106fe2c1a00d91189dcebcbd38e9d8462ae69cd8270fd",
+    "dmpnn": "8550d74829908b0704c1155e393e274b1d7e1f5c89c52e2e32cd9c822782c381",
+    "gine": "5ac5186eb066e330b855f156868ee2f92d75e8ffa52b1e03a46fd7d8422ebc02"
+  },
+  "independent_test_labels_opened": false,
+  "locked_at_utc": "2026-08-12T04:33:22.594819+00:00",
+  "models": [
+    "dmpnn",
+    "gine",
+    "attentivefp"
+  ],
+  "name": "three_architecture_mean_probability_consensus",
+  "rule": "unweighted arithmetic mean of each architecture's three-member ensemble probability",
+  "schema_version": 1,
+  "status": "locked_before_test_label_access",
+  "uncertainty_indicator": "sample standard deviation across the three architecture probabilities"
+}

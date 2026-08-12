@@ -1,0 +1,2 @@
+Model,selection_protocol,configuration_id,best_trial,AUC_mean,AUC_SD
+attentivefp,prespecified fixed configuration; no HPO,attentivefp_fixed_v1_small_data_regularized,,,

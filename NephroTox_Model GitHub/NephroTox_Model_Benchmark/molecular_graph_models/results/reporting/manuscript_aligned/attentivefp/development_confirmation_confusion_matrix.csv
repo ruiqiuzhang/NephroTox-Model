@@ -1,0 +1,2 @@
+model,evaluation_set,evaluation_protocol,classification_threshold,TN,FP,FN,TP
+attentivefp,development,three_seed_ten_fold_confirmation_ensemble_oof,0.5,583,154,230,515

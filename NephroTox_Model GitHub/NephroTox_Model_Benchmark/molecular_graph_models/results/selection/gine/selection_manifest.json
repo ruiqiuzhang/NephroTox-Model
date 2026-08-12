@@ -1,0 +1,9 @@
+{
+  "configuration_id": "gine_fixed_v1_small_data_regularized",
+  "hyperparameter_search_performed": false,
+  "interpretation_lock": "This configuration was fixed before the new confirmation run. It must not be reported as an HPO-selected optimum.",
+  "model_name": "gine",
+  "schema_version": 1,
+  "selected_configuration_sha256": "b29e9da8a6ad7853f3ec35867204063b759ca915d830413bb3e18531730c1f4f",
+  "selection_mode": "prespecified_no_hpo"
+}

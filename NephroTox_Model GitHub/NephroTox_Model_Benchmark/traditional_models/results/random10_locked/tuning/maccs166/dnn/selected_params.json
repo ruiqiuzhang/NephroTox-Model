@@ -1,0 +1,62 @@
+{
+  "run_id": "random10_locked_v1",
+  "protocol": "stratified_random_80_20",
+  "representation": "maccs166",
+  "model": "dnn",
+  "selection_metric": "mean_10fold_development_roc_auc",
+  "tie_break_rule": "higher mean AUC, lower AUC SD, lower candidate_id",
+  "selected_candidate_id": 0,
+  "best_params": {
+    "hidden_layers": [
+      256,
+      128
+    ],
+    "batch_norm": true,
+    "dropout": 0.3,
+    "learning_rate": 0.001,
+    "weight_decay": 0.0001,
+    "batch_size": 64
+  },
+  "best_mean_cv_roc_auc": 0.8435945195473149,
+  "best_std_cv_roc_auc": 0.019752403790076395,
+  "best_epochs_by_fold": [
+    9,
+    11,
+    16,
+    4,
+    16,
+    5,
+    6,
+    6,
+    6,
+    6
+  ],
+  "final_refit_epochs": 6,
+  "final_ensemble_seeds": [
+    20260810,
+    20260811,
+    20260812
+  ],
+  "development_oof_metrics": {
+    "roc_auc": 0.8373817307604745,
+    "pr_auc": 0.8469870794807223,
+    "accuracy": 0.7638326585695007,
+    "balanced_accuracy": 0.7637820658756249,
+    "precision": 0.760898282694848,
+    "sensitivity": 0.7731543624161074,
+    "specificity": 0.7544097693351425,
+    "f1": 0.7669773635153129,
+    "mcc": 0.5276794704771515,
+    "brier": 0.1673218828421087,
+    "ece_10bin": 0.05888230072060417,
+    "tn": 556,
+    "fp": 181,
+    "fn": 169,
+    "tp": 576,
+    "threshold": 0.5
+  },
+  "n_development": 1482,
+  "n_folds": 10,
+  "test_data_loaded": false,
+  "runtime_seconds": 78.31193630001508
+}

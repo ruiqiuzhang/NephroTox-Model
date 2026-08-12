@@ -1,0 +1,16 @@
+{
+  "artifact_hashes": {
+    "consensus_lock.json": "61eeb277d4ea731c953dc7ba724c61829fbdd7fe60af7879a93d804699a75da4",
+    "explainability_summary.json": "f15cbdbe6b0c14478fc9808aca6357632e371a2026b0be8432a5a26f2dfdba1b",
+    "figure_manifest.json": "bb4ef7584969756bde536d7bd445f79dd6ad1b03fe2949ab6be585886098a8b5",
+    "model_lock_attentivefp": "5ee600f4e638fa0d03dd1d1023f5a5b8f715a7ce84de1e1cfa1a0759fea957f1",
+    "model_lock_dmpnn": "1447e62b262a818ce6fe134d476503dd6d963ac7e58d52d6a8beeb8bc646f091",
+    "model_lock_gine": "a01695fe7c3867ea070a5b0b6292594f9b54490a35e524151973a78c2e147fd4",
+    "structural_alert_summary.json": "7a6b6a7ce841b28e5eb0d1b4aac0bf0fcfa5da1a65d7e1c60fad548d0e8dcbba",
+    "structural_analysis_summary.json": "3bb372a97de2b1d6d822bf4c61f0efdfb1d637021d361007532f28074042f3ae"
+  },
+  "reason": "one-time final performance evaluation after all three models and analyses were locked",
+  "recorded_at_utc": "2026-08-12T04:38:57.187738+00:00",
+  "schema_version": 1,
+  "status": "access_intent_recorded_before_label_read"
+}

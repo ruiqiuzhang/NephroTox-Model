@@ -1,0 +1,29 @@
+[build-system]
+requires = ["setuptools>=70"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "nephrotox-traditional-dnn"
+version = "1.0.0"
+description = "Reproducible traditional ML and DNN benchmark for nephrotoxicity prediction"
+requires-python = ">=3.11"
+dependencies = [
+  "numpy>=2.0",
+  "pandas>=2.2",
+  "scipy>=1.13",
+  "scikit-learn>=1.6",
+  "rdkit>=2025.03",
+  "xgboost>=3.0",
+  "torch>=2.7",
+  "joblib>=1.4",
+  "matplotlib>=3.9",
+  "openpyxl>=3.1",
+]
+
+[tool.setuptools.packages.find]
+include = ["nephrotox*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-q"
+

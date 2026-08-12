@@ -1,0 +1,102 @@
+{
+  "configuration_id": "gine_fixed_v1_small_data_regularized",
+  "cv_folds_sha256": "55e46e0e33b9c4a8670e4d144c7842d206fce9770f2432993339cfb419dcd658",
+  "development_sha256": "de9216c8eb1671156b0f9b6bb487a47b6ef689f5d2c566f05f0238d581a7ad15",
+  "ensemble_predictions": "results/final/gine/ensemble_test_predictions.csv",
+  "ensemble_predictions_sha256": "5ac5186eb066e330b855f156868ee2f92d75e8ffa52b1e03a46fd7d8422ebc02",
+  "epochs": 30,
+  "feature_schema": {
+    "atom_fields": [
+      "atomic_number",
+      "chirality",
+      "total_degree",
+      "formal_charge",
+      "total_hydrogens",
+      "radical_electrons",
+      "hybridization",
+      "aromatic",
+      "in_ring"
+    ],
+    "atom_vocab_sizes": [
+      119,
+      6,
+      12,
+      12,
+      10,
+      6,
+      9,
+      2,
+      2
+    ],
+    "bond_fields": [
+      "bond_type",
+      "stereo",
+      "conjugated",
+      "in_ring"
+    ],
+    "bond_vocab_sizes": [
+      5,
+      7,
+      2,
+      2
+    ],
+    "continuous_atom_fields": [
+      "mass_div_100"
+    ],
+    "labels_or_folds_cached": false,
+    "name": "graph_semantics_v1"
+  },
+  "final_seeds": [
+    20260810,
+    20260811,
+    20260812
+  ],
+  "locked_at_utc": "2026-08-12T03:38:27.741209+00:00",
+  "members": [
+    {
+      "checkpoint": "results/final/gine/member_0/model.pt",
+      "checkpoint_sha256": "201f427eea3b6bafc70a6972e779f0bda0a6d488634e1b6b1f6b84059a955786",
+      "member": 0,
+      "predictions": "results/final/gine/member_0/test_predictions.csv",
+      "predictions_sha256": "ec91a41fed8f41a2a40e59a9e7ad91f3ddd8c1ad81336671be7987e0dae88597",
+      "seed": 20260810
+    },
+    {
+      "checkpoint": "results/final/gine/member_1/model.pt",
+      "checkpoint_sha256": "47ee5e3d50d077675a912889d1e1f7ad82a4532c4bd78bb31c84ec8a72089567",
+      "member": 1,
+      "predictions": "results/final/gine/member_1/test_predictions.csv",
+      "predictions_sha256": "2504503be64bd1dee956b12dd162d4ae6f38aed0ddbbd410b2a04140fd45803d",
+      "seed": 20260811
+    },
+    {
+      "checkpoint": "results/final/gine/member_2/model.pt",
+      "checkpoint_sha256": "f3745693863ae7fd887a3fd0a97e30ce1b757fbcc80af179aaefc3dfdb45c1fd",
+      "member": 2,
+      "predictions": "results/final/gine/member_2/test_predictions.csv",
+      "predictions_sha256": "a509dfb831668ea31f6fc5b3d9c2c706fce590700106795943b606857a21f732",
+      "seed": 20260812
+    }
+  ],
+  "model_name": "gine",
+  "parameters": {
+    "batch_size": 32,
+    "dropout": 0.2,
+    "hidden_dim": 256,
+    "learning_rate": 0.0003,
+    "mlp_num_layers": 2,
+    "normalization": "batch_norm",
+    "num_layers": 4,
+    "pooling": "gated_attention",
+    "train_epsilon": true,
+    "weight_decay": 0.0001
+  },
+  "schema_version": 1,
+  "selected_trial_number": null,
+  "selection_mode": "prespecified_no_hpo",
+  "source_archive_sha256": "5e4aaccf9fd21bfdc8f6a0a5e8b6a87893da5a89bbdf7742c91f7a1577614920",
+  "source_tree_sha256": "8c0016a05ad1c43327287e36dda6edf022bfe2727b0873d1ad248156e7221d85",
+  "split_assignment_sha256": "c8afce50ece2b9b384f69ef8277f3fce192d5016ab32589409fca38d3afb1f91",
+  "test_features_sha256": "58eaa371964727f8a0b841a70beb7f4cd18ffb41af8d49c3261231781181b86f",
+  "test_labels_opened": false
+}

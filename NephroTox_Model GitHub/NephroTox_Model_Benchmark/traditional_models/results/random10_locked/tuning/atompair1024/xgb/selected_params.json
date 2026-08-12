@@ -1,0 +1,40 @@
+{
+  "run_id": "random10_locked_v1",
+  "protocol": "stratified_random_80_20",
+  "representation": "atompair1024",
+  "model": "xgb",
+  "selection_metric": "mean_10fold_development_roc_auc",
+  "tie_break_rule": "higher mean AUC, lower AUC SD, lower candidate_id",
+  "selected_candidate_id": 2,
+  "best_params": {
+    "n_estimators": 300,
+    "max_depth": 5,
+    "learning_rate": 0.05,
+    "subsample": 0.8,
+    "colsample_bytree": 0.8
+  },
+  "best_mean_cv_roc_auc": 0.8259845636084066,
+  "best_std_cv_roc_auc": 0.030028315328479598,
+  "development_oof_metrics": {
+    "roc_auc": 0.8258876453607497,
+    "pr_auc": 0.8428133770860924,
+    "accuracy": 0.7368421052631579,
+    "balanced_accuracy": 0.7369509985156584,
+    "precision": 0.7489481065918654,
+    "sensitivity": 0.7167785234899329,
+    "specificity": 0.757123473541384,
+    "f1": 0.7325102880658436,
+    "mcc": 0.47423377832346914,
+    "brier": 0.17356276570507895,
+    "ece_10bin": 0.059544262241078214,
+    "tn": 558,
+    "fp": 179,
+    "fn": 211,
+    "tp": 534,
+    "threshold": 0.5
+  },
+  "n_development": 1482,
+  "n_folds": 10,
+  "test_data_loaded": false,
+  "runtime_seconds": 36.17163160000928
+}

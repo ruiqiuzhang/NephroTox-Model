@@ -1,0 +1,56 @@
+{
+  "applicability": {
+    "development_in_domain": 1406,
+    "development_out_of_domain": 76,
+    "fold_thresholds": {
+      "0": 0.196599820897085,
+      "1": 0.1962366454881573,
+      "2": 0.19663520767868914,
+      "3": 0.1977226621987705,
+      "4": 0.19597437129244027,
+      "5": 0.19637359097472254,
+      "6": 0.19821504347847058,
+      "7": 0.19663176396738705,
+      "8": 0.1938652243742522,
+      "9": 0.19737200271040187
+    },
+    "full_development_threshold_for_test": 0.19893708019854642,
+    "independent_test_in_domain": 353,
+    "independent_test_labels_opened": false,
+    "independent_test_out_of_domain": 18,
+    "method": "Morgan radius 2, 2048 bits; mean 5-nearest-neighbor Tanimoto",
+    "schema_version": 1,
+    "threshold_rule": "0.05 quantile of leave-one-out reference scores"
+  },
+  "binary_label_cliffs": {
+    "analysis_name": "binary_label_cliffs",
+    "discordant_label_pairs": 7,
+    "limitation": "The endpoint is binary; these are structurally similar discordant-label pairs, not potency-based activity cliffs and not SALI values.",
+    "model_summary": {
+      "attentivefp": {
+        "both_correct_rate_at_0_5": 0.0,
+        "median_probability_gap": 0.09188858668009439,
+        "n_pairs": 7,
+        "rank_accuracy": 0.8571428571428571
+      },
+      "dmpnn": {
+        "both_correct_rate_at_0_5": 0.2857142857142857,
+        "median_probability_gap": 0.11092118422190345,
+        "n_pairs": 7,
+        "rank_accuracy": 0.8571428571428571
+      },
+      "gine": {
+        "both_correct_rate_at_0_5": 0.14285714285714285,
+        "median_probability_gap": 0.11626133322715759,
+        "n_pairs": 7,
+        "rank_accuracy": 1.0
+      }
+    },
+    "schema_version": 1,
+    "similar_same_label_pairs": 48,
+    "similarity": "Morgan radius 2, 2048-bit Tanimoto",
+    "similarity_threshold": 0.85
+  },
+  "independent_test_labels_opened": false,
+  "status": "complete"
+}

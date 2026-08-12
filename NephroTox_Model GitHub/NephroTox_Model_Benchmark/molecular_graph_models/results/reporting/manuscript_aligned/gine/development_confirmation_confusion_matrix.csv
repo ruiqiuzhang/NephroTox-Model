@@ -1,0 +1,2 @@
+model,evaluation_set,evaluation_protocol,classification_threshold,TN,FP,FN,TP
+gine,development,three_seed_ten_fold_confirmation_ensemble_oof,0.5,574,163,253,492

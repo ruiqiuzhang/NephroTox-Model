@@ -1,0 +1,66 @@
+{
+  "bootstrap_95_ci_file": "development_confirmation_metrics_bootstrap_95ci.csv",
+  "confusion_matrix": {
+    "FN": 214,
+    "FP": 175,
+    "TN": 562,
+    "TP": 531
+  },
+  "definitions": {
+    "classification_threshold": 0.5,
+    "positive_class": "nephrotoxic (label 1)",
+    "primary": {
+      "ACC": "Accuracy = (TP + TN) / (TP + TN + FP + FN)",
+      "AUC": "Area under the receiver operating characteristic curve (ROC-AUC)",
+      "BA": "Balanced accuracy = (sensitivity + specificity) / 2",
+      "F1": "F1 score = 2 * precision * sensitivity / (precision + sensitivity)",
+      "MCC": "Matthews correlation coefficient",
+      "P": "Precision (positive predictive value) = TP / (TP + FP)",
+      "SE": "Sensitivity (recall) = TP / (TP + FN)",
+      "SP": "Specificity = TN / (TN + FP)"
+    },
+    "secondary": {
+      "Brier": "Mean squared error between binary labels and predicted probabilities",
+      "ECE10": "Expected calibration error using ten equal-width probability bins",
+      "PR-AUC": "Average precision estimator of area under the precision-recall curve"
+    }
+  },
+  "interpretation_lock": "The manuscript primary-table schema is fixed as Model, AUC, ACC, P, SE, SP, F1, MCC, and BA. PR-AUC, Brier, and ECE10 remain supplemental and must not replace or rename the manuscript metrics.",
+  "model": "dmpnn",
+  "model_selection": {
+    "AUC_SD": "",
+    "AUC_mean": "",
+    "Model": "dmpnn",
+    "best_trial": "",
+    "configuration_id": "dmpnn_fixed_v1_prior_trial7",
+    "selection_protocol": "prespecified fixed configuration; no HPO"
+  },
+  "primary_display_order": [
+    "AUC",
+    "ACC",
+    "P",
+    "SE",
+    "SP",
+    "F1",
+    "MCC",
+    "BA"
+  ],
+  "primary_metrics": {
+    "ACC": 0.7375168690958165,
+    "AUC": 0.8094578966060484,
+    "BA": 0.737651279903108,
+    "F1": 0.7319090282563749,
+    "MCC": 0.47582671589564757,
+    "P": 0.7521246458923513,
+    "SE": 0.7127516778523489,
+    "SP": 0.762550881953867
+  },
+  "reporting_standard": "traditional_manuscript_aligned_v1",
+  "schema_version": 1,
+  "secondary_metrics": {
+    "Brier": 0.1875606336765159,
+    "ECE10": 0.104902542406825,
+    "PR-AUC": 0.8226084826562103
+  },
+  "status": "complete"
+}

@@ -1,0 +1,10 @@
+cff-version: 1.2.0
+message: "If you use this curated benchmark, please cite the associated manuscript."
+title: "NephroTox Traditional and Molecular Graph Model Benchmark"
+version: 1.0.0
+date-released: 2026-08-12
+type: dataset
+authors:
+  - family-names: "Zhang"
+    given-names: "Rachel"
+

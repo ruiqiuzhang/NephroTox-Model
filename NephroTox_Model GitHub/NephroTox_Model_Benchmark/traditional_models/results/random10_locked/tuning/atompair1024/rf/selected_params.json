@@ -1,0 +1,39 @@
+{
+  "run_id": "random10_locked_v1",
+  "protocol": "stratified_random_80_20",
+  "representation": "atompair1024",
+  "model": "rf",
+  "selection_metric": "mean_10fold_development_roc_auc",
+  "tie_break_rule": "higher mean AUC, lower AUC SD, lower candidate_id",
+  "selected_candidate_id": 0,
+  "best_params": {
+    "n_estimators": 300,
+    "max_depth": null,
+    "min_samples_leaf": 1,
+    "max_features": "sqrt"
+  },
+  "best_mean_cv_roc_auc": 0.8312721848097635,
+  "best_std_cv_roc_auc": 0.041098187570008035,
+  "development_oof_metrics": {
+    "roc_auc": 0.8300046442588765,
+    "pr_auc": 0.8432646874074543,
+    "accuracy": 0.7408906882591093,
+    "balanced_accuracy": 0.7409996994891315,
+    "precision": 0.7531556802244039,
+    "sensitivity": 0.7208053691275168,
+    "specificity": 0.7611940298507462,
+    "f1": 0.7366255144032922,
+    "mcc": 0.48233684930430387,
+    "brier": 0.17560368121157596,
+    "ece_10bin": 0.07845928924876296,
+    "tn": 561,
+    "fp": 176,
+    "fn": 208,
+    "tp": 537,
+    "threshold": 0.5
+  },
+  "n_development": 1482,
+  "n_folds": 10,
+  "test_data_loaded": false,
+  "runtime_seconds": 28.50237380003091
+}

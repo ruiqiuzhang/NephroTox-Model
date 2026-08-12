@@ -1,0 +1,37 @@
+{
+  "run_id": "random10_locked_v1",
+  "protocol": "stratified_random_80_20",
+  "representation": "torsion1024",
+  "model": "svm",
+  "selection_metric": "mean_10fold_development_roc_auc",
+  "tie_break_rule": "higher mean AUC, lower AUC SD, lower candidate_id",
+  "selected_candidate_id": 0,
+  "best_params": {
+    "C": 1.0,
+    "gamma": "scale"
+  },
+  "best_mean_cv_roc_auc": 0.8121859204632251,
+  "best_std_cv_roc_auc": 0.036294281941954304,
+  "development_oof_metrics": {
+    "roc_auc": 0.8112919235427499,
+    "pr_auc": 0.8290960957460248,
+    "accuracy": 0.7280701754385965,
+    "balanced_accuracy": 0.7282771620846348,
+    "precision": 0.749271137026239,
+    "sensitivity": 0.6899328859060403,
+    "specificity": 0.7666214382632293,
+    "f1": 0.7183787561146052,
+    "mcc": 0.45781049994737527,
+    "brier": 0.1765273287995824,
+    "ece_10bin": 0.03182751121351078,
+    "tn": 565,
+    "fp": 172,
+    "fn": 231,
+    "tp": 514,
+    "threshold": 0.5
+  },
+  "n_development": 1482,
+  "n_folds": 10,
+  "test_data_loaded": false,
+  "runtime_seconds": 216.61120970000047
+}

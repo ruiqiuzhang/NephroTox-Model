@@ -1,0 +1,41 @@
+{
+  "run_id": "random10_locked_v1",
+  "protocol": "stratified_random_80_20",
+  "representation": "atompair1024",
+  "model": "mlp",
+  "selection_metric": "mean_10fold_development_roc_auc",
+  "tie_break_rule": "higher mean AUC, lower AUC SD, lower candidate_id",
+  "selected_candidate_id": 2,
+  "best_params": {
+    "hidden_layer_sizes": [
+      128,
+      64
+    ],
+    "alpha": 0.001,
+    "learning_rate_init": 0.001
+  },
+  "best_mean_cv_roc_auc": 0.7898898606121857,
+  "best_std_cv_roc_auc": 0.03495030570128068,
+  "development_oof_metrics": {
+    "roc_auc": 0.7765437607569231,
+    "pr_auc": 0.7759027372774909,
+    "accuracy": 0.7145748987854251,
+    "balanced_accuracy": 0.7146357899337965,
+    "precision": 0.721763085399449,
+    "sensitivity": 0.7033557046979866,
+    "specificity": 0.7259158751696065,
+    "f1": 0.7124405166553365,
+    "mcc": 0.4293533036902949,
+    "brier": 0.2044183701551282,
+    "ece_10bin": 0.09649716339102156,
+    "tn": 535,
+    "fp": 202,
+    "fn": 221,
+    "tp": 524,
+    "threshold": 0.5
+  },
+  "n_development": 1482,
+  "n_folds": 10,
+  "test_data_loaded": false,
+  "runtime_seconds": 39.372213800030295
+}

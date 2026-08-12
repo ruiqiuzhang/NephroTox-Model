@@ -1,0 +1,6 @@
+{
+  "run_id": "random10_locked_v1",
+  "started_at_utc": "2026-08-10T06:13:59.871911+00:00",
+  "lock_manifest_sha256": "8dfcd34d21050f5e75689c5873395976392ce28d15e13b95d5d7c3b938c09a63",
+  "resume_policy": "resume incomplete combinations under the identical lock only"
+}

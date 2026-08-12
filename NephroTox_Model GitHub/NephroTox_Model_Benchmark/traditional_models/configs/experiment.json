@@ -1,0 +1,73 @@
+{
+  "project_name": "NephroTox Traditional ML and DNN - random10 locked",
+  "run": {
+    "id": "random10_locked_v1",
+    "protocol": "stratified_random_80_20",
+    "results_root": "results/random10_locked",
+    "split_file": "data/splits/random10_locked.csv",
+    "development_file": "data/locked/random10/development.csv",
+    "test_features_file": "data/locked/random10/test_features.csv",
+    "sealed_test_labels_file": "data/locked/random10/sealed/test_labels.csv",
+    "protocol_manifest": "data/locked/random10/protocol_manifest.json"
+  },
+  "dataset": {
+    "workbook": "data/NephroTox_Dataset.xlsx",
+    "sheet": "Modeling_Final",
+    "expected_rows": 1853,
+    "expected_sha256": "435b0551b1475d2a3dd60de3d451140526521a5ea1b918d578b92172972ef220"
+  },
+  "seeds": {
+    "global": 20260810,
+    "scaffold_holdout": 20261454,
+    "dnn_final": [20260810, 20260811, 20260812]
+  },
+  "validation": {
+    "test_fraction": 0.20,
+    "target_test_size": 371,
+    "cv_folds": 10,
+    "selection_metric": "roc_auc",
+    "classification_threshold": 0.5,
+    "bootstrap_replicates": 2000
+  },
+  "representations": {
+    "morgan2048": {"radius": 2, "n_bits": 2048, "include_chirality": true},
+    "maccs166": {"n_bits": 166},
+    "atompair1024": {"n_bits": 1024, "include_chirality": true},
+    "torsion1024": {"n_bits": 1024, "include_chirality": true},
+    "rdkit166": {"descriptor_file": "configs/rdkit_descriptors_166.txt"}
+  },
+  "models": {
+    "rf": [
+      {"n_estimators": 300, "max_depth": null, "min_samples_leaf": 1, "max_features": "sqrt"},
+      {"n_estimators": 500, "max_depth": 20, "min_samples_leaf": 1, "max_features": "sqrt"},
+      {"n_estimators": 500, "max_depth": null, "min_samples_leaf": 2, "max_features": "log2"}
+    ],
+    "svm": [
+      {"C": 1.0, "gamma": "scale"},
+      {"C": 10.0, "gamma": "scale"},
+      {"C": 100.0, "gamma": "scale"}
+    ],
+    "mlp": [
+      {"hidden_layer_sizes": [64], "alpha": 0.0001, "learning_rate_init": 0.001},
+      {"hidden_layer_sizes": [128], "alpha": 0.0001, "learning_rate_init": 0.0005},
+      {"hidden_layer_sizes": [128, 64], "alpha": 0.001, "learning_rate_init": 0.001}
+    ],
+    "xgb": [
+      {"n_estimators": 300, "max_depth": 3, "learning_rate": 0.05, "subsample": 0.85, "colsample_bytree": 0.85},
+      {"n_estimators": 500, "max_depth": 4, "learning_rate": 0.03, "subsample": 0.85, "colsample_bytree": 0.85},
+      {"n_estimators": 300, "max_depth": 5, "learning_rate": 0.05, "subsample": 0.80, "colsample_bytree": 0.80}
+    ],
+    "dnn": [
+      {"hidden_layers": [256, 128], "batch_norm": true, "dropout": 0.30, "learning_rate": 0.001, "weight_decay": 0.0001, "batch_size": 64},
+      {"hidden_layers": [512, 256], "batch_norm": true, "dropout": 0.40, "learning_rate": 0.0005, "weight_decay": 0.0001, "batch_size": 64},
+      {"hidden_layers": [128, 64], "batch_norm": true, "dropout": 0.25, "learning_rate": 0.0005, "weight_decay": 0.00001, "batch_size": 64}
+    ]
+  },
+  "dnn_training": {
+    "max_epochs": 80,
+    "patience": 10,
+    "min_delta": 0.0001,
+    "lr_patience": 4,
+    "lr_factor": 0.5
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "fingerprint": "Morgan radius 2, 2048 bits, chirality enabled",
+  "similarity": "Tanimoto",
+  "ad_definition": "inside if test maximum similarity is at least the 5th percentile of development leave-one-out maxima",
+  "ad_threshold": 0.22226813590449954,
+  "development_loo_median": 0.4609312365094049,
+  "test_similarity_median": 0.48484848484848486,
+  "test_similarity_iqr": [
+    0.30971786833855797,
+    0.7078252032520325
+  ],
+  "n_inside_ad": 352,
+  "n_outside_ad": 19,
+  "normalized_threshold_distance_definition": "2 * abs(predicted probability - 0.5); 0 denotes the decision boundary and 1 denotes an extreme probability",
+  "cv_selected_champion": "MACCS-RF",
+  "cv_selected_champion_role": "CV-selected primary model",
+  "test_best_descriptive_model": "Descriptor-RF",
+  "test_best_descriptive_model_role": "Test-best descriptive model; reported descriptively and not used to revise model selection",
+  "outputs": [
+    "results/random10_locked/figures/FigureS_AD_Tanimoto_applicability.svg",
+    "results/random10_locked/figures/FigureS_AD_Tanimoto_applicability.pdf",
+    "results/random10_locked/figures/FigureS_AD_Tanimoto_applicability.png",
+    "results/random10_locked/figures/FigureS_AD_Tanimoto_applicability.tiff"
+  ],
+  "source_data": "results/random10_locked/figures/source_data/FigureS_AD"
+}

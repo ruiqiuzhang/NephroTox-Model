@@ -1,0 +1,141 @@
+{
+  "run_id": "random10_locked_v1",
+  "started_at_utc": "2026-08-10T06:13:59.871911+00:00",
+  "lock_manifest_sha256": "8dfcd34d21050f5e75689c5873395976392ce28d15e13b95d5d7c3b938c09a63",
+  "resume_policy": "resume incomplete combinations under the identical lock only",
+  "completed_at_utc": "2026-08-10T06:18:54.967706+00:00",
+  "n_experiments": 25,
+  "test_evaluated_once_after_lock": true,
+  "test_size": 371,
+  "test_label_counts": {
+    "0": 185,
+    "1": 186
+  },
+  "experiments": [
+    {
+      "representation": "morgan2048",
+      "model": "rf",
+      "metrics_sha256": "a4ffd9261112987c42221b40823641045d83c267e95585b5b23fed302df12424"
+    },
+    {
+      "representation": "morgan2048",
+      "model": "svm",
+      "metrics_sha256": "da037215b069a604edd87259244c1fb76b1ea3499d9c4f02c130815a4de4eb3d"
+    },
+    {
+      "representation": "morgan2048",
+      "model": "mlp",
+      "metrics_sha256": "18b6f4cdb69deb5e691077a8a15a19849d4a3986c1f26cfd0b0d2e1046f080bd"
+    },
+    {
+      "representation": "morgan2048",
+      "model": "xgb",
+      "metrics_sha256": "477c7d8707625d46e330512b42199228f84faf60f99a9cc30d6d627d404931a5"
+    },
+    {
+      "representation": "morgan2048",
+      "model": "dnn",
+      "metrics_sha256": "c9402bb4f9212167ac01530022127f3bf947d2361c2b3ee056474a92b0464926"
+    },
+    {
+      "representation": "maccs166",
+      "model": "rf",
+      "metrics_sha256": "2a2d61f45a0584efbc2dfaf004f6054662907b705b62fc1f8f6da908920b2c0f"
+    },
+    {
+      "representation": "maccs166",
+      "model": "svm",
+      "metrics_sha256": "9d02f36337de09215153c472b583b3b75635dcf2535036fe4e4622f1ef29dd18"
+    },
+    {
+      "representation": "maccs166",
+      "model": "mlp",
+      "metrics_sha256": "2ed0a80b7215f8b943ba90e1a0e32ff7e64cd630657ed8af5134b4e248f32965"
+    },
+    {
+      "representation": "maccs166",
+      "model": "xgb",
+      "metrics_sha256": "b9c5993272f5bd28a87b8263286a959b3ce65a503ecf8eeeb9bca8a9b41916dc"
+    },
+    {
+      "representation": "maccs166",
+      "model": "dnn",
+      "metrics_sha256": "36062898ba4ff92f9617f4902f2eea48e54e41f6df9f62c79c543e837dc58560"
+    },
+    {
+      "representation": "atompair1024",
+      "model": "rf",
+      "metrics_sha256": "1c1375292ea13d34685940ed2c380f7acf68fe76e380ce4ac1226854a5cb7f8c"
+    },
+    {
+      "representation": "atompair1024",
+      "model": "svm",
+      "metrics_sha256": "6b4528cea66c5379e495f02cf8d824d9a27df6f94945b48492e6b8104ffa826a"
+    },
+    {
+      "representation": "atompair1024",
+      "model": "mlp",
+      "metrics_sha256": "f5f5da26229d0b7b92cd92cab21cd4fc008ce74b76d854c40031782c7bb3779a"
+    },
+    {
+      "representation": "atompair1024",
+      "model": "xgb",
+      "metrics_sha256": "1b9009ac127471705f37a85eacc66a686b23c46bc2738e33eab3e77afd1e2672"
+    },
+    {
+      "representation": "atompair1024",
+      "model": "dnn",
+      "metrics_sha256": "68946e3dcf40252c2cc99e72b35ea4476e13ae018871b0e95bd99b34fd69c9f1"
+    },
+    {
+      "representation": "torsion1024",
+      "model": "rf",
+      "metrics_sha256": "697a51a28741d343848a4c6f1ad50c7871517a4a745fa4a20edf05bd19caac7c"
+    },
+    {
+      "representation": "torsion1024",
+      "model": "svm",
+      "metrics_sha256": "d682f242bde218331453753586f08fc66b2a83a2c6f2db78cce3ed85afefa419"
+    },
+    {
+      "representation": "torsion1024",
+      "model": "mlp",
+      "metrics_sha256": "14e30ee827ee432856d2175444f2c55854400af0add0eb69d34de4c5e29caf92"
+    },
+    {
+      "representation": "torsion1024",
+      "model": "xgb",
+      "metrics_sha256": "d619d86915924edd0b21636a54daf2603ec58e340a886b180a4bea0312926aea"
+    },
+    {
+      "representation": "torsion1024",
+      "model": "dnn",
+      "metrics_sha256": "f9d4edd24aab514cd4ecf985e47700fd43dd084d4582eca21aef4eac2de9b700"
+    },
+    {
+      "representation": "rdkit166",
+      "model": "rf",
+      "metrics_sha256": "f33837d13ec7860df211e633a2f880e837780c26e443905e9b90beff4a3d6a67"
+    },
+    {
+      "representation": "rdkit166",
+      "model": "svm",
+      "metrics_sha256": "8e517698f2c59d6384e5757918184c49ea796cd5f4f2c462a5337064184ff876"
+    },
+    {
+      "representation": "rdkit166",
+      "model": "mlp",
+      "metrics_sha256": "6391e0059769e2208b1ecceadd9f4e7e5e7e0eb11bbb15a12aaef6627cd8e680"
+    },
+    {
+      "representation": "rdkit166",
+      "model": "xgb",
+      "metrics_sha256": "f431211e3b471cb7e36fd1efa93c02245f56555a7d151397d5e038011357426c"
+    },
+    {
+      "representation": "rdkit166",
+      "model": "dnn",
+      "metrics_sha256": "4d0132db1bc400411ee2d7337aeb1bc7782ecdd4b66dc6357579d08fecaa5616"
+    }
+  ]
+}

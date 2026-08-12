@@ -1,0 +1,37 @@
+{
+  "run_id": "random10_locked_v1",
+  "protocol": "stratified_random_80_20",
+  "representation": "rdkit166",
+  "model": "svm",
+  "selection_metric": "mean_10fold_development_roc_auc",
+  "tie_break_rule": "higher mean AUC, lower AUC SD, lower candidate_id",
+  "selected_candidate_id": 0,
+  "best_params": {
+    "C": 1.0,
+    "gamma": "scale"
+  },
+  "best_mean_cv_roc_auc": 0.8157435451000797,
+  "best_std_cv_roc_auc": 0.040540620367564215,
+  "development_oof_metrics": {
+    "roc_auc": 0.8141003342045113,
+    "pr_auc": 0.8160936050909977,
+    "accuracy": 0.7300944669365722,
+    "balanced_accuracy": 0.7300574613206087,
+    "precision": 0.7290836653386454,
+    "sensitivity": 0.7369127516778523,
+    "specificity": 0.723202170963365,
+    "f1": 0.732977303070761,
+    "mcc": 0.4601685638398079,
+    "brier": 0.1760592234283116,
+    "ece_10bin": 0.03290662257435036,
+    "tn": 533,
+    "fp": 204,
+    "fn": 196,
+    "tp": 549,
+    "threshold": 0.5
+  },
+  "n_development": 1482,
+  "n_folds": 10,
+  "test_data_loaded": false,
+  "runtime_seconds": 40.28668680001283
+}

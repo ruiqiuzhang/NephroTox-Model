@@ -1,0 +1,23 @@
+{
+  "development_in_domain": 1406,
+  "development_out_of_domain": 76,
+  "fold_thresholds": {
+    "0": 0.196599820897085,
+    "1": 0.1962366454881573,
+    "2": 0.19663520767868914,
+    "3": 0.1977226621987705,
+    "4": 0.19597437129244027,
+    "5": 0.19637359097472254,
+    "6": 0.19821504347847058,
+    "7": 0.19663176396738705,
+    "8": 0.1938652243742522,
+    "9": 0.19737200271040187
+  },
+  "full_development_threshold_for_test": 0.19893708019854642,
+  "independent_test_in_domain": 353,
+  "independent_test_labels_opened": false,
+  "independent_test_out_of_domain": 18,
+  "method": "Morgan radius 2, 2048 bits; mean 5-nearest-neighbor Tanimoto",
+  "schema_version": 1,
+  "threshold_rule": "0.05 quantile of leave-one-out reference scores"
+}

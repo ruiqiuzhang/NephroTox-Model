@@ -1,0 +1,84 @@
+{
+  "run_id": "random10_locked_v1",
+  "protocol": "stratified_random_80_20",
+  "representation": "rdkit166",
+  "model": "dnn",
+  "lock_manifest_sha256": "8dfcd34d21050f5e75689c5873395976392ce28d15e13b95d5d7c3b938c09a63",
+  "selected_candidate_id": 0,
+  "best_params": {
+    "hidden_layers": [
+      256,
+      128
+    ],
+    "batch_norm": true,
+    "dropout": 0.3,
+    "learning_rate": 0.001,
+    "weight_decay": 0.0001,
+    "batch_size": 64
+  },
+  "best_mean_cv_roc_auc": 0.8313821140651945,
+  "best_std_cv_roc_auc": 0.039417544379758716,
+  "development_oof_metrics": {
+    "roc_auc": 0.8272372123519073,
+    "pr_auc": 0.8385495061416047,
+    "accuracy": 0.7516869095816464,
+    "balanced_accuracy": 0.7516723885150209,
+    "precision": 0.7523427041499331,
+    "sensitivity": 0.7543624161073825,
+    "specificity": 0.7489823609226595,
+    "f1": 0.7533512064343163,
+    "mcc": 0.5033539445881345,
+    "brier": 0.17373372843576299,
+    "ece_10bin": 0.07431856680774045,
+    "tn": 552,
+    "fp": 185,
+    "fn": 183,
+    "tp": 562,
+    "threshold": 0.5
+  },
+  "locked_test_metrics": {
+    "roc_auc": 0.8203138622493462,
+    "pr_auc": 0.8373829190916273,
+    "accuracy": 0.7358490566037735,
+    "balanced_accuracy": 0.7358761987794247,
+    "precision": 0.7417582417582418,
+    "sensitivity": 0.7258064516129032,
+    "specificity": 0.745945945945946,
+    "f1": 0.7336956521739131,
+    "mcc": 0.4718346775625374,
+    "brier": 0.1774915976780452,
+    "ece_10bin": 0.08600436159829435,
+    "tn": 138,
+    "fp": 47,
+    "fn": 51,
+    "tp": 135,
+    "threshold": 0.5
+  },
+  "n_development": 1482,
+  "n_test": 371,
+  "classification_threshold": 0.5,
+  "test_set_used_for_tuning": false,
+  "model_artifacts": [
+    {
+      "path": "evaluation/rdkit166/dnn/final_model_seed_20260810.pt",
+      "bytes": 314867,
+      "sha256": "4c107cfa9423d6a2a454c8173044ca787b173c2c8a0e6503825fbeaf9e5e5f6a"
+    },
+    {
+      "path": "evaluation/rdkit166/dnn/final_model_seed_20260811.pt",
+      "bytes": 314867,
+      "sha256": "b91ff6cae40887bcf15a0158429fed2a81a8e00faaeff1744c2f218b3170fc85"
+    },
+    {
+      "path": "evaluation/rdkit166/dnn/final_model_seed_20260812.pt",
+      "bytes": 314867,
+      "sha256": "241aac9bccac23bb9fe065ec0e664b14f4d37da3043217ee33990a40f3277457"
+    },
+    {
+      "path": "evaluation/rdkit166/dnn/preprocessing.joblib",
+      "bytes": 4783,
+      "sha256": "3eaf4015c8c2113a30c413b0a87db582cc4fc5ce91881ddaa4faa9dcb480f1a1"
+    }
+  ],
+  "runtime_seconds": 6.225768000003882
+}

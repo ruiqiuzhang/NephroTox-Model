@@ -1,0 +1,3 @@
+selection_basis,model_a,model_b,metric,difference_a_minus_b,ci_low,ci_high,p_value_two_sided,n_replicates
+top two by development 10-fold mean ROC-AUC,MACCS-RF,Descriptor-RF,roc_auc,-0.010302237721592666,-0.03740409764603317,0.01559248764893939,0.4207896051974013,2000
+top two by development 10-fold mean ROC-AUC,MACCS-RF,Descriptor-RF,mcc,-0.04079926200967465,-0.11414682555396297,0.034072673833111224,0.2848575712143928,2000

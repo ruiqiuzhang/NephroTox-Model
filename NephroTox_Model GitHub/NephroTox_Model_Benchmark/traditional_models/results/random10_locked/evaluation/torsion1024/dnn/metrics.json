@@ -1,0 +1,84 @@
+{
+  "run_id": "random10_locked_v1",
+  "protocol": "stratified_random_80_20",
+  "representation": "torsion1024",
+  "model": "dnn",
+  "lock_manifest_sha256": "8dfcd34d21050f5e75689c5873395976392ce28d15e13b95d5d7c3b938c09a63",
+  "selected_candidate_id": 1,
+  "best_params": {
+    "hidden_layers": [
+      512,
+      256
+    ],
+    "batch_norm": true,
+    "dropout": 0.4,
+    "learning_rate": 0.0005,
+    "weight_decay": 0.0001,
+    "batch_size": 64
+  },
+  "best_mean_cv_roc_auc": 0.8058206136532682,
+  "best_std_cv_roc_auc": 0.03989252650614651,
+  "development_oof_metrics": {
+    "roc_auc": 0.7986832160126761,
+    "pr_auc": 0.8067961186860182,
+    "accuracy": 0.728744939271255,
+    "balanced_accuracy": 0.7286787538815986,
+    "precision": 0.7253613666228647,
+    "sensitivity": 0.7409395973154362,
+    "specificity": 0.7164179104477612,
+    "f1": 0.7330677290836654,
+    "mcc": 0.45751752293179465,
+    "brier": 0.19436957996736512,
+    "ece_10bin": 0.10780151325911502,
+    "tn": 528,
+    "fp": 209,
+    "fn": 193,
+    "tp": 552,
+    "threshold": 0.5
+  },
+  "locked_test_metrics": {
+    "roc_auc": 0.8188172043010753,
+    "pr_auc": 0.8405512501799246,
+    "accuracy": 0.7358490566037735,
+    "balanced_accuracy": 0.7359924440569602,
+    "precision": 0.7650602409638554,
+    "sensitivity": 0.6827956989247311,
+    "specificity": 0.7891891891891892,
+    "f1": 0.7215909090909091,
+    "mcc": 0.47461280963248353,
+    "brier": 0.17972215263906827,
+    "ece_10bin": 0.09874378590669008,
+    "tn": 146,
+    "fp": 39,
+    "fn": 59,
+    "tp": 127,
+    "threshold": 0.5
+  },
+  "n_development": 1482,
+  "n_test": 371,
+  "classification_threshold": 0.5,
+  "test_set_used_for_tuning": false,
+  "model_artifacts": [
+    {
+      "path": "evaluation/torsion1024/dnn/final_model_seed_20260810.pt",
+      "bytes": 2643507,
+      "sha256": "68546f34e5c4c5ec0901a7dbed986ce009c5fc17de51e1d98e2543f8412ea558"
+    },
+    {
+      "path": "evaluation/torsion1024/dnn/final_model_seed_20260811.pt",
+      "bytes": 2643507,
+      "sha256": "a2f08a429b50b175b5f75ad702b3e5734768fef42c444be74e53af96f0426cc3"
+    },
+    {
+      "path": "evaluation/torsion1024/dnn/final_model_seed_20260812.pt",
+      "bytes": 2643507,
+      "sha256": "6e295b86102abfed7351ab09223080a3a8e152c0e2dd3b19dd5ce8041a1544b9"
+    },
+    {
+      "path": "evaluation/torsion1024/dnn/preprocessing.joblib",
+      "bytes": 38,
+      "sha256": "7157ecfd5381f6b92ba9c8bd4ff802942e4ceade67030f4d2c838fc1cefc438b"
+    }
+  ],
+  "runtime_seconds": 4.209992999967653
+}

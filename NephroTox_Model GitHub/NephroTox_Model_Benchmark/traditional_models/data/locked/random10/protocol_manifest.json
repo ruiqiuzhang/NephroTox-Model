@@ -1,0 +1,119 @@
+{
+  "run_id": "random10_locked_v1",
+  "dataset_audit": {
+    "workbook": "C:\\Users\\Rachel\\Desktop\\课题\\NephroTox_Traditional_DNN\\data\\NephroTox_Dataset.xlsx",
+    "sheet": "Modeling_Final",
+    "sha256": "435b0551b1475d2a3dd60de3d451140526521a5ea1b918d578b92172972ef220",
+    "n_rows": 1853,
+    "label_counts": {
+      "0": 922,
+      "1": 931
+    },
+    "n_unique_scaffolds": 979,
+    "n_scaffold_split_groups": 1154,
+    "n_acyclic": 128,
+    "duplicate_counts": {
+      "compound_id": 0,
+      "standardized_smiles": 0,
+      "standardized_InChIKey": 0,
+      "connectivity_key": 0
+    },
+    "invalid_smiles": 0
+  },
+  "split_method": "stratified random train_test_split",
+  "split_ratio": {
+    "development": 0.8,
+    "independent_test": 0.2
+  },
+  "split_seed": 20260810,
+  "cv_method": "StratifiedKFold within development",
+  "cv_folds": 10,
+  "summary": {
+    "development": {
+      "n": 1482,
+      "label_0": 737,
+      "label_1": 745,
+      "unique_scaffolds": 962
+    },
+    "test": {
+      "n": 371,
+      "label_0": 185,
+      "label_1": 186,
+      "unique_scaffolds": 277
+    },
+    "cv_folds": {
+      "0": {
+        "n": 149,
+        "label_0": 74,
+        "label_1": 75
+      },
+      "1": {
+        "n": 149,
+        "label_0": 74,
+        "label_1": 75
+      },
+      "2": {
+        "n": 148,
+        "label_0": 74,
+        "label_1": 74
+      },
+      "3": {
+        "n": 148,
+        "label_0": 74,
+        "label_1": 74
+      },
+      "4": {
+        "n": 148,
+        "label_0": 74,
+        "label_1": 74
+      },
+      "5": {
+        "n": 148,
+        "label_0": 74,
+        "label_1": 74
+      },
+      "6": {
+        "n": 148,
+        "label_0": 74,
+        "label_1": 74
+      },
+      "7": {
+        "n": 148,
+        "label_0": 73,
+        "label_1": 75
+      },
+      "8": {
+        "n": 148,
+        "label_0": 73,
+        "label_1": 75
+      },
+      "9": {
+        "n": 148,
+        "label_0": 73,
+        "label_1": 75
+      }
+    }
+  },
+  "chemical_space_audit": {
+    "development_test_scaffold_group_overlap": 85,
+    "note": "Scaffold overlap is reported for transparency but is not constrained under the prespecified stratified-random protocol."
+  },
+  "files": {
+    "split": {
+      "path": "data/splits/random10_locked.csv",
+      "sha256": "c8afce50ece2b9b384f69ef8277f3fce192d5016ab32589409fca38d3afb1f91"
+    },
+    "development": {
+      "path": "data/locked/random10/development.csv",
+      "sha256": "de9216c8eb1671156b0f9b6bb487a47b6ef689f5d2c566f05f0238d581a7ad15"
+    },
+    "test_features": {
+      "path": "data/locked/random10/test_features.csv",
+      "sha256": "58eaa371964727f8a0b841a70beb7f4cd18ffb41af8d49c3261231781181b86f"
+    },
+    "sealed_test_labels": {
+      "path": "data/locked/random10/sealed/test_labels.csv",
+      "sha256": "519c969eb0f2d2c0672a3aa9343639838159487bb5f618d1a71dad1b599494a9"
+    }
+  }
+}

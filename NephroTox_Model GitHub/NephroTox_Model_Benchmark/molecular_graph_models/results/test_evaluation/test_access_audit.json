@@ -1,0 +1,6 @@
+{
+  "completed_at_utc": "2026-08-12T04:41:56.502485+00:00",
+  "schema_version": 1,
+  "status": "sealed_labels_opened_once_after_all_prerequisites",
+  "test_evaluation_summary_sha256": "815e01fd89a9112124eb1a2daa4aa497484152590df48d6e46ddab43f3a9b855"
+}

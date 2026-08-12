@@ -1,0 +1,29 @@
+{
+  "analysis_name": "binary_label_cliffs",
+  "discordant_label_pairs": 7,
+  "limitation": "The endpoint is binary; these are structurally similar discordant-label pairs, not potency-based activity cliffs and not SALI values.",
+  "model_summary": {
+    "attentivefp": {
+      "both_correct_rate_at_0_5": 0.0,
+      "median_probability_gap": 0.09188858668009439,
+      "n_pairs": 7,
+      "rank_accuracy": 0.8571428571428571
+    },
+    "dmpnn": {
+      "both_correct_rate_at_0_5": 0.2857142857142857,
+      "median_probability_gap": 0.11092118422190345,
+      "n_pairs": 7,
+      "rank_accuracy": 0.8571428571428571
+    },
+    "gine": {
+      "both_correct_rate_at_0_5": 0.14285714285714285,
+      "median_probability_gap": 0.11626133322715759,
+      "n_pairs": 7,
+      "rank_accuracy": 1.0
+    }
+  },
+  "schema_version": 1,
+  "similar_same_label_pairs": 48,
+  "similarity": "Morgan radius 2, 2048-bit Tanimoto",
+  "similarity_threshold": 0.85
+}
