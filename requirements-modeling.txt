@@ -1,0 +1,22 @@
+-r requirements-figures.txt
+--extra-index-url https://download.pytorch.org/whl/cpu
+torch==2.13.0+cpu; sys_platform != 'darwin'
+torch==2.13.0; sys_platform == 'darwin'
+xgboost==3.3.0
+shap==0.52.0
+pandas==3.0.3
+numba==0.65.1
+llvmlite==0.47.0
+slicer==0.0.8
+tqdm==4.67.3
+networkx==3.6.1
+sympy==1.14.0
+mpmath==1.3.0
+Jinja2==3.1.6
+MarkupSafe==3.0.3
+fsspec==2026.4.0
+filelock==3.29.0
+typing_extensions==4.15.0
+setuptools==82.0.1
+tzdata==2026.5
+colorama==0.4.6; sys_platform == 'win32'

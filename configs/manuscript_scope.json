@@ -1,0 +1,11 @@
+{
+  "decision_date": "2026-10-19",
+  "user_decision": "Remove the former Figure 3 and the associated exploratory target/network/enrichment analysis.",
+  "excluded_analysis": ["PharmMapper target prediction", "CTD disease-target intersection", "PPI central-target network", "GO and KEGG enrichment of predicted targets"],
+  "retained": ["Figure 1 descriptor distributions", "Figure 2 structural diversity and similarity", "Structure-based modeling and model-level interpretation"],
+  "manuscript_figure_numbering": {"old_1": 1, "old_2": 2, "old_3": null, "old_4": 3, "old_5": 4, "old_6": 5, "old_7": 6, "old_8": 7},
+  "model_figure": "New Figure 3: conventional-model test ROC curves and confusion matrices, following former Figure 4 layout.",
+  "development_n": 1338,
+  "test_n": 335,
+  "external_target_prediction": "Excluded from this workflow"
+}

@@ -1,0 +1,11 @@
+# Exact public packages verified in a fresh Python 3.14.5 Windows environment.
+numpy==2.4.6
+scipy==1.17.1
+scikit-learn==1.8.0
+rdkit==2026.3.3
+openpyxl==3.1.5
+joblib==1.6.0
+threadpoolctl==3.7.0
+Pillow==13.0.0
+et-xmlfile==2.0.0
+cloudpickle==3.1.2

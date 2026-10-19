@@ -1,0 +1,36 @@
+name: Validate DATA, model implementations and grouped splits
+
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  reproduce:
+    strategy:
+      fail-fast: false
+      matrix:
+        os: [ubuntu-latest, windows-latest]
+    runs-on: ${{ matrix.os }}
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.14'
+          cache: pip
+      - name: Install locked public dependencies
+        run: python -m pip install --only-binary=:all: -r requirements-modeling.txt
+      - name: Recompute features and groups from the sole DATA source
+        run: python reproduce.py
+      - name: Test positive and deliberately corrupted cases
+        run: python -m unittest discover -s tests -v
+      - name: Reproduce Figure 1 from DATA
+        if: runner.os == 'Windows'
+        run: python scripts/draw_figure1.py --output build/ci-figure1
+      - name: Reproduce Figure 2 and structural-partition robustness from DATA
+        if: runner.os == 'Windows'
+        run: python scripts/draw_figure2.py --output build/ci-figure2

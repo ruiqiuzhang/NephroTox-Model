@@ -1,0 +1,1971 @@
+{
+  "schema_version": 1,
+  "source_excel_sha256": "2832a2b0679bf724b6acc3197e3ad8e4d2c15e0572b2bc9bb76b217f4a0ba752",
+  "source_rows_fingerprint": "51909c995bb610e02cb51e7ddc902b8224722a9ec31bbd9c5b95a9a3cdfc605d",
+  "split_payload_sha256": "7a2d350020899c419ea15fe4fc4747ed82d4e1f4573043ce7bf286e532bfc6f3",
+  "registry": [
+    {
+      "model_id": "morgan2048__rf",
+      "representation": "morgan2048",
+      "algorithm": "RF",
+      "estimator_key": "rf",
+      "selection_method": "finite_prespecified_candidates",
+      "configuration_count": 3,
+      "role": "main"
+    },
+    {
+      "model_id": "morgan2048__svm",
+      "representation": "morgan2048",
+      "algorithm": "SVM",
+      "estimator_key": "svm",
+      "selection_method": "finite_prespecified_candidates",
+      "configuration_count": 3,
+      "role": "main"
+    },
+    {
+      "model_id": "morgan2048__mlp",
+      "representation": "morgan2048",
+      "algorithm": "MLP",
+      "estimator_key": "mlp",
+      "selection_method": "finite_prespecified_candidates",
+      "configuration_count": 3,
+      "role": "main"
+    },
+    {
+      "model_id": "morgan2048__xgb",
+      "representation": "morgan2048",
+      "algorithm": "XGB",
+      "estimator_key": "xgb",
+      "selection_method": "finite_prespecified_candidates",
+      "configuration_count": 3,
+      "role": "main"
+    },
+    {
+      "model_id": "morgan2048__dnn",
+      "representation": "morgan2048",
+      "algorithm": "DNN",
+      "estimator_key": "dnn",
+      "selection_method": "finite_prespecified_candidates",
+      "configuration_count": 3,
+      "role": "main"
+    },
+    {
+      "model_id": "maccs166__rf",
+      "representation": "maccs166",
+      "algorithm": "RF",
+      "estimator_key": "rf",
+      "selection_method": "finite_prespecified_candidates",
+      "configuration_count": 3,
+      "role": "main"
+    },
+    {
+      "model_id": "maccs166__svm",
+      "representation": "maccs166",
+      "algorithm": "SVM",
+      "estimator_key": "svm",
+      "selection_method": "finite_prespecified_candidates",
+      "configuration_count": 3,
+      "role": "main"
+    },
+    {
+      "model_id": "maccs166__mlp",
+      "representation": "maccs166",
+      "algorithm": "MLP",
+      "estimator_key": "mlp",
+      "selection_method": "finite_prespecified_candidates",
+      "configuration_count": 3,
+      "role": "main"
+    },
+    {
+      "model_id": "maccs166__xgb",
+      "representation": "maccs166",
+      "algorithm": "XGB",
+      "estimator_key": "xgb",
+      "selection_method": "finite_prespecified_candidates",
+      "configuration_count": 3,
+      "role": "main"
+    },
+    {
+      "model_id": "maccs166__dnn",
+      "representation": "maccs166",
+      "algorithm": "DNN",
+      "estimator_key": "dnn",
+      "selection_method": "finite_prespecified_candidates",
+      "configuration_count": 3,
+      "role": "main"
+    },
+    {
+      "model_id": "atompair1024__rf",
+      "representation": "atompair1024",
+      "algorithm": "RF",
+      "estimator_key": "rf",
+      "selection_method": "finite_prespecified_candidates",
+      "configuration_count": 3,
+      "role": "main"
+    },
+    {
+      "model_id": "atompair1024__svm",
+      "representation": "atompair1024",
+      "algorithm": "SVM",
+      "estimator_key": "svm",
+      "selection_method": "finite_prespecified_candidates",
+      "configuration_count": 3,
+      "role": "main"
+    },
+    {
+      "model_id": "atompair1024__mlp",
+      "representation": "atompair1024",
+      "algorithm": "MLP",
+      "estimator_key": "mlp",
+      "selection_method": "finite_prespecified_candidates",
+      "configuration_count": 3,
+      "role": "main"
+    },
+    {
+      "model_id": "atompair1024__xgb",
+      "representation": "atompair1024",
+      "algorithm": "XGB",
+      "estimator_key": "xgb",
+      "selection_method": "finite_prespecified_candidates",
+      "configuration_count": 3,
+      "role": "main"
+    },
+    {
+      "model_id": "atompair1024__dnn",
+      "representation": "atompair1024",
+      "algorithm": "DNN",
+      "estimator_key": "dnn",
+      "selection_method": "finite_prespecified_candidates",
+      "configuration_count": 3,
+      "role": "main"
+    },
+    {
+      "model_id": "torsion1024__rf",
+      "representation": "torsion1024",
+      "algorithm": "RF",
+      "estimator_key": "rf",
+      "selection_method": "finite_prespecified_candidates",
+      "configuration_count": 3,
+      "role": "main"
+    },
+    {
+      "model_id": "torsion1024__svm",
+      "representation": "torsion1024",
+      "algorithm": "SVM",
+      "estimator_key": "svm",
+      "selection_method": "finite_prespecified_candidates",
+      "configuration_count": 3,
+      "role": "main"
+    },
+    {
+      "model_id": "torsion1024__mlp",
+      "representation": "torsion1024",
+      "algorithm": "MLP",
+      "estimator_key": "mlp",
+      "selection_method": "finite_prespecified_candidates",
+      "configuration_count": 3,
+      "role": "main"
+    },
+    {
+      "model_id": "torsion1024__xgb",
+      "representation": "torsion1024",
+      "algorithm": "XGB",
+      "estimator_key": "xgb",
+      "selection_method": "finite_prespecified_candidates",
+      "configuration_count": 3,
+      "role": "main"
+    },
+    {
+      "model_id": "torsion1024__dnn",
+      "representation": "torsion1024",
+      "algorithm": "DNN",
+      "estimator_key": "dnn",
+      "selection_method": "finite_prespecified_candidates",
+      "configuration_count": 3,
+      "role": "main"
+    },
+    {
+      "model_id": "rdkit166__rf",
+      "representation": "rdkit166",
+      "algorithm": "RF",
+      "estimator_key": "rf",
+      "selection_method": "finite_prespecified_candidates",
+      "configuration_count": 3,
+      "role": "main"
+    },
+    {
+      "model_id": "rdkit166__svm",
+      "representation": "rdkit166",
+      "algorithm": "SVM",
+      "estimator_key": "svm",
+      "selection_method": "finite_prespecified_candidates",
+      "configuration_count": 3,
+      "role": "main"
+    },
+    {
+      "model_id": "rdkit166__mlp",
+      "representation": "rdkit166",
+      "algorithm": "MLP",
+      "estimator_key": "mlp",
+      "selection_method": "finite_prespecified_candidates",
+      "configuration_count": 3,
+      "role": "main"
+    },
+    {
+      "model_id": "rdkit166__xgb",
+      "representation": "rdkit166",
+      "algorithm": "XGB",
+      "estimator_key": "xgb",
+      "selection_method": "finite_prespecified_candidates",
+      "configuration_count": 3,
+      "role": "main"
+    },
+    {
+      "model_id": "rdkit166__dnn",
+      "representation": "rdkit166",
+      "algorithm": "DNN",
+      "estimator_key": "dnn",
+      "selection_method": "finite_prespecified_candidates",
+      "configuration_count": 3,
+      "role": "main"
+    },
+    {
+      "model_id": "morgan_count2048__rf",
+      "representation": "morgan_count2048",
+      "algorithm": "RF",
+      "estimator_key": "rf",
+      "selection_method": "finite_prespecified_candidates",
+      "configuration_count": 3,
+      "role": "sensitivity_count"
+    },
+    {
+      "model_id": "morgan_count2048__svm",
+      "representation": "morgan_count2048",
+      "algorithm": "SVM",
+      "estimator_key": "svm",
+      "selection_method": "finite_prespecified_candidates",
+      "configuration_count": 3,
+      "role": "sensitivity_count"
+    },
+    {
+      "model_id": "morgan_count2048__mlp",
+      "representation": "morgan_count2048",
+      "algorithm": "MLP",
+      "estimator_key": "mlp",
+      "selection_method": "finite_prespecified_candidates",
+      "configuration_count": 3,
+      "role": "sensitivity_count"
+    },
+    {
+      "model_id": "morgan_count2048__xgb",
+      "representation": "morgan_count2048",
+      "algorithm": "XGB",
+      "estimator_key": "xgb",
+      "selection_method": "finite_prespecified_candidates",
+      "configuration_count": 3,
+      "role": "sensitivity_count"
+    },
+    {
+      "model_id": "morgan_count2048__dnn",
+      "representation": "morgan_count2048",
+      "algorithm": "DNN",
+      "estimator_key": "dnn",
+      "selection_method": "finite_prespecified_candidates",
+      "configuration_count": 3,
+      "role": "sensitivity_count"
+    },
+    {
+      "model_id": "atompair_count1024__rf",
+      "representation": "atompair_count1024",
+      "algorithm": "RF",
+      "estimator_key": "rf",
+      "selection_method": "finite_prespecified_candidates",
+      "configuration_count": 3,
+      "role": "sensitivity_count"
+    },
+    {
+      "model_id": "atompair_count1024__svm",
+      "representation": "atompair_count1024",
+      "algorithm": "SVM",
+      "estimator_key": "svm",
+      "selection_method": "finite_prespecified_candidates",
+      "configuration_count": 3,
+      "role": "sensitivity_count"
+    },
+    {
+      "model_id": "atompair_count1024__mlp",
+      "representation": "atompair_count1024",
+      "algorithm": "MLP",
+      "estimator_key": "mlp",
+      "selection_method": "finite_prespecified_candidates",
+      "configuration_count": 3,
+      "role": "sensitivity_count"
+    },
+    {
+      "model_id": "atompair_count1024__xgb",
+      "representation": "atompair_count1024",
+      "algorithm": "XGB",
+      "estimator_key": "xgb",
+      "selection_method": "finite_prespecified_candidates",
+      "configuration_count": 3,
+      "role": "sensitivity_count"
+    },
+    {
+      "model_id": "atompair_count1024__dnn",
+      "representation": "atompair_count1024",
+      "algorithm": "DNN",
+      "estimator_key": "dnn",
+      "selection_method": "finite_prespecified_candidates",
+      "configuration_count": 3,
+      "role": "sensitivity_count"
+    },
+    {
+      "model_id": "torsion_count1024__rf",
+      "representation": "torsion_count1024",
+      "algorithm": "RF",
+      "estimator_key": "rf",
+      "selection_method": "finite_prespecified_candidates",
+      "configuration_count": 3,
+      "role": "sensitivity_count"
+    },
+    {
+      "model_id": "torsion_count1024__svm",
+      "representation": "torsion_count1024",
+      "algorithm": "SVM",
+      "estimator_key": "svm",
+      "selection_method": "finite_prespecified_candidates",
+      "configuration_count": 3,
+      "role": "sensitivity_count"
+    },
+    {
+      "model_id": "torsion_count1024__mlp",
+      "representation": "torsion_count1024",
+      "algorithm": "MLP",
+      "estimator_key": "mlp",
+      "selection_method": "finite_prespecified_candidates",
+      "configuration_count": 3,
+      "role": "sensitivity_count"
+    },
+    {
+      "model_id": "torsion_count1024__xgb",
+      "representation": "torsion_count1024",
+      "algorithm": "XGB",
+      "estimator_key": "xgb",
+      "selection_method": "finite_prespecified_candidates",
+      "configuration_count": 3,
+      "role": "sensitivity_count"
+    },
+    {
+      "model_id": "torsion_count1024__dnn",
+      "representation": "torsion_count1024",
+      "algorithm": "DNN",
+      "estimator_key": "dnn",
+      "selection_method": "finite_prespecified_candidates",
+      "configuration_count": 3,
+      "role": "sensitivity_count"
+    },
+    {
+      "model_id": "graph__DMPNN",
+      "representation": "graph",
+      "algorithm": "DMPNN",
+      "estimator_key": "D-MPNN",
+      "role": "main",
+      "selection_method": "seeded_random_search",
+      "configuration_count": 20
+    },
+    {
+      "model_id": "graph__GINE",
+      "representation": "graph",
+      "algorithm": "GINE",
+      "estimator_key": "GINE",
+      "role": "main",
+      "selection_method": "seeded_random_search",
+      "configuration_count": 20
+    },
+    {
+      "model_id": "graph__AttentiveFP",
+      "representation": "graph",
+      "algorithm": "AttentiveFP",
+      "estimator_key": "AttentiveFP",
+      "role": "main",
+      "selection_method": "seeded_random_search",
+      "configuration_count": 20
+    }
+  ],
+  "outer_validation": "fixed ten development structure-group folds; test labels masked in trainer",
+  "inner_validation": {
+    "splitter": "StratifiedGroupKFold",
+    "folds": 3,
+    "shuffle": true,
+    "seed": 20260810
+  },
+  "search": "conventional: compare three original S2A candidates; graph: compare original reference plus 19 seeded random configurations from declared additional ranges; every candidate is fitted and scored in three grouped inner folds; highest mean ROC-AUC wins, ties by candidate order",
+  "candidate_parameters": {
+    "rf": [
+      {
+        "max_depth": null,
+        "max_features": "sqrt",
+        "min_samples_leaf": 1,
+        "n_estimators": 300
+      },
+      {
+        "max_depth": 20,
+        "max_features": "sqrt",
+        "min_samples_leaf": 1,
+        "n_estimators": 500
+      },
+      {
+        "max_depth": null,
+        "max_features": "log2",
+        "min_samples_leaf": 2,
+        "n_estimators": 500
+      }
+    ],
+    "svm": [
+      {
+        "C": 1.0,
+        "gamma": "scale"
+      },
+      {
+        "C": 10.0,
+        "gamma": "scale"
+      },
+      {
+        "C": 100.0,
+        "gamma": "scale"
+      }
+    ],
+    "mlp": [
+      {
+        "alpha": 0.0001,
+        "hidden_layer_sizes": [
+          64
+        ],
+        "learning_rate_init": 0.001
+      },
+      {
+        "alpha": 0.0001,
+        "hidden_layer_sizes": [
+          128
+        ],
+        "learning_rate_init": 0.0005
+      },
+      {
+        "alpha": 0.001,
+        "hidden_layer_sizes": [
+          128,
+          64
+        ],
+        "learning_rate_init": 0.001
+      }
+    ],
+    "xgb": [
+      {
+        "colsample_bytree": 0.85,
+        "learning_rate": 0.05,
+        "max_depth": 3,
+        "n_estimators": 300,
+        "subsample": 0.85
+      },
+      {
+        "colsample_bytree": 0.85,
+        "learning_rate": 0.03,
+        "max_depth": 4,
+        "n_estimators": 500,
+        "subsample": 0.85
+      },
+      {
+        "colsample_bytree": 0.8,
+        "learning_rate": 0.05,
+        "max_depth": 5,
+        "n_estimators": 300,
+        "subsample": 0.8
+      }
+    ],
+    "dnn": [
+      {
+        "batch_norm": true,
+        "batch_size": 64,
+        "dropout": 0.3,
+        "hidden_layers": [
+          256,
+          128
+        ],
+        "learning_rate": 0.001,
+        "weight_decay": 0.0001
+      },
+      {
+        "batch_norm": true,
+        "batch_size": 64,
+        "dropout": 0.4,
+        "hidden_layers": [
+          512,
+          256
+        ],
+        "learning_rate": 0.0005,
+        "weight_decay": 0.0001
+      },
+      {
+        "batch_norm": true,
+        "batch_size": 64,
+        "dropout": 0.25,
+        "hidden_layers": [
+          128,
+          64
+        ],
+        "learning_rate": 0.0005,
+        "weight_decay": 1e-05
+      }
+    ]
+  },
+  "graph_candidate_parameters": {
+    "D-MPNN": [
+      {
+        "max_epochs": 60,
+        "patience": 8,
+        "min_delta": 0.0001,
+        "gradient_clip": 5.0,
+        "early_stop_fraction": 0.2,
+        "learning_rate_schedule": "constant",
+        "aggregation": "sum",
+        "batch_size": 32,
+        "ffn_dropout": 0.25,
+        "ffn_hidden_dim": 300,
+        "ffn_num_layers": 3,
+        "learning_rate": 0.0002875575337885439,
+        "message_depth": 5,
+        "message_dropout": 0,
+        "message_hidden_dim": 256,
+        "weight_decay": 9.791096446029439e-05
+      },
+      {
+        "aggregation": "sum",
+        "batch_size": 32,
+        "early_stop_fraction": 0.2,
+        "ffn_dropout": 0.4,
+        "ffn_hidden_dim": 256,
+        "ffn_num_layers": 3,
+        "gradient_clip": 5.0,
+        "learning_rate": 0.00076057644493581,
+        "learning_rate_schedule": "constant",
+        "max_epochs": 60,
+        "message_depth": 4,
+        "message_dropout": 0.1,
+        "message_hidden_dim": 256,
+        "min_delta": 0.0001,
+        "patience": 8,
+        "weight_decay": 6.53212197911223e-05
+      },
+      {
+        "aggregation": "sum",
+        "batch_size": 64,
+        "early_stop_fraction": 0.2,
+        "ffn_dropout": 0.1,
+        "ffn_hidden_dim": 300,
+        "ffn_num_layers": 3,
+        "gradient_clip": 5.0,
+        "learning_rate": 0.00013556865870405975,
+        "learning_rate_schedule": "constant",
+        "max_epochs": 60,
+        "message_depth": 3,
+        "message_dropout": 0.0,
+        "message_hidden_dim": 384,
+        "min_delta": 0.0001,
+        "patience": 8,
+        "weight_decay": 0.0006494773854016206
+      },
+      {
+        "aggregation": "sum",
+        "batch_size": 64,
+        "early_stop_fraction": 0.2,
+        "ffn_dropout": 0.1,
+        "ffn_hidden_dim": 300,
+        "ffn_num_layers": 3,
+        "gradient_clip": 5.0,
+        "learning_rate": 0.000795593316719615,
+        "learning_rate_schedule": "constant",
+        "max_epochs": 60,
+        "message_depth": 3,
+        "message_dropout": 0.0,
+        "message_hidden_dim": 256,
+        "min_delta": 0.0001,
+        "patience": 8,
+        "weight_decay": 1.758235082415332e-06
+      },
+      {
+        "aggregation": "sum",
+        "batch_size": 64,
+        "early_stop_fraction": 0.2,
+        "ffn_dropout": 0.1,
+        "ffn_hidden_dim": 512,
+        "ffn_num_layers": 1,
+        "gradient_clip": 5.0,
+        "learning_rate": 0.0005543092853452125,
+        "learning_rate_schedule": "constant",
+        "max_epochs": 60,
+        "message_depth": 3,
+        "message_dropout": 0.2,
+        "message_hidden_dim": 384,
+        "min_delta": 0.0001,
+        "patience": 8,
+        "weight_decay": 3.550621012136955e-06
+      },
+      {
+        "aggregation": "sum",
+        "batch_size": 32,
+        "early_stop_fraction": 0.2,
+        "ffn_dropout": 0.4,
+        "ffn_hidden_dim": 512,
+        "ffn_num_layers": 2,
+        "gradient_clip": 5.0,
+        "learning_rate": 0.00022834858784386385,
+        "learning_rate_schedule": "constant",
+        "max_epochs": 60,
+        "message_depth": 3,
+        "message_dropout": 0.1,
+        "message_hidden_dim": 128,
+        "min_delta": 0.0001,
+        "patience": 8,
+        "weight_decay": 2.151882913551836e-05
+      },
+      {
+        "aggregation": "sum",
+        "batch_size": 32,
+        "early_stop_fraction": 0.2,
+        "ffn_dropout": 0.25,
+        "ffn_hidden_dim": 128,
+        "ffn_num_layers": 3,
+        "gradient_clip": 5.0,
+        "learning_rate": 0.0001641074552862833,
+        "learning_rate_schedule": "constant",
+        "max_epochs": 60,
+        "message_depth": 5,
+        "message_dropout": 0.2,
+        "message_hidden_dim": 128,
+        "min_delta": 0.0001,
+        "patience": 8,
+        "weight_decay": 0.00017615490989929172
+      },
+      {
+        "aggregation": "sum",
+        "batch_size": 64,
+        "early_stop_fraction": 0.2,
+        "ffn_dropout": 0.4,
+        "ffn_hidden_dim": 256,
+        "ffn_num_layers": 3,
+        "gradient_clip": 5.0,
+        "learning_rate": 0.0005864455066254427,
+        "learning_rate_schedule": "constant",
+        "max_epochs": 60,
+        "message_depth": 5,
+        "message_dropout": 0.1,
+        "message_hidden_dim": 256,
+        "min_delta": 0.0001,
+        "patience": 8,
+        "weight_decay": 1.6683729293231087e-06
+      },
+      {
+        "aggregation": "sum",
+        "batch_size": 64,
+        "early_stop_fraction": 0.2,
+        "ffn_dropout": 0.25,
+        "ffn_hidden_dim": 300,
+        "ffn_num_layers": 2,
+        "gradient_clip": 5.0,
+        "learning_rate": 0.00013367355189400235,
+        "learning_rate_schedule": "constant",
+        "max_epochs": 60,
+        "message_depth": 4,
+        "message_dropout": 0.0,
+        "message_hidden_dim": 256,
+        "min_delta": 0.0001,
+        "patience": 8,
+        "weight_decay": 4.5923397173604586e-05
+      },
+      {
+        "aggregation": "sum",
+        "batch_size": 64,
+        "early_stop_fraction": 0.2,
+        "ffn_dropout": 0.1,
+        "ffn_hidden_dim": 300,
+        "ffn_num_layers": 2,
+        "gradient_clip": 5.0,
+        "learning_rate": 0.0001112120837922646,
+        "learning_rate_schedule": "constant",
+        "max_epochs": 60,
+        "message_depth": 3,
+        "message_dropout": 0.1,
+        "message_hidden_dim": 384,
+        "min_delta": 0.0001,
+        "patience": 8,
+        "weight_decay": 0.0005235137923611969
+      },
+      {
+        "aggregation": "sum",
+        "batch_size": 64,
+        "early_stop_fraction": 0.2,
+        "ffn_dropout": 0.1,
+        "ffn_hidden_dim": 128,
+        "ffn_num_layers": 3,
+        "gradient_clip": 5.0,
+        "learning_rate": 0.000395203707784816,
+        "learning_rate_schedule": "constant",
+        "max_epochs": 60,
+        "message_depth": 5,
+        "message_dropout": 0.0,
+        "message_hidden_dim": 384,
+        "min_delta": 0.0001,
+        "patience": 8,
+        "weight_decay": 8.190600860892716e-06
+      },
+      {
+        "aggregation": "sum",
+        "batch_size": 32,
+        "early_stop_fraction": 0.2,
+        "ffn_dropout": 0.1,
+        "ffn_hidden_dim": 512,
+        "ffn_num_layers": 3,
+        "gradient_clip": 5.0,
+        "learning_rate": 0.000491991370064888,
+        "learning_rate_schedule": "constant",
+        "max_epochs": 60,
+        "message_depth": 3,
+        "message_dropout": 0.1,
+        "message_hidden_dim": 256,
+        "min_delta": 0.0001,
+        "patience": 8,
+        "weight_decay": 1.6697489987887807e-06
+      },
+      {
+        "aggregation": "sum",
+        "batch_size": 32,
+        "early_stop_fraction": 0.2,
+        "ffn_dropout": 0.1,
+        "ffn_hidden_dim": 128,
+        "ffn_num_layers": 3,
+        "gradient_clip": 5.0,
+        "learning_rate": 0.00013329199661206266,
+        "learning_rate_schedule": "constant",
+        "max_epochs": 60,
+        "message_depth": 4,
+        "message_dropout": 0.0,
+        "message_hidden_dim": 384,
+        "min_delta": 0.0001,
+        "patience": 8,
+        "weight_decay": 0.00011566859039164144
+      },
+      {
+        "aggregation": "sum",
+        "batch_size": 32,
+        "early_stop_fraction": 0.2,
+        "ffn_dropout": 0.1,
+        "ffn_hidden_dim": 512,
+        "ffn_num_layers": 2,
+        "gradient_clip": 5.0,
+        "learning_rate": 0.0007081027331372808,
+        "learning_rate_schedule": "constant",
+        "max_epochs": 60,
+        "message_depth": 4,
+        "message_dropout": 0.2,
+        "message_hidden_dim": 128,
+        "min_delta": 0.0001,
+        "patience": 8,
+        "weight_decay": 0.00021081821596610629
+      },
+      {
+        "aggregation": "sum",
+        "batch_size": 64,
+        "early_stop_fraction": 0.2,
+        "ffn_dropout": 0.25,
+        "ffn_hidden_dim": 256,
+        "ffn_num_layers": 3,
+        "gradient_clip": 5.0,
+        "learning_rate": 0.0008528733536070871,
+        "learning_rate_schedule": "constant",
+        "max_epochs": 60,
+        "message_depth": 3,
+        "message_dropout": 0.1,
+        "message_hidden_dim": 384,
+        "min_delta": 0.0001,
+        "patience": 8,
+        "weight_decay": 6.011394736938242e-05
+      },
+      {
+        "aggregation": "sum",
+        "batch_size": 64,
+        "early_stop_fraction": 0.2,
+        "ffn_dropout": 0.4,
+        "ffn_hidden_dim": 512,
+        "ffn_num_layers": 2,
+        "gradient_clip": 5.0,
+        "learning_rate": 0.0002743977577753713,
+        "learning_rate_schedule": "constant",
+        "max_epochs": 60,
+        "message_depth": 3,
+        "message_dropout": 0.1,
+        "message_hidden_dim": 128,
+        "min_delta": 0.0001,
+        "patience": 8,
+        "weight_decay": 3.1596026087905226e-05
+      },
+      {
+        "aggregation": "sum",
+        "batch_size": 64,
+        "early_stop_fraction": 0.2,
+        "ffn_dropout": 0.1,
+        "ffn_hidden_dim": 128,
+        "ffn_num_layers": 2,
+        "gradient_clip": 5.0,
+        "learning_rate": 0.00011311494956263725,
+        "learning_rate_schedule": "constant",
+        "max_epochs": 60,
+        "message_depth": 4,
+        "message_dropout": 0.1,
+        "message_hidden_dim": 256,
+        "min_delta": 0.0001,
+        "patience": 8,
+        "weight_decay": 0.0001238786087059002
+      },
+      {
+        "aggregation": "sum",
+        "batch_size": 64,
+        "early_stop_fraction": 0.2,
+        "ffn_dropout": 0.1,
+        "ffn_hidden_dim": 128,
+        "ffn_num_layers": 2,
+        "gradient_clip": 5.0,
+        "learning_rate": 0.0005316307080121142,
+        "learning_rate_schedule": "constant",
+        "max_epochs": 60,
+        "message_depth": 3,
+        "message_dropout": 0.2,
+        "message_hidden_dim": 384,
+        "min_delta": 0.0001,
+        "patience": 8,
+        "weight_decay": 1.8881490656160373e-05
+      },
+      {
+        "aggregation": "sum",
+        "batch_size": 64,
+        "early_stop_fraction": 0.2,
+        "ffn_dropout": 0.4,
+        "ffn_hidden_dim": 256,
+        "ffn_num_layers": 3,
+        "gradient_clip": 5.0,
+        "learning_rate": 0.0004095190525611231,
+        "learning_rate_schedule": "constant",
+        "max_epochs": 60,
+        "message_depth": 3,
+        "message_dropout": 0.0,
+        "message_hidden_dim": 384,
+        "min_delta": 0.0001,
+        "patience": 8,
+        "weight_decay": 0.00044835357771851953
+      },
+      {
+        "aggregation": "sum",
+        "batch_size": 64,
+        "early_stop_fraction": 0.2,
+        "ffn_dropout": 0.1,
+        "ffn_hidden_dim": 256,
+        "ffn_num_layers": 1,
+        "gradient_clip": 5.0,
+        "learning_rate": 0.0005720927279875688,
+        "learning_rate_schedule": "constant",
+        "max_epochs": 60,
+        "message_depth": 4,
+        "message_dropout": 0.1,
+        "message_hidden_dim": 384,
+        "min_delta": 0.0001,
+        "patience": 8,
+        "weight_decay": 0.00014500041313727423
+      }
+    ],
+    "GINE": [
+      {
+        "max_epochs": 60,
+        "patience": 8,
+        "min_delta": 0.0001,
+        "gradient_clip": 5.0,
+        "early_stop_fraction": 0.2,
+        "learning_rate_schedule": "constant",
+        "batch_size": 32,
+        "dropout": 0.2,
+        "hidden_dim": 256,
+        "learning_rate": 0.0003,
+        "mlp_num_layers": 2,
+        "normalization": "batch_norm",
+        "num_layers": 4,
+        "pooling": "gated_attention",
+        "train_epsilon": true,
+        "weight_decay": 0.0001
+      },
+      {
+        "batch_size": 32,
+        "dropout": 0.3,
+        "early_stop_fraction": 0.2,
+        "gradient_clip": 5.0,
+        "hidden_dim": 256,
+        "learning_rate": 0.00014538782569099487,
+        "learning_rate_schedule": "constant",
+        "max_epochs": 60,
+        "min_delta": 0.0001,
+        "mlp_num_layers": 2,
+        "normalization": "batch_norm",
+        "num_layers": 4,
+        "patience": 8,
+        "pooling": "gated_attention",
+        "train_epsilon": true,
+        "weight_decay": 4.34853301135592e-06
+      },
+      {
+        "batch_size": 64,
+        "dropout": 0.2,
+        "early_stop_fraction": 0.2,
+        "gradient_clip": 5.0,
+        "hidden_dim": 384,
+        "learning_rate": 0.00014332700496416325,
+        "learning_rate_schedule": "constant",
+        "max_epochs": 60,
+        "min_delta": 0.0001,
+        "mlp_num_layers": 2,
+        "normalization": "batch_norm",
+        "num_layers": 3,
+        "patience": 8,
+        "pooling": "gated_attention",
+        "train_epsilon": true,
+        "weight_decay": 0.0008607799856652301
+      },
+      {
+        "batch_size": 64,
+        "dropout": 0.1,
+        "early_stop_fraction": 0.2,
+        "gradient_clip": 5.0,
+        "hidden_dim": 128,
+        "learning_rate": 0.0006459029231459493,
+        "learning_rate_schedule": "constant",
+        "max_epochs": 60,
+        "min_delta": 0.0001,
+        "mlp_num_layers": 2,
+        "normalization": "batch_norm",
+        "num_layers": 3,
+        "patience": 8,
+        "pooling": "gated_attention",
+        "train_epsilon": true,
+        "weight_decay": 1.2324346488462932e-05
+      },
+      {
+        "batch_size": 32,
+        "dropout": 0.2,
+        "early_stop_fraction": 0.2,
+        "gradient_clip": 5.0,
+        "hidden_dim": 128,
+        "learning_rate": 0.00033425622863557787,
+        "learning_rate_schedule": "constant",
+        "max_epochs": 60,
+        "min_delta": 0.0001,
+        "mlp_num_layers": 2,
+        "normalization": "batch_norm",
+        "num_layers": 4,
+        "patience": 8,
+        "pooling": "gated_attention",
+        "train_epsilon": true,
+        "weight_decay": 1.758235082415332e-06
+      },
+      {
+        "batch_size": 64,
+        "dropout": 0.1,
+        "early_stop_fraction": 0.2,
+        "gradient_clip": 5.0,
+        "hidden_dim": 128,
+        "learning_rate": 0.0005543092853452125,
+        "learning_rate_schedule": "constant",
+        "max_epochs": 60,
+        "min_delta": 0.0001,
+        "mlp_num_layers": 2,
+        "normalization": "batch_norm",
+        "num_layers": 3,
+        "patience": 8,
+        "pooling": "gated_attention",
+        "train_epsilon": true,
+        "weight_decay": 8.079485850429346e-06
+      },
+      {
+        "batch_size": 32,
+        "dropout": 0.2,
+        "early_stop_fraction": 0.2,
+        "gradient_clip": 5.0,
+        "hidden_dim": 384,
+        "learning_rate": 0.0004130184897693313,
+        "learning_rate_schedule": "constant",
+        "max_epochs": 60,
+        "min_delta": 0.0001,
+        "mlp_num_layers": 2,
+        "normalization": "batch_norm",
+        "num_layers": 4,
+        "patience": 8,
+        "pooling": "gated_attention",
+        "train_epsilon": true,
+        "weight_decay": 1.1906798129008038e-05
+      },
+      {
+        "batch_size": 32,
+        "dropout": 0.2,
+        "early_stop_fraction": 0.2,
+        "gradient_clip": 5.0,
+        "hidden_dim": 128,
+        "learning_rate": 0.00027814603861710995,
+        "learning_rate_schedule": "constant",
+        "max_epochs": 60,
+        "min_delta": 0.0001,
+        "mlp_num_layers": 2,
+        "normalization": "batch_norm",
+        "num_layers": 5,
+        "patience": 8,
+        "pooling": "gated_attention",
+        "train_epsilon": true,
+        "weight_decay": 0.00016383379098122009
+      },
+      {
+        "batch_size": 32,
+        "dropout": 0.3,
+        "early_stop_fraction": 0.2,
+        "gradient_clip": 5.0,
+        "hidden_dim": 256,
+        "learning_rate": 0.0005873934411197256,
+        "learning_rate_schedule": "constant",
+        "max_epochs": 60,
+        "min_delta": 0.0001,
+        "mlp_num_layers": 2,
+        "normalization": "batch_norm",
+        "num_layers": 5,
+        "patience": 8,
+        "pooling": "gated_attention",
+        "train_epsilon": true,
+        "weight_decay": 0.00029929963762636457
+      },
+      {
+        "batch_size": 64,
+        "dropout": 0.2,
+        "early_stop_fraction": 0.2,
+        "gradient_clip": 5.0,
+        "hidden_dim": 384,
+        "learning_rate": 0.00016557385749513989,
+        "learning_rate_schedule": "constant",
+        "max_epochs": 60,
+        "min_delta": 0.0001,
+        "mlp_num_layers": 2,
+        "normalization": "batch_norm",
+        "num_layers": 5,
+        "patience": 8,
+        "pooling": "gated_attention",
+        "train_epsilon": true,
+        "weight_decay": 0.00020168936058895145
+      },
+      {
+        "batch_size": 32,
+        "dropout": 0.2,
+        "early_stop_fraction": 0.2,
+        "gradient_clip": 5.0,
+        "hidden_dim": 256,
+        "learning_rate": 0.00011860355631190806,
+        "learning_rate_schedule": "constant",
+        "max_epochs": 60,
+        "min_delta": 0.0001,
+        "mlp_num_layers": 2,
+        "normalization": "batch_norm",
+        "num_layers": 4,
+        "patience": 8,
+        "pooling": "gated_attention",
+        "train_epsilon": true,
+        "weight_decay": 9.75351076783991e-06
+      },
+      {
+        "batch_size": 64,
+        "dropout": 0.3,
+        "early_stop_fraction": 0.2,
+        "gradient_clip": 5.0,
+        "hidden_dim": 256,
+        "learning_rate": 0.00016834407185712345,
+        "learning_rate_schedule": "constant",
+        "max_epochs": 60,
+        "min_delta": 0.0001,
+        "mlp_num_layers": 2,
+        "normalization": "batch_norm",
+        "num_layers": 5,
+        "patience": 8,
+        "pooling": "gated_attention",
+        "train_epsilon": true,
+        "weight_decay": 0.00021615102909320867
+      },
+      {
+        "batch_size": 32,
+        "dropout": 0.3,
+        "early_stop_fraction": 0.2,
+        "gradient_clip": 5.0,
+        "hidden_dim": 256,
+        "learning_rate": 0.0001112120837922646,
+        "learning_rate_schedule": "constant",
+        "max_epochs": 60,
+        "min_delta": 0.0001,
+        "mlp_num_layers": 2,
+        "normalization": "batch_norm",
+        "num_layers": 3,
+        "patience": 8,
+        "pooling": "gated_attention",
+        "train_epsilon": true,
+        "weight_decay": 0.0004910990949072604
+      },
+      {
+        "batch_size": 64,
+        "dropout": 0.3,
+        "early_stop_fraction": 0.2,
+        "gradient_clip": 5.0,
+        "hidden_dim": 256,
+        "learning_rate": 0.0002603371883329266,
+        "learning_rate_schedule": "constant",
+        "max_epochs": 60,
+        "min_delta": 0.0001,
+        "mlp_num_layers": 2,
+        "normalization": "batch_norm",
+        "num_layers": 5,
+        "patience": 8,
+        "pooling": "gated_attention",
+        "train_epsilon": true,
+        "weight_decay": 6.17252747036119e-05
+      },
+      {
+        "batch_size": 32,
+        "dropout": 0.1,
+        "early_stop_fraction": 0.2,
+        "gradient_clip": 5.0,
+        "hidden_dim": 384,
+        "learning_rate": 0.0002015758907359077,
+        "learning_rate_schedule": "constant",
+        "max_epochs": 60,
+        "min_delta": 0.0001,
+        "mlp_num_layers": 2,
+        "normalization": "batch_norm",
+        "num_layers": 5,
+        "patience": 8,
+        "pooling": "gated_attention",
+        "train_epsilon": true,
+        "weight_decay": 4.31959593029518e-05
+      },
+      {
+        "batch_size": 64,
+        "dropout": 0.3,
+        "early_stop_fraction": 0.2,
+        "gradient_clip": 5.0,
+        "hidden_dim": 384,
+        "learning_rate": 0.0003181287250827579,
+        "learning_rate_schedule": "constant",
+        "max_epochs": 60,
+        "min_delta": 0.0001,
+        "mlp_num_layers": 2,
+        "normalization": "batch_norm",
+        "num_layers": 4,
+        "patience": 8,
+        "pooling": "gated_attention",
+        "train_epsilon": true,
+        "weight_decay": 0.00018266016725207793
+      },
+      {
+        "batch_size": 32,
+        "dropout": 0.1,
+        "early_stop_fraction": 0.2,
+        "gradient_clip": 5.0,
+        "hidden_dim": 128,
+        "learning_rate": 0.0009709667606832233,
+        "learning_rate_schedule": "constant",
+        "max_epochs": 60,
+        "min_delta": 0.0001,
+        "mlp_num_layers": 2,
+        "normalization": "batch_norm",
+        "num_layers": 3,
+        "patience": 8,
+        "pooling": "gated_attention",
+        "train_epsilon": true,
+        "weight_decay": 3.4193480739148848e-06
+      },
+      {
+        "batch_size": 64,
+        "dropout": 0.1,
+        "early_stop_fraction": 0.2,
+        "gradient_clip": 5.0,
+        "hidden_dim": 384,
+        "learning_rate": 0.0004872350035803997,
+        "learning_rate_schedule": "constant",
+        "max_epochs": 60,
+        "min_delta": 0.0001,
+        "mlp_num_layers": 2,
+        "normalization": "batch_norm",
+        "num_layers": 5,
+        "patience": 8,
+        "pooling": "gated_attention",
+        "train_epsilon": true,
+        "weight_decay": 2.3886258190733866e-06
+      },
+      {
+        "batch_size": 64,
+        "dropout": 0.2,
+        "early_stop_fraction": 0.2,
+        "gradient_clip": 5.0,
+        "hidden_dim": 256,
+        "learning_rate": 0.0006616372178848863,
+        "learning_rate_schedule": "constant",
+        "max_epochs": 60,
+        "min_delta": 0.0001,
+        "mlp_num_layers": 2,
+        "normalization": "batch_norm",
+        "num_layers": 5,
+        "patience": 8,
+        "pooling": "gated_attention",
+        "train_epsilon": true,
+        "weight_decay": 0.0003612198300791988
+      },
+      {
+        "batch_size": 32,
+        "dropout": 0.2,
+        "early_stop_fraction": 0.2,
+        "gradient_clip": 5.0,
+        "hidden_dim": 256,
+        "learning_rate": 0.00015150764721214987,
+        "learning_rate_schedule": "constant",
+        "max_epochs": 60,
+        "min_delta": 0.0001,
+        "mlp_num_layers": 2,
+        "normalization": "batch_norm",
+        "num_layers": 3,
+        "patience": 8,
+        "pooling": "gated_attention",
+        "train_epsilon": true,
+        "weight_decay": 0.00022517078152784625
+      }
+    ],
+    "AttentiveFP": [
+      {
+        "max_epochs": 60,
+        "patience": 8,
+        "min_delta": 0.0001,
+        "gradient_clip": 5.0,
+        "early_stop_fraction": 0.2,
+        "learning_rate_schedule": "constant",
+        "batch_size": 32,
+        "dropout": 0.2,
+        "hidden_channels": 256,
+        "learning_rate": 0.0003,
+        "num_layers": 3,
+        "num_timesteps": 2,
+        "weight_decay": 0.0001
+      },
+      {
+        "batch_size": 32,
+        "dropout": 0.3,
+        "early_stop_fraction": 0.2,
+        "gradient_clip": 5.0,
+        "hidden_channels": 256,
+        "learning_rate": 0.00014538782569099487,
+        "learning_rate_schedule": "constant",
+        "max_epochs": 60,
+        "min_delta": 0.0001,
+        "num_layers": 3,
+        "num_timesteps": 2,
+        "patience": 8,
+        "weight_decay": 6.000658220208743e-06
+      },
+      {
+        "batch_size": 32,
+        "dropout": 0.3,
+        "early_stop_fraction": 0.2,
+        "gradient_clip": 5.0,
+        "hidden_channels": 256,
+        "learning_rate": 0.0005832215215687217,
+        "learning_rate_schedule": "constant",
+        "max_epochs": 60,
+        "min_delta": 0.0001,
+        "num_layers": 4,
+        "num_timesteps": 2,
+        "patience": 8,
+        "weight_decay": 0.00042586257943180304
+      },
+      {
+        "batch_size": 32,
+        "dropout": 0.3,
+        "early_stop_fraction": 0.2,
+        "gradient_clip": 5.0,
+        "hidden_channels": 128,
+        "learning_rate": 0.0002309872277219641,
+        "learning_rate_schedule": "constant",
+        "max_epochs": 60,
+        "min_delta": 0.0001,
+        "num_layers": 4,
+        "num_timesteps": 2,
+        "patience": 8,
+        "weight_decay": 5.9971434197224926e-05
+      },
+      {
+        "batch_size": 32,
+        "dropout": 0.2,
+        "early_stop_fraction": 0.2,
+        "gradient_clip": 5.0,
+        "hidden_channels": 384,
+        "learning_rate": 0.00015281756702806363,
+        "learning_rate_schedule": "constant",
+        "max_epochs": 60,
+        "min_delta": 0.0001,
+        "num_layers": 2,
+        "num_timesteps": 1,
+        "patience": 8,
+        "weight_decay": 5.709651885677196e-06
+      },
+      {
+        "batch_size": 32,
+        "dropout": 0.3,
+        "early_stop_fraction": 0.2,
+        "gradient_clip": 5.0,
+        "hidden_channels": 256,
+        "learning_rate": 0.00017057239919981998,
+        "learning_rate_schedule": "constant",
+        "max_epochs": 60,
+        "min_delta": 0.0001,
+        "num_layers": 3,
+        "num_timesteps": 2,
+        "patience": 8,
+        "weight_decay": 2.6600628603707786e-06
+      },
+      {
+        "batch_size": 64,
+        "dropout": 0.2,
+        "early_stop_fraction": 0.2,
+        "gradient_clip": 5.0,
+        "hidden_channels": 128,
+        "learning_rate": 0.00027814603861710995,
+        "learning_rate_schedule": "constant",
+        "max_epochs": 60,
+        "min_delta": 0.0001,
+        "num_layers": 4,
+        "num_timesteps": 2,
+        "patience": 8,
+        "weight_decay": 0.00010980453422273588
+      },
+      {
+        "batch_size": 32,
+        "dropout": 0.2,
+        "early_stop_fraction": 0.2,
+        "gradient_clip": 5.0,
+        "hidden_channels": 384,
+        "learning_rate": 0.0006842301080724953,
+        "learning_rate_schedule": "constant",
+        "max_epochs": 60,
+        "min_delta": 0.0001,
+        "num_layers": 4,
+        "num_timesteps": 1,
+        "patience": 8,
+        "weight_decay": 0.00017615490989929172
+      },
+      {
+        "batch_size": 64,
+        "dropout": 0.3,
+        "early_stop_fraction": 0.2,
+        "gradient_clip": 5.0,
+        "hidden_channels": 256,
+        "learning_rate": 0.0002597659308273042,
+        "learning_rate_schedule": "constant",
+        "max_epochs": 60,
+        "min_delta": 0.0001,
+        "num_layers": 3,
+        "num_timesteps": 1,
+        "patience": 8,
+        "weight_decay": 1.3314213105359158e-05
+      },
+      {
+        "batch_size": 64,
+        "dropout": 0.2,
+        "early_stop_fraction": 0.2,
+        "gradient_clip": 5.0,
+        "hidden_channels": 384,
+        "learning_rate": 0.00030594347142305856,
+        "learning_rate_schedule": "constant",
+        "max_epochs": 60,
+        "min_delta": 0.0001,
+        "num_layers": 3,
+        "num_timesteps": 3,
+        "patience": 8,
+        "weight_decay": 5.246218154835875e-05
+      },
+      {
+        "batch_size": 64,
+        "dropout": 0.3,
+        "early_stop_fraction": 0.2,
+        "gradient_clip": 5.0,
+        "hidden_channels": 256,
+        "learning_rate": 0.00016834407185712345,
+        "learning_rate_schedule": "constant",
+        "max_epochs": 60,
+        "min_delta": 0.0001,
+        "num_layers": 4,
+        "num_timesteps": 1,
+        "patience": 8,
+        "weight_decay": 0.00017796933951120462
+      },
+      {
+        "batch_size": 32,
+        "dropout": 0.2,
+        "early_stop_fraction": 0.2,
+        "gradient_clip": 5.0,
+        "hidden_channels": 256,
+        "learning_rate": 0.00046011685923889704,
+        "learning_rate_schedule": "constant",
+        "max_epochs": 60,
+        "min_delta": 0.0001,
+        "num_layers": 3,
+        "num_timesteps": 3,
+        "patience": 8,
+        "weight_decay": 0.0005235137923611969
+      },
+      {
+        "batch_size": 64,
+        "dropout": 0.1,
+        "early_stop_fraction": 0.2,
+        "gradient_clip": 5.0,
+        "hidden_channels": 128,
+        "learning_rate": 0.00033026183155201576,
+        "learning_rate_schedule": "constant",
+        "max_epochs": 60,
+        "min_delta": 0.0001,
+        "num_layers": 4,
+        "num_timesteps": 3,
+        "patience": 8,
+        "weight_decay": 4.739095247175446e-06
+      },
+      {
+        "batch_size": 32,
+        "dropout": 0.3,
+        "early_stop_fraction": 0.2,
+        "gradient_clip": 5.0,
+        "hidden_channels": 384,
+        "learning_rate": 0.00034530068373186295,
+        "learning_rate_schedule": "constant",
+        "max_epochs": 60,
+        "min_delta": 0.0001,
+        "num_layers": 2,
+        "num_timesteps": 3,
+        "patience": 8,
+        "weight_decay": 0.00011908922112008669
+      },
+      {
+        "batch_size": 32,
+        "dropout": 0.2,
+        "early_stop_fraction": 0.2,
+        "gradient_clip": 5.0,
+        "hidden_channels": 256,
+        "learning_rate": 0.00011863615531484858,
+        "learning_rate_schedule": "constant",
+        "max_epochs": 60,
+        "min_delta": 0.0001,
+        "num_layers": 2,
+        "num_timesteps": 1,
+        "patience": 8,
+        "weight_decay": 0.0009154045960463909
+      },
+      {
+        "batch_size": 32,
+        "dropout": 0.2,
+        "early_stop_fraction": 0.2,
+        "gradient_clip": 5.0,
+        "hidden_channels": 128,
+        "learning_rate": 0.0009155229941319496,
+        "learning_rate_schedule": "constant",
+        "max_epochs": 60,
+        "min_delta": 0.0001,
+        "num_layers": 4,
+        "num_timesteps": 1,
+        "patience": 8,
+        "weight_decay": 0.0001360026229479488
+      },
+      {
+        "batch_size": 64,
+        "dropout": 0.2,
+        "early_stop_fraction": 0.2,
+        "gradient_clip": 5.0,
+        "hidden_channels": 384,
+        "learning_rate": 0.0007121812375804329,
+        "learning_rate_schedule": "constant",
+        "max_epochs": 60,
+        "min_delta": 0.0001,
+        "num_layers": 4,
+        "num_timesteps": 2,
+        "patience": 8,
+        "weight_decay": 1.8733743888395445e-06
+      },
+      {
+        "batch_size": 32,
+        "dropout": 0.1,
+        "early_stop_fraction": 0.2,
+        "gradient_clip": 5.0,
+        "hidden_channels": 384,
+        "learning_rate": 0.0006580853697618871,
+        "learning_rate_schedule": "constant",
+        "max_epochs": 60,
+        "min_delta": 0.0001,
+        "num_layers": 4,
+        "num_timesteps": 2,
+        "patience": 8,
+        "weight_decay": 6.1397804262288675e-06
+      },
+      {
+        "batch_size": 32,
+        "dropout": 0.2,
+        "early_stop_fraction": 0.2,
+        "gradient_clip": 5.0,
+        "hidden_channels": 384,
+        "learning_rate": 0.00033581770510458044,
+        "learning_rate_schedule": "constant",
+        "max_epochs": 60,
+        "min_delta": 0.0001,
+        "num_layers": 3,
+        "num_timesteps": 1,
+        "patience": 8,
+        "weight_decay": 3.1596026087905226e-05
+      },
+      {
+        "batch_size": 64,
+        "dropout": 0.1,
+        "early_stop_fraction": 0.2,
+        "gradient_clip": 5.0,
+        "hidden_channels": 128,
+        "learning_rate": 0.0009233399316907034,
+        "learning_rate_schedule": "constant",
+        "max_epochs": 60,
+        "min_delta": 0.0001,
+        "num_layers": 2,
+        "num_timesteps": 2,
+        "patience": 8,
+        "weight_decay": 0.0004526202649375337
+      }
+    ]
+  },
+  "parameter_design_file": "configs/original_parameter_design.json",
+  "parameter_design_sha256": "40cdd42bad74e6c7a8b0a05442ac2ddd581eaf5f9e1df20cb3619131bf5b4311",
+  "parameter_source_references": [
+    {
+      "workbook": "NephroTox_Supplementary_Tables.xlsx",
+      "sheet": "S2A Conv Search",
+      "range": "A1:D16",
+      "sha256": "4ffeb64e9955853523ae07281e9c0fa998ab471b99dbd9357bffb9dc060a018a"
+    },
+    {
+      "workbook": "NephroTox_Supplementary_Tables_Recommended_20260812.xlsx",
+      "sheet": "S3 Graph Configs",
+      "range": "A1:I4",
+      "parameter_column": "G",
+      "sha256": "b4625ac2f0e515e7669c76070ea8c6562a3b918db815f329105f1e80cd2394a5"
+    }
+  ],
+  "search_design_file": "configs/model_search_spaces.json",
+  "search_design_sha256": "a439979bc2a553e7c6149dece7a112f600362b093bb53b036bd6eb8f26d29fba",
+  "search_space_definition": {
+    "schema_version": 1,
+    "conventional_method": "enumerate_original_S2A_candidates",
+    "graph_method": "seeded_random_search",
+    "graph_candidates_per_architecture": 20,
+    "include_original_reference_candidate": true,
+    "random_state": 20260810,
+    "sampler": "sklearn.model_selection.ParameterSampler",
+    "continuous_distribution": "scipy.stats.loguniform",
+    "selection_metric": "mean_inner_ROC_AUC",
+    "provenance": "Conventional candidates reproduce original Table S2A. Graph search ranges are added for this revision with author authorization; the original S3 configurations are reference candidates only, never automatically selected.",
+    "graph_spaces": {
+      "D-MPNN": {
+        "fixed_parameters": {
+          "aggregation": "sum"
+        },
+        "parameters": {
+          "message_hidden_dim": {
+            "type": "categorical",
+            "values": [
+              128,
+              256,
+              384
+            ]
+          },
+          "message_depth": {
+            "type": "categorical",
+            "values": [
+              3,
+              4,
+              5,
+              6
+            ]
+          },
+          "message_dropout": {
+            "type": "categorical",
+            "values": [
+              0.0,
+              0.1,
+              0.2
+            ]
+          },
+          "ffn_hidden_dim": {
+            "type": "categorical",
+            "values": [
+              128,
+              256,
+              300,
+              512
+            ]
+          },
+          "ffn_num_layers": {
+            "type": "categorical",
+            "values": [
+              1,
+              2,
+              3
+            ]
+          },
+          "ffn_dropout": {
+            "type": "categorical",
+            "values": [
+              0.1,
+              0.25,
+              0.4
+            ]
+          },
+          "batch_size": {
+            "type": "categorical",
+            "values": [
+              32,
+              64
+            ]
+          },
+          "learning_rate": {
+            "type": "loguniform",
+            "low": 0.0001,
+            "high": 0.001
+          },
+          "weight_decay": {
+            "type": "loguniform",
+            "low": 1e-06,
+            "high": 0.001
+          }
+        }
+      },
+      "GINE": {
+        "fixed_parameters": {
+          "mlp_num_layers": 2,
+          "normalization": "batch_norm",
+          "pooling": "gated_attention",
+          "train_epsilon": true
+        },
+        "parameters": {
+          "hidden_dim": {
+            "type": "categorical",
+            "values": [
+              128,
+              256,
+              384
+            ]
+          },
+          "num_layers": {
+            "type": "categorical",
+            "values": [
+              3,
+              4,
+              5
+            ]
+          },
+          "dropout": {
+            "type": "categorical",
+            "values": [
+              0.1,
+              0.2,
+              0.3
+            ]
+          },
+          "batch_size": {
+            "type": "categorical",
+            "values": [
+              32,
+              64
+            ]
+          },
+          "learning_rate": {
+            "type": "loguniform",
+            "low": 0.0001,
+            "high": 0.001
+          },
+          "weight_decay": {
+            "type": "loguniform",
+            "low": 1e-06,
+            "high": 0.001
+          }
+        }
+      },
+      "AttentiveFP": {
+        "fixed_parameters": {},
+        "parameters": {
+          "hidden_channels": {
+            "type": "categorical",
+            "values": [
+              128,
+              256,
+              384
+            ]
+          },
+          "num_layers": {
+            "type": "categorical",
+            "values": [
+              2,
+              3,
+              4
+            ]
+          },
+          "num_timesteps": {
+            "type": "categorical",
+            "values": [
+              1,
+              2,
+              3
+            ]
+          },
+          "dropout": {
+            "type": "categorical",
+            "values": [
+              0.1,
+              0.2,
+              0.3
+            ]
+          },
+          "batch_size": {
+            "type": "categorical",
+            "values": [
+              32,
+              64
+            ]
+          },
+          "learning_rate": {
+            "type": "loguniform",
+            "low": 0.0001,
+            "high": 0.001
+          },
+          "weight_decay": {
+            "type": "loguniform",
+            "low": 1e-06,
+            "high": 0.001
+          }
+        }
+      }
+    }
+  },
+  "graph_selection_mode": "seeded_random_search",
+  "graph_reference_parameters": {
+    "D-MPNN": {
+      "aggregation": "sum",
+      "batch_size": 32,
+      "ffn_dropout": 0.25,
+      "ffn_hidden_dim": 300,
+      "ffn_num_layers": 3,
+      "learning_rate": 0.0002875575337885439,
+      "message_depth": 5,
+      "message_dropout": 0,
+      "message_hidden_dim": 256,
+      "weight_decay": 9.791096446029439e-05
+    },
+    "GINE": {
+      "batch_size": 32,
+      "dropout": 0.2,
+      "hidden_dim": 256,
+      "learning_rate": 0.0003,
+      "mlp_num_layers": 2,
+      "normalization": "batch_norm",
+      "num_layers": 4,
+      "pooling": "gated_attention",
+      "train_epsilon": true,
+      "weight_decay": 0.0001
+    },
+    "AttentiveFP": {
+      "batch_size": 32,
+      "dropout": 0.2,
+      "hidden_channels": 256,
+      "learning_rate": 0.0003,
+      "num_layers": 3,
+      "num_timesteps": 2,
+      "weight_decay": 0.0001
+    }
+  },
+  "graph_reference_configuration_ids": {
+    "D-MPNN": "dmpnn_fixed_v1_prior_trial7",
+    "GINE": "gine_fixed_v1_small_data_regularized",
+    "AttentiveFP": "attentivefp_fixed_v1_small_data_regularized"
+  },
+  "original_graph_table_selection_mode": "prespecified_no_hpo",
+  "implementation_training_defaults": {
+    "DNN": {
+      "max_epochs": 80,
+      "patience": 10,
+      "min_delta": 0.0001,
+      "lr_patience": 4,
+      "lr_factor": 0.5,
+      "monitor": "training_internal_grouped_validation_roc_auc",
+      "refit_lr_policy": "replay selected epoch prefix of internal LR schedule"
+    },
+    "graph": {
+      "max_epochs": 60,
+      "patience": 8,
+      "min_delta": 0.0001,
+      "gradient_clip": 5.0,
+      "early_stop_fraction": 0.2,
+      "learning_rate_schedule": "constant"
+    }
+  },
+  "algorithm_fixed_parameters": {
+    "RF": {
+      "criterion": "gini",
+      "bootstrap": true,
+      "class_weight": "balanced",
+      "min_samples_split": 2,
+      "min_weight_fraction_leaf": 0.0,
+      "max_leaf_nodes": null,
+      "min_impurity_decrease": 0.0,
+      "max_samples": null,
+      "ccp_alpha": 0.0,
+      "oob_score": false,
+      "warm_start": false,
+      "random_state": 20260810,
+      "n_jobs": "--threads"
+    },
+    "SVM": {
+      "kernel": "rbf",
+      "class_weight": "balanced",
+      "probability": false,
+      "shrinking": true,
+      "tol": 0.001,
+      "cache_size_MB": 512,
+      "max_iter": -1,
+      "random_state": 20260810,
+      "calibration": {
+        "method": "sigmoid",
+        "cv": "explicit 3-fold StratifiedGroupKFold",
+        "ensemble": false,
+        "n_jobs": 1
+      }
+    },
+    "MLP": {
+      "activation": "relu",
+      "solver": "adam",
+      "batch_size": 128,
+      "max_iter": 200,
+      "early_stopping": false,
+      "tol": 0.0,
+      "n_iter_no_change": 201,
+      "shuffle": true,
+      "learning_rate": "constant",
+      "beta_1": 0.9,
+      "beta_2": 0.999,
+      "epsilon": 1e-08,
+      "random_state": 20260810
+    },
+    "XGB": {
+      "booster": "gbtree",
+      "objective": "binary:logistic",
+      "eval_metric": "logloss",
+      "tree_method": "hist",
+      "device": "cpu",
+      "scale_pos_weight": "negative/positive count in this fit subset",
+      "random_state": 20260810,
+      "early_stopping": false,
+      "missing": "NaN sentinel; current DATA raw features must be finite",
+      "n_jobs": "--threads",
+      "reg_lambda": 1.0,
+      "min_child_weight": 1
+    },
+    "DNN": {
+      "max_epochs": 80,
+      "patience": 10,
+      "min_delta": 0.0001,
+      "optimizer": "AdamW",
+      "betas": [
+        0.9,
+        0.999
+      ],
+      "eps": 1e-08,
+      "learning_rate_schedule": "ReduceLROnPlateau(mode=max, patience=4, factor=0.5) on training-internal grouped validation ROC-AUC; replay actual epoch LR prefix during all-fit-subset refit",
+      "activation": "ReLU",
+      "output": "single logit",
+      "loss": "BCEWithLogitsLoss; pos_weight = fit-subset negatives/positives",
+      "epoch_monitor": "ROC-AUC on first training-internal 5-fold StratifiedGroupKFold validation fold",
+      "refit": "fresh same-seed initialization; complete fit subset; fixed selected epoch"
+    },
+    "graph_models": {
+      "optimizer": "AdamW",
+      "betas": [
+        0.9,
+        0.999
+      ],
+      "eps": 1e-08,
+      "learning_rate_schedule": "constant",
+      "loss": "BCEWithLogitsLoss; training-subset positive weight",
+      "epoch_monitor": "unweighted BCE on grouped internal holdout",
+      "refit": "fresh same-seed initialization; complete fit subset; fixed selected epoch",
+      "architecture_source": "modeling_graph.py; full per-fit model_definition saved",
+      "readout_steps": "used by AttentiveFP only"
+    }
+  },
+  "preprocessing": {
+    "binary_fingerprints": "unchanged",
+    "rdkit166": "fit-subset median imputer; StandardScaler additionally for SVM/MLP/DNN; no scaler for RF/XGB",
+    "count_fingerprints": "raw counts for RF/XGB; log1p then fit-subset StandardScaler for SVM/MLP/DNN",
+    "scope": "every inner fit, calibration subfit, epoch selector and refit has independently fitted preprocessing"
+  },
+  "search_seeds": [
+    20260810
+  ],
+  "neural_evaluation_seeds": [
+    20260810,
+    20260811,
+    20260812
+  ],
+  "classical_evaluation_seed": 20260810,
+  "probability_aggregation": "neural only: arithmetic mean across three seeds; classical: single fitted model",
+  "final_training": "repeat the declared candidate search for every conventional and graph model on all development rows; refit the highest-mean-inner-AUC configuration on all development rows; no outer-fold ensembling; no inherited selected parameters or epochs",
+  "neural_early_stopping": "epoch chosen using a further training-internal grouped split, then refit all fit-subset rows; see per-fit logs for monitor and limits",
+  "svm_probability": "3-fold grouped out-of-fold sigmoid calibration, then base estimator refit on all fit rows",
+  "primary_model": "highest mean of ten outer-fold ROC-AUC among the 25 conventional main models; ties by model_id; holdout not used",
+  "classification_threshold": 0.5,
+  "ci": {
+    "method": "class-stratified bootstrap",
+    "resamples": 2000,
+    "seed": 20260810
+  },
+  "ci_sensitivity": "2000 structure-group bootstrap resamples for development-selected primary and three graph models; conditional on saved fitted predictions",
+  "paired_comparison": "primary vs other main models plus all three graph pairs; two-sided paired bootstrap AUC difference; Holm family correction",
+  "applicability_domain": "Morgan2048 chiral binary Tanimoto; dev leave-self-out lower fifth percentile for max and mean5 neighbor similarity; OOF per-fold training scope",
+  "label_cliffs": "opposite binary labels; Morgan2048 chiral Tanimoto >=0.85; exploratory, no potency claims",
+  "structural_alerts": "predefined 166 MACCS keys; development-label Fisher tests; BH across all 166; association only",
+  "attribution": {
+    "method": "TreeSHAP for predeclared MACCS RF and descriptor RF; graph bond removal with atom features fixed",
+    "clipping_percentile": 95
+  },
+  "versions": {
+    "numpy": "2.4.6",
+    "scipy": "1.17.1",
+    "scikit-learn": "1.8.0",
+    "rdkit": "2026.3.3",
+    "torch": "2.13.0+cpu",
+    "xgboost": "3.3.0",
+    "joblib": "1.6.0"
+  },
+  "python": "3.14.5",
+  "compute": "CPU; bounded worker threads; per-fit elapsed wall times logged",
+  "fitting_source_sha256": {
+    "modeling_common.py": "d14d7f31beec1f7c5913a8a4c1e3eb5c0045d40d48e9352c3e403a0fdddecb1b",
+    "modeling_pipeline.py": "5d51f56cef81cf89374660a285bec6aac8802a2824c1522d2567653129a9d491",
+    "modeling_classical.py": "3bc59142442eb44c87a5e35793416986cac1b9d559262f819bdb874c28100d51",
+    "modeling_neural.py": "ff81823936ebbe792a2dc7227c1aa6d80c8d21f10dbd36eec59f274157b1570c",
+    "modeling_graph.py": "18efaa2b9deaf4aa6b125d67b53307b1d0c6ba2ab0727d823d4b98edaff66fd1",
+    "search_space.py": "a6e358d6c4057e57a26b8467451056a3ba9de7db3fcfc2e335bf42af67993cf7"
+  },
+  "test_reporting": "only after every registered model is complete and the global lock verifies file hashes",
+  "endpoint_limit": "existing binary endpoint carried unchanged from DATA; chemical identity validation does not establish label provenance or absence of renal toxicity"
+}

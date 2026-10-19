@@ -1,0 +1,10 @@
+cff-version: 1.2.0
+message: "If you use this code or dataset, please cite the associated manuscript."
+title: "NephroTox Traditional Machine Learning and DNN Benchmark"
+version: 1.0.0
+date-released: 2026-08-10
+type: software
+authors:
+  - family-names: "Zhang"
+    given-names: "Rachel"
+

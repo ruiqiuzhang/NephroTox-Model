@@ -1,0 +1,204 @@
+{
+  "schema_version": 1,
+  "parameter_authority": "Original Supplementary Table S2A and Recommended Supplementary Table S3 locked configurations",
+  "conventional_candidates": {
+    "rf": [
+      {
+        "max_depth": null,
+        "max_features": "sqrt",
+        "min_samples_leaf": 1,
+        "n_estimators": 300
+      },
+      {
+        "max_depth": 20,
+        "max_features": "sqrt",
+        "min_samples_leaf": 1,
+        "n_estimators": 500
+      },
+      {
+        "max_depth": null,
+        "max_features": "log2",
+        "min_samples_leaf": 2,
+        "n_estimators": 500
+      }
+    ],
+    "svm": [
+      {
+        "C": 1.0,
+        "gamma": "scale"
+      },
+      {
+        "C": 10.0,
+        "gamma": "scale"
+      },
+      {
+        "C": 100.0,
+        "gamma": "scale"
+      }
+    ],
+    "mlp": [
+      {
+        "alpha": 0.0001,
+        "hidden_layer_sizes": [
+          64
+        ],
+        "learning_rate_init": 0.001
+      },
+      {
+        "alpha": 0.0001,
+        "hidden_layer_sizes": [
+          128
+        ],
+        "learning_rate_init": 0.0005
+      },
+      {
+        "alpha": 0.001,
+        "hidden_layer_sizes": [
+          128,
+          64
+        ],
+        "learning_rate_init": 0.001
+      }
+    ],
+    "xgb": [
+      {
+        "colsample_bytree": 0.85,
+        "learning_rate": 0.05,
+        "max_depth": 3,
+        "n_estimators": 300,
+        "subsample": 0.85
+      },
+      {
+        "colsample_bytree": 0.85,
+        "learning_rate": 0.03,
+        "max_depth": 4,
+        "n_estimators": 500,
+        "subsample": 0.85
+      },
+      {
+        "colsample_bytree": 0.8,
+        "learning_rate": 0.05,
+        "max_depth": 5,
+        "n_estimators": 300,
+        "subsample": 0.8
+      }
+    ],
+    "dnn": [
+      {
+        "batch_norm": true,
+        "batch_size": 64,
+        "dropout": 0.3,
+        "hidden_layers": [
+          256,
+          128
+        ],
+        "learning_rate": 0.001,
+        "weight_decay": 0.0001
+      },
+      {
+        "batch_norm": true,
+        "batch_size": 64,
+        "dropout": 0.4,
+        "hidden_layers": [
+          512,
+          256
+        ],
+        "learning_rate": 0.0005,
+        "weight_decay": 0.0001
+      },
+      {
+        "batch_norm": true,
+        "batch_size": 64,
+        "dropout": 0.25,
+        "hidden_layers": [
+          128,
+          64
+        ],
+        "learning_rate": 0.0005,
+        "weight_decay": 1e-05
+      }
+    ]
+  },
+  "seeds": [
+    20260810,
+    20260811,
+    20260812
+  ],
+  "implementation_training_defaults": {
+    "DNN": {
+      "max_epochs": 80,
+      "patience": 10,
+      "min_delta": 0.0001,
+      "lr_patience": 4,
+      "lr_factor": 0.5,
+      "monitor": "training_internal_grouped_validation_roc_auc",
+      "refit_lr_policy": "replay selected epoch prefix of internal LR schedule"
+    },
+    "graph": {
+      "max_epochs": 60,
+      "patience": 8,
+      "min_delta": 0.0001,
+      "gradient_clip": 5.0,
+      "early_stop_fraction": 0.2,
+      "learning_rate_schedule": "constant"
+    }
+  },
+  "source_references": [
+    {
+      "workbook": "NephroTox_Supplementary_Tables.xlsx",
+      "sheet": "S2A Conv Search",
+      "range": "A1:D16",
+      "sha256": "4ffeb64e9955853523ae07281e9c0fa998ab471b99dbd9357bffb9dc060a018a"
+    },
+    {
+      "workbook": "NephroTox_Supplementary_Tables_Recommended_20260812.xlsx",
+      "sheet": "S3 Graph Configs",
+      "range": "A1:I4",
+      "parameter_column": "G",
+      "sha256": "b4625ac2f0e515e7669c76070ea8c6562a3b918db815f329105f1e80cd2394a5"
+    }
+  ],
+  "interpretation": "Conventional: three original prespecified configurations per algorithm, selected by actual grouped validation. Graph: original S3 parameters are one reference candidate plus 19 seeded random configurations from newly added ranges in model_search_spaces.json. All model parameters are selected by actual training-internal grouped CV. Earlier selected winners, scores and final-refit epochs are not reused.",
+  "graph_reference_configurations": {
+    "D-MPNN": {
+      "aggregation": "sum",
+      "batch_size": 32,
+      "ffn_dropout": 0.25,
+      "ffn_hidden_dim": 300,
+      "ffn_num_layers": 3,
+      "learning_rate": 0.0002875575337885439,
+      "message_depth": 5,
+      "message_dropout": 0,
+      "message_hidden_dim": 256,
+      "weight_decay": 9.791096446029439e-05
+    },
+    "GINE": {
+      "batch_size": 32,
+      "dropout": 0.2,
+      "hidden_dim": 256,
+      "learning_rate": 0.0003,
+      "mlp_num_layers": 2,
+      "normalization": "batch_norm",
+      "num_layers": 4,
+      "pooling": "gated_attention",
+      "train_epsilon": true,
+      "weight_decay": 0.0001
+    },
+    "AttentiveFP": {
+      "batch_size": 32,
+      "dropout": 0.2,
+      "hidden_channels": 256,
+      "learning_rate": 0.0003,
+      "num_layers": 3,
+      "num_timesteps": 2,
+      "weight_decay": 0.0001
+    }
+  },
+  "graph_reference_configuration_ids": {
+    "D-MPNN": "dmpnn_fixed_v1_prior_trial7",
+    "GINE": "gine_fixed_v1_small_data_regularized",
+    "AttentiveFP": "attentivefp_fixed_v1_small_data_regularized"
+  },
+  "original_graph_table_selection_mode": "prespecified_no_hpo",
+  "current_graph_selection_mode": "seeded_random_search"
+}

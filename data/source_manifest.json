@@ -1,0 +1,26 @@
+{
+  "source_file": "data/NephroTox_Modeling_Data.xlsx",
+  "sha256": "2832a2b0679bf724b6acc3197e3ad8e4d2c15e0572b2bc9bb76b217f4a0ba752",
+  "sheet_name": "Modeling_Final",
+  "n_rows": 1673,
+  "label_counts": {
+    "0": 831,
+    "1": 842
+  },
+  "source_columns": [
+    "compound_id",
+    "name",
+    "PubChem_CID",
+    "standardized_smiles",
+    "label",
+    "standardized_InChIKey",
+    "molecular_formula",
+    "MW",
+    "heavy_atoms",
+    "PubChem_IUPACName",
+    "stereo_scope",
+    "representation_type"
+  ],
+  "empty_unnamed_columns_ignored": 5,
+  "source_policy": "The sole data source is the supplied DATA workbook. No historical tables, cached diagnostic structures, external chemistry records, or prior feature/split files are consulted."
+}
