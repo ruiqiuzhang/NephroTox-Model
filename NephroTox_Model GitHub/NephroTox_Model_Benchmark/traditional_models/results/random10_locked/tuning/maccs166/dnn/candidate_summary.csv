@@ -1,4 +1,0 @@
-candidate_id,params_json,mean_cv_roc_auc,std_cv_roc_auc,median_best_epoch,total_runtime_seconds
-0,"{""batch_norm"": true, ""batch_size"": 64, ""dropout"": 0.3, ""hidden_layers"": [256, 128], ""learning_rate"": 0.001, ""weight_decay"": 0.0001}",0.8435945195473149,0.019752403790076395,6.0,23.081016000069212
-1,"{""batch_norm"": true, ""batch_size"": 64, ""dropout"": 0.4, ""hidden_layers"": [512, 256], ""learning_rate"": 0.0005, ""weight_decay"": 0.0001}",0.8376558615260947,0.014489997166326169,10.0,30.695878199941944
-2,"{""batch_norm"": true, ""batch_size"": 64, ""dropout"": 0.25, ""hidden_layers"": [128, 64], ""learning_rate"": 0.0005, ""weight_decay"": 1e-05}",0.8388879710884524,0.01986708265236075,15.5,24.44253400003072

@@ -1,4 +1,0 @@
-candidate_id,params_json,mean_cv_roc_auc,std_cv_roc_auc,total_runtime_seconds
-0,"{""max_depth"": null, ""max_features"": ""sqrt"", ""min_samples_leaf"": 1, ""n_estimators"": 300}",0.8312721848097635,0.041098187570008035,6.163831299927551
-1,"{""max_depth"": 20, ""max_features"": ""sqrt"", ""min_samples_leaf"": 1, ""n_estimators"": 500}",0.8286702689360965,0.03458231726130546,9.516195999924093
-2,"{""max_depth"": null, ""max_features"": ""log2"", ""min_samples_leaf"": 2, ""n_estimators"": 500}",0.8211816044107788,0.03740669170732245,12.718002100067679

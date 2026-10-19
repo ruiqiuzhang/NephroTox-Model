@@ -1,9 +1,0 @@
-{
-  "configuration_id": "attentivefp_fixed_v1_small_data_regularized",
-  "hyperparameter_search_performed": false,
-  "interpretation_lock": "This configuration was fixed before the new confirmation run. It must not be reported as an HPO-selected optimum.",
-  "model_name": "attentivefp",
-  "schema_version": 1,
-  "selected_configuration_sha256": "be4757b30042ea6b2416313fb12d807fd27c94be61062b05a09d78333ec0f958",
-  "selection_mode": "prespecified_no_hpo"
-}

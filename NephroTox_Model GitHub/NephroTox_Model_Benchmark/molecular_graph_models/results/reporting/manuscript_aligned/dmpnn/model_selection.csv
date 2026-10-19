@@ -1,2 +1,0 @@
-Model,selection_protocol,configuration_id,best_trial,AUC_mean,AUC_SD
-dmpnn,prespecified fixed configuration; no HPO,dmpnn_fixed_v1_prior_trial7,,,
