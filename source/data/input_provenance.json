@@ -1,0 +1,12 @@
+{
+  "archived_workbook_sha256": "2832a2b0679bf724b6acc3197e3ad8e4d2c15e0572b2bc9bb76b217f4a0ba752",
+  "distributed_workbook_sha256": "71decd11da8070f1f8b11cf3860e87d988771e369a82ac8b30324e744882416e",
+  "source_rows_fingerprint": "51909c995bb610e02cb51e7ddc902b8224722a9ec31bbd9c5b95a9a3cdfc605d",
+  "n_compounds": 1673,
+  "source_column_count": 12,
+  "source_file": "data/NephroTox_Modeling_Data.csv",
+  "source_format": "csv",
+  "distributed_csv_sha256": "ea647d7b617a9fe5ee40f06d6916454b7be785e11fff31aeb382218aa21dd8d0",
+  "archived_commit": "6ced752aa74c5e62d66d8f563a9a504c5d25d12e",
+  "description": "The current modeling input is a UTF-8 CSV with twelve columns. The CSV was exported without changing any typed cell values or row order. The archived workbook hash identifies the original fitting input and the distributed workbook hash identifies the metadata-edited workbook in the preceding public release. Current runs record the CSV file digest and the same ordered dataset fingerprint."
+}

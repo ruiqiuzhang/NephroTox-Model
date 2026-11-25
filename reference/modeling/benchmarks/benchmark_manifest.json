@@ -1,0 +1,17 @@
+{
+  "schema_version": 1,
+  "status": "complete",
+  "n_models": 43,
+  "source_excel_sha256": "2832a2b0679bf724b6acc3197e3ad8e4d2c15e0572b2bc9bb76b217f4a0ba752",
+  "source_rows_fingerprint": "51909c995bb610e02cb51e7ddc902b8224722a9ec31bbd9c5b95a9a3cdfc605d",
+  "global_lock_sha256": "3276b0e20b13585a74c4628d80ba33cc10323548f579851d2513d464b72fad15",
+  "protocol_sha256": "dcab35fef8def12907c144146cec6a021c827ebc0970b16666a67d6fa0f29393",
+  "files": {
+    "feature_benchmark.csv": "42ae19554924a94a1df5a72a9a9fb723dc4c4bdc0cd3bda268f366fdf56616de",
+    "feature_measurements.csv": "9e6e6fc1226a74f3db7fec5e84b8553e36d4c6dc10ed3f0aa46d840a66eddabb",
+    "graph_feature_benchmark.json": "6c9b9e3ea44cafb0d8d0c16f3c25e67d3b9c2a61ff60b23e1f852992198e6214",
+    "runtime_benchmark.csv": "bfe7bb4ef9d9458f86457510e553e5845a7315566a64da2a6e1d6e0abbfd4c56",
+    "runtime_environment.json": "b91685a79e5050b639bee017fcf9ad031b9def358ffb3589df74ee8627022bc0",
+    "runtime_measurements.csv": "e162d638e2c914dabe875521107caaf78bfcc8abc229a7515bf49723b8fab384"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "archived_commit": "6ced752aa74c5e62d66d8f563a9a504c5d25d12e",
+  "archived_path": "source/src/nephrotox",
+  "archived_module_snapshots": {
+    "modeling_common.py": "reference/fitting_source/modeling_common.py",
+    "modeling_pipeline.py": "reference/fitting_source/modeling_pipeline.py"
+  },
+  "archived_fitting_source_sha256": {
+    "modeling_common.py": "4fd75aee0724a41c62ce68e7c8cfffaa0966131078370fd6516cf4a63fcf7b69",
+    "modeling_pipeline.py": "d68ad718219c902e19d36aaefb39f2db9ff254fa2e5d69421e278f2b4e88681b",
+    "modeling_classical.py": "2bd2b9adb4279ebb14f17bf78877ba8ea98408cc9f6f44c005216d668ab3df0c",
+    "modeling_neural.py": "ff81823936ebbe792a2dc7227c1aa6d80c8d21f10dbd36eec59f274157b1570c",
+    "modeling_graph.py": "c6ee4444a0030d4be3ad3d6bdd9270313ab2e1172c90a3e9f8f895ec206fb345",
+    "search_space.py": "a6e358d6c4057e57a26b8467451056a3ba9de7db3fcfc2e335bf42af67993cf7",
+    "fixed_parameters.py": "5057c2369319e4ee1314c66698e4ce4fb653ee7b82bc02ccf02022d889366a20"
+  },
+  "distributed_fitting_source_sha256": {
+    "modeling_common.py": "730daf3fee3a777c28aa208d3565587f357b282d2dd850f1d25e756bff0ff27a",
+    "modeling_pipeline.py": "543c93a0885c471c2f0a1e07a469d05379882347b043927e3f106a5129f7cac7",
+    "modeling_classical.py": "2bd2b9adb4279ebb14f17bf78877ba8ea98408cc9f6f44c005216d668ab3df0c",
+    "modeling_neural.py": "ff81823936ebbe792a2dc7227c1aa6d80c8d21f10dbd36eec59f274157b1570c",
+    "modeling_graph.py": "c6ee4444a0030d4be3ad3d6bdd9270313ab2e1172c90a3e9f8f895ec206fb345",
+    "search_space.py": "a6e358d6c4057e57a26b8467451056a3ba9de7db3fcfc2e335bf42af67993cf7",
+    "fixed_parameters.py": "5057c2369319e4ee1314c66698e4ce4fb653ee7b82bc02ccf02022d889366a20"
+  },
+  "changes": {
+    "modeling_common.py": "The training protocol records the validated CSV path, format and digest instead of a workbook digest field.",
+    "modeling_pipeline.py": "The model lock records the validated CSV path, format and digest instead of a workbook digest field."
+  },
+  "scope": "The two changed modules import the input-file provenance helper and write the new provenance fields. Their estimator construction, fit, random seed and prediction logic are unchanged. The remaining five modules are byte-identical."
+}

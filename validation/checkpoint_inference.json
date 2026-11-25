@@ -1,0 +1,370 @@
+{
+  "entry_point": "source/scripts/predict.py --model-dir reference/modeling/<model_id> --input validation/inference_queries.csv --output predictions.csv",
+  "scope": "Two prespecified held-out compounds with specified stereochemistry, one per class; comparison to archived held-out predictions. Batch size and floating-point accumulation may differ from the original full-partition inference.",
+  "compound_ids": [
+    "NTX0052",
+    "NTX0006"
+  ],
+  "models_checked": 43,
+  "predictions_checked": 86,
+  "absolute_tolerance": 1e-06,
+  "max_abs_probability_difference": 4.516632257089981e-08,
+  "all_classifications_match": true,
+  "models": {
+    "morgan2048__rf": {
+      "max_abs_probability_difference": 0.0,
+      "all_classifications_match": true
+    },
+    "morgan2048__svm": {
+      "max_abs_probability_difference": 0.0,
+      "all_classifications_match": true
+    },
+    "morgan2048__mlp": {
+      "max_abs_probability_difference": 1.5612511283791264e-17,
+      "all_classifications_match": true
+    },
+    "morgan2048__xgb": {
+      "max_abs_probability_difference": 0.0,
+      "all_classifications_match": true
+    },
+    "morgan2048__dnn": {
+      "max_abs_probability_difference": 9.934107481068821e-09,
+      "all_classifications_match": true
+    },
+    "maccs166__rf": {
+      "max_abs_probability_difference": 0.0,
+      "all_classifications_match": true
+    },
+    "maccs166__svm": {
+      "max_abs_probability_difference": 0.0,
+      "all_classifications_match": true
+    },
+    "maccs166__mlp": {
+      "max_abs_probability_difference": 0.0,
+      "all_classifications_match": true
+    },
+    "maccs166__xgb": {
+      "max_abs_probability_difference": 0.0,
+      "all_classifications_match": true
+    },
+    "maccs166__dnn": {
+      "max_abs_probability_difference": 2.2351741790771484e-08,
+      "all_classifications_match": true
+    },
+    "atompair1024__rf": {
+      "max_abs_probability_difference": 0.0,
+      "all_classifications_match": true
+    },
+    "atompair1024__svm": {
+      "max_abs_probability_difference": 0.0,
+      "all_classifications_match": true
+    },
+    "atompair1024__mlp": {
+      "max_abs_probability_difference": 0.0,
+      "all_classifications_match": true
+    },
+    "atompair1024__xgb": {
+      "max_abs_probability_difference": 0.0,
+      "all_classifications_match": true
+    },
+    "atompair1024__dnn": {
+      "max_abs_probability_difference": 4.889443516731262e-09,
+      "all_classifications_match": true
+    },
+    "torsion1024__rf": {
+      "max_abs_probability_difference": 0.0,
+      "all_classifications_match": true
+    },
+    "torsion1024__svm": {
+      "max_abs_probability_difference": 0.0,
+      "all_classifications_match": true
+    },
+    "torsion1024__mlp": {
+      "max_abs_probability_difference": 1.214306433183765e-17,
+      "all_classifications_match": true
+    },
+    "torsion1024__xgb": {
+      "max_abs_probability_difference": 0.0,
+      "all_classifications_match": true
+    },
+    "torsion1024__dnn": {
+      "max_abs_probability_difference": 7.450580596923828e-09,
+      "all_classifications_match": true
+    },
+    "rdkit166__rf": {
+      "max_abs_probability_difference": 0.0,
+      "all_classifications_match": true
+    },
+    "rdkit166__svm": {
+      "max_abs_probability_difference": 0.0,
+      "all_classifications_match": true
+    },
+    "rdkit166__mlp": {
+      "max_abs_probability_difference": 1.1102230246251565e-16,
+      "all_classifications_match": true
+    },
+    "rdkit166__xgb": {
+      "max_abs_probability_difference": 0.0,
+      "all_classifications_match": true
+    },
+    "rdkit166__dnn": {
+      "max_abs_probability_difference": 2.4835268702672053e-09,
+      "all_classifications_match": true
+    },
+    "morgan_count2048__rf": {
+      "max_abs_probability_difference": 0.0,
+      "all_classifications_match": true
+    },
+    "morgan_count2048__svm": {
+      "max_abs_probability_difference": 0.0,
+      "all_classifications_match": true
+    },
+    "morgan_count2048__mlp": {
+      "max_abs_probability_difference": 0.0,
+      "all_classifications_match": true
+    },
+    "morgan_count2048__xgb": {
+      "max_abs_probability_difference": 0.0,
+      "all_classifications_match": true
+    },
+    "morgan_count2048__dnn": {
+      "max_abs_probability_difference": 3.973642981325298e-08,
+      "all_classifications_match": true
+    },
+    "atompair_count1024__rf": {
+      "max_abs_probability_difference": 0.0,
+      "all_classifications_match": true
+    },
+    "atompair_count1024__svm": {
+      "max_abs_probability_difference": 0.0,
+      "all_classifications_match": true
+    },
+    "atompair_count1024__mlp": {
+      "max_abs_probability_difference": 1.0408340855860843e-17,
+      "all_classifications_match": true
+    },
+    "atompair_count1024__xgb": {
+      "max_abs_probability_difference": 0.0,
+      "all_classifications_match": true
+    },
+    "atompair_count1024__dnn": {
+      "max_abs_probability_difference": 1.9868214962137642e-08,
+      "all_classifications_match": true
+    },
+    "torsion_count1024__rf": {
+      "max_abs_probability_difference": 0.0,
+      "all_classifications_match": true
+    },
+    "torsion_count1024__svm": {
+      "max_abs_probability_difference": 0.0,
+      "all_classifications_match": true
+    },
+    "torsion_count1024__mlp": {
+      "max_abs_probability_difference": 0.0,
+      "all_classifications_match": true
+    },
+    "torsion_count1024__xgb": {
+      "max_abs_probability_difference": 0.0,
+      "all_classifications_match": true
+    },
+    "torsion_count1024__dnn": {
+      "max_abs_probability_difference": 1.9868214962137642e-08,
+      "all_classifications_match": true
+    },
+    "graph__DMPNN": {
+      "max_abs_probability_difference": 1.0866508248774664e-08,
+      "all_classifications_match": true
+    },
+    "graph__GINE": {
+      "max_abs_probability_difference": 4.516632257089981e-08,
+      "all_classifications_match": true
+    },
+    "graph__AttentiveFP": {
+      "max_abs_probability_difference": 2.475855187533682e-09,
+      "all_classifications_match": true
+    }
+  },
+  "csv_heldout_verification": {
+    "input_csv_sha256": "ea647d7b617a9fe5ee40f06d6916454b7be785e11fff31aeb382218aa21dd8d0",
+    "test_ids": 335,
+    "models": 43,
+    "prediction_count": 14405,
+    "maximum_absolute_probability_difference": 4.440892098500626e-16,
+    "classification_disagreements": 0,
+    "classification_threshold": 0.5,
+    "comparisons_by_model": {
+      "morgan2048__rf": {
+        "maximum_absolute_probability_difference": 0.0,
+        "classification_disagreements": 0
+      },
+      "morgan2048__svm": {
+        "maximum_absolute_probability_difference": 0.0,
+        "classification_disagreements": 0
+      },
+      "morgan2048__mlp": {
+        "maximum_absolute_probability_difference": 0.0,
+        "classification_disagreements": 0
+      },
+      "morgan2048__xgb": {
+        "maximum_absolute_probability_difference": 0.0,
+        "classification_disagreements": 0
+      },
+      "morgan2048__dnn": {
+        "maximum_absolute_probability_difference": 0.0,
+        "classification_disagreements": 0
+      },
+      "maccs166__rf": {
+        "maximum_absolute_probability_difference": 1.1102230246251565e-16,
+        "classification_disagreements": 0
+      },
+      "maccs166__svm": {
+        "maximum_absolute_probability_difference": 0.0,
+        "classification_disagreements": 0
+      },
+      "maccs166__mlp": {
+        "maximum_absolute_probability_difference": 3.3306690738754696e-16,
+        "classification_disagreements": 0
+      },
+      "maccs166__xgb": {
+        "maximum_absolute_probability_difference": 0.0,
+        "classification_disagreements": 0
+      },
+      "maccs166__dnn": {
+        "maximum_absolute_probability_difference": 0.0,
+        "classification_disagreements": 0
+      },
+      "atompair1024__rf": {
+        "maximum_absolute_probability_difference": 0.0,
+        "classification_disagreements": 0
+      },
+      "atompair1024__svm": {
+        "maximum_absolute_probability_difference": 0.0,
+        "classification_disagreements": 0
+      },
+      "atompair1024__mlp": {
+        "maximum_absolute_probability_difference": 1.1102230246251565e-16,
+        "classification_disagreements": 0
+      },
+      "atompair1024__xgb": {
+        "maximum_absolute_probability_difference": 0.0,
+        "classification_disagreements": 0
+      },
+      "atompair1024__dnn": {
+        "maximum_absolute_probability_difference": 0.0,
+        "classification_disagreements": 0
+      },
+      "torsion1024__rf": {
+        "maximum_absolute_probability_difference": 1.1102230246251565e-16,
+        "classification_disagreements": 0
+      },
+      "torsion1024__svm": {
+        "maximum_absolute_probability_difference": 0.0,
+        "classification_disagreements": 0
+      },
+      "torsion1024__mlp": {
+        "maximum_absolute_probability_difference": 1.6653345369377348e-16,
+        "classification_disagreements": 0
+      },
+      "torsion1024__xgb": {
+        "maximum_absolute_probability_difference": 0.0,
+        "classification_disagreements": 0
+      },
+      "torsion1024__dnn": {
+        "maximum_absolute_probability_difference": 0.0,
+        "classification_disagreements": 0
+      },
+      "rdkit166__rf": {
+        "maximum_absolute_probability_difference": 0.0,
+        "classification_disagreements": 0
+      },
+      "rdkit166__svm": {
+        "maximum_absolute_probability_difference": 0.0,
+        "classification_disagreements": 0
+      },
+      "rdkit166__mlp": {
+        "maximum_absolute_probability_difference": 5.551115123125783e-17,
+        "classification_disagreements": 0
+      },
+      "rdkit166__xgb": {
+        "maximum_absolute_probability_difference": 0.0,
+        "classification_disagreements": 0
+      },
+      "rdkit166__dnn": {
+        "maximum_absolute_probability_difference": 0.0,
+        "classification_disagreements": 0
+      },
+      "morgan_count2048__rf": {
+        "maximum_absolute_probability_difference": 0.0,
+        "classification_disagreements": 0
+      },
+      "morgan_count2048__svm": {
+        "maximum_absolute_probability_difference": 0.0,
+        "classification_disagreements": 0
+      },
+      "morgan_count2048__mlp": {
+        "maximum_absolute_probability_difference": 0.0,
+        "classification_disagreements": 0
+      },
+      "morgan_count2048__xgb": {
+        "maximum_absolute_probability_difference": 0.0,
+        "classification_disagreements": 0
+      },
+      "morgan_count2048__dnn": {
+        "maximum_absolute_probability_difference": 0.0,
+        "classification_disagreements": 0
+      },
+      "atompair_count1024__rf": {
+        "maximum_absolute_probability_difference": 0.0,
+        "classification_disagreements": 0
+      },
+      "atompair_count1024__svm": {
+        "maximum_absolute_probability_difference": 0.0,
+        "classification_disagreements": 0
+      },
+      "atompair_count1024__mlp": {
+        "maximum_absolute_probability_difference": 4.440892098500626e-16,
+        "classification_disagreements": 0
+      },
+      "atompair_count1024__xgb": {
+        "maximum_absolute_probability_difference": 0.0,
+        "classification_disagreements": 0
+      },
+      "atompair_count1024__dnn": {
+        "maximum_absolute_probability_difference": 0.0,
+        "classification_disagreements": 0
+      },
+      "torsion_count1024__rf": {
+        "maximum_absolute_probability_difference": 2.220446049250313e-16,
+        "classification_disagreements": 0
+      },
+      "torsion_count1024__svm": {
+        "maximum_absolute_probability_difference": 0.0,
+        "classification_disagreements": 0
+      },
+      "torsion_count1024__mlp": {
+        "maximum_absolute_probability_difference": 3.608224830031759e-16,
+        "classification_disagreements": 0
+      },
+      "torsion_count1024__xgb": {
+        "maximum_absolute_probability_difference": 0.0,
+        "classification_disagreements": 0
+      },
+      "torsion_count1024__dnn": {
+        "maximum_absolute_probability_difference": 0.0,
+        "classification_disagreements": 0
+      },
+      "graph__DMPNN": {
+        "maximum_absolute_probability_difference": 0.0,
+        "classification_disagreements": 0
+      },
+      "graph__GINE": {
+        "maximum_absolute_probability_difference": 0.0,
+        "classification_disagreements": 0
+      },
+      "graph__AttentiveFP": {
+        "maximum_absolute_probability_difference": 0.0,
+        "classification_disagreements": 0
+      }
+    }
+  }
+}

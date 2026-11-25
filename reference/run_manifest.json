@@ -1,0 +1,81 @@
+{
+  "status": "complete",
+  "created_utc": "2026-10-19T14:02:58.271542+00:00",
+  "source": {
+    "source_file": "data/NephroTox_Modeling_Data.xlsx",
+    "sha256": "2832a2b0679bf724b6acc3197e3ad8e4d2c15e0572b2bc9bb76b217f4a0ba752",
+    "sheet_name": "Modeling_Final",
+    "n_rows": 1673,
+    "label_counts": {
+      "0": 831,
+      "1": 842
+    },
+    "source_columns": [
+      "compound_id",
+      "name",
+      "PubChem_CID",
+      "standardized_smiles",
+      "label",
+      "standardized_InChIKey",
+      "molecular_formula",
+      "MW",
+      "heavy_atoms",
+      "PubChem_IUPACName",
+      "stereo_scope",
+      "representation_type"
+    ],
+    "empty_unnamed_columns_ignored": 5,
+    "source_policy": "The sole data source is the supplied DATA workbook. No historical tables, cached diagnostic structures, external chemistry records, or prior feature/split files are consulted.",
+    "rows_fingerprint": "51909c995bb610e02cb51e7ddc902b8224722a9ec31bbd9c5b95a9a3cdfc605d",
+    "all_source_values_preserved": true
+  },
+  "random_seed": 20260810,
+  "split_mode": "legacy_random",
+  "structural_group_isolation_enforced": false,
+  "split_implementation_sha256": "fae9e5c8d5b77d90cdc4fb794d371eb1d565d0b47ae707e72a3cbef2b4031863",
+  "split_protocol_config_sha256": "6da5d5651b83c3a70f0e40f83bd1cb33288092ee6a94245853bd4dae65683f2f",
+  "split_protocol": {
+    "holdout": "train_test_split(test_size=0.20,shuffle=True,random_state=seed,stratify=DATA.label)",
+    "development_indices": "Sort returned development and test row indices separately",
+    "development_cv": "StratifiedKFold(n_splits=10,shuffle=True,random_state=seed) on sorted development rows",
+    "default_seed": 20260810,
+    "stored_fold_numbering": "Original0..9 plus1; test has no CV fold",
+    "original_code_reference": "traditional_models/nephrotox/data.py::make_random_split",
+    "original_code_sha256": "d8034c70f2586a0d6874b4e6425d17b89bb62864ca553174265e66fc42069d25",
+    "structural_group_isolation_enforced": false,
+    "structural_groups": "Retained for audit; overlap is counted, not prohibited",
+    "seed_selection": "One prespecified seed; no prediction/test-score seed search"
+  },
+  "reused_features_or_group_diagnostics": false,
+  "python_version": "3.14.5",
+  "platform": "Windows",
+  "dependencies": {
+    "numpy": "2.4.6",
+    "scipy": "1.17.1",
+    "scikit-learn": "1.8.0",
+    "rdkit": "2026.3.3",
+    "openpyxl": "3.1.5"
+  },
+  "models_trained": false,
+  "cv_performance_computed": false,
+  "figure_generated": false,
+  "finished_utc": "2026-10-19T14:05:42.984117+00:00",
+  "partition_counts": {
+    "development": {
+      "n": 1338,
+      "positive": 673,
+      "negative": 665,
+      "groups": 800
+    },
+    "test": {
+      "n": 335,
+      "positive": 169,
+      "negative": 166,
+      "groups": 230
+    }
+  },
+  "group_count": 959,
+  "source_values_unchanged": true,
+  "independent_validation_passed": true,
+  "descriptor_nonfinite_values": 0
+}

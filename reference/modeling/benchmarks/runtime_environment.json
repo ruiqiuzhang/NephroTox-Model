@@ -1,0 +1,144 @@
+{
+  "schema_version": 1,
+  "status": "complete",
+  "started_at_utc": "2026-10-19T21:46:52.538314+00:00",
+  "hardware": {
+    "os": "Windows",
+    "os_release": "11",
+    "os_version": "10.0.26300",
+    "machine": "AMD64",
+    "processor": "Intel(R) Core(TM) Ultra 5 125H",
+    "logical_cpu_count": 18,
+    "total_physical_memory_bytes": 16666390528,
+    "available_physical_memory_bytes_at_start": 1682046976,
+    "memory_load_percent": 89
+  },
+  "python": "3.14.5",
+  "package_versions": {
+    "numpy": "2.4.6",
+    "scipy": "1.17.1",
+    "scikit-learn": "1.8.0",
+    "rdkit": "2026.3.3",
+    "torch": "2.13.0+cpu",
+    "xgboost": "3.3.0",
+    "joblib": "1.6.0",
+    "threadpoolctl": "3.7.0"
+  },
+  "requested_cpu_threads": 2,
+  "torch_cpu_threads": 2,
+  "torch_interop_threads": 14,
+  "device": "CPU",
+  "threadpools_before": [
+    {
+      "user_api": "openmp",
+      "internal_api": "openmp",
+      "num_threads": 2,
+      "prefix": "libiomp",
+      "version": null
+    },
+    {
+      "user_api": "openmp",
+      "internal_api": "openmp",
+      "num_threads": 1,
+      "prefix": "libiomp",
+      "version": null
+    },
+    {
+      "user_api": "blas",
+      "internal_api": "openblas",
+      "num_threads": 2,
+      "prefix": "libscipy_openblas",
+      "version": "0.3.31.188.0",
+      "threading_layer": "pthreads",
+      "architecture": "Haswell"
+    },
+    {
+      "user_api": "openmp",
+      "internal_api": "openmp",
+      "num_threads": 2,
+      "prefix": "vcomp",
+      "version": null
+    },
+    {
+      "user_api": "blas",
+      "internal_api": "openblas",
+      "num_threads": 2,
+      "prefix": "libscipy_openblas",
+      "version": "0.3.30",
+      "threading_layer": "pthreads",
+      "architecture": "Haswell"
+    }
+  ],
+  "source_excel_sha256": "2832a2b0679bf724b6acc3197e3ad8e4d2c15e0572b2bc9bb76b217f4a0ba752",
+  "source_rows_fingerprint": "51909c995bb610e02cb51e7ddc902b8224722a9ec31bbd9c5b95a9a3cdfc605d",
+  "global_lock_sha256": "3276b0e20b13585a74c4628d80ba33cc10323548f579851d2513d464b72fad15",
+  "protocol_sha256": "dcab35fef8def12907c144146cec6a021c827ebc0970b16666a67d6fa0f29393",
+  "batch_repetitions": 3,
+  "single_repetitions_per_compound": 10,
+  "single_compound_selection": "first ten development rows in current DATA order",
+  "feature_repetitions_binary_and_descriptors": 3,
+  "feature_repetitions_count": 1,
+  "test_labels_scored": false,
+  "warmup": "one 335-record batch, and one call for each single-compound example, before timed repeats",
+  "feature_time_includes": "fresh SMILES parsing, feature generation and array allocation; graph cache cleared each feature repeat",
+  "model_time_excludes": "workbook reading, disk writing, feature generation, model loading (load separately measured)",
+  "model_load_scope": "joblib deserialization wall time; operating-system file cache is not flushed",
+  "timing_warning": "Wall times depend on concurrent system workload; three batch repeats and 100 single calls are descriptive measurements",
+  "finished_at_utc": "2026-10-19T21:50:17.868168+00:00",
+  "benchmark_total_seconds": 205.32984869999927,
+  "fixed_single_compound_ids": [
+    "NTX0001",
+    "NTX0002",
+    "NTX0003",
+    "NTX0004",
+    "NTX0005",
+    "NTX0007",
+    "NTX0008",
+    "NTX0009",
+    "NTX0012",
+    "NTX0013"
+  ],
+  "threadpools_after": [
+    {
+      "user_api": "openmp",
+      "internal_api": "openmp",
+      "num_threads": 2,
+      "prefix": "libiomp",
+      "version": null
+    },
+    {
+      "user_api": "openmp",
+      "internal_api": "openmp",
+      "num_threads": 1,
+      "prefix": "libiomp",
+      "version": null
+    },
+    {
+      "user_api": "blas",
+      "internal_api": "openblas",
+      "num_threads": 2,
+      "prefix": "libscipy_openblas",
+      "version": "0.3.31.188.0",
+      "threading_layer": "pthreads",
+      "architecture": "Haswell"
+    },
+    {
+      "user_api": "openmp",
+      "internal_api": "openmp",
+      "num_threads": 2,
+      "prefix": "vcomp",
+      "version": null
+    },
+    {
+      "user_api": "blas",
+      "internal_api": "openblas",
+      "num_threads": 2,
+      "prefix": "libscipy_openblas",
+      "version": "0.3.30",
+      "threading_layer": "pthreads",
+      "architecture": "Haswell"
+    }
+  ],
+  "torch_cpu_threads_after": 2,
+  "model_count": 43
+}

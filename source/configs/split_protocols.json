@@ -1,0 +1,24 @@
+{
+  "schema_version": 1,
+  "default_mode": "structure_group",
+  "modes": {
+    "structure_group": {
+      "holdout": "Whole connected structure groups;80/20 row/class quotas",
+      "development_cv": "StratifiedGroupKFold;10fold;shuffle=True",
+      "default_seed": 20260810,
+      "structural_group_isolation_enforced": true
+    },
+    "legacy_random": {
+      "holdout": "train_test_split(test_size=0.20,shuffle=True,random_state=seed,stratify=DATA.label)",
+      "development_indices": "Sort returned development and test row indices separately",
+      "development_cv": "StratifiedKFold(n_splits=10,shuffle=True,random_state=seed) on sorted development rows",
+      "default_seed": 20260810,
+      "stored_fold_numbering": "Original0..9 plus1; test has no CV fold",
+      "original_code_reference": "traditional_models/nephrotox/data.py::make_random_split",
+      "original_code_sha256": "d8034c70f2586a0d6874b4e6425d17b89bb62864ca553174265e66fc42069d25",
+      "structural_group_isolation_enforced": false,
+      "structural_groups": "Retained for audit; overlap is counted, not prohibited",
+      "seed_selection": "One prespecified seed; no prediction/test-score seed search"
+    }
+  }
+}

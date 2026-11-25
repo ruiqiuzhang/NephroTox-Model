@@ -1,0 +1,3392 @@
+{
+  "schema_version": 1,
+  "source_excel_sha256": "2832a2b0679bf724b6acc3197e3ad8e4d2c15e0572b2bc9bb76b217f4a0ba752",
+  "source_rows_fingerprint": "51909c995bb610e02cb51e7ddc902b8224722a9ec31bbd9c5b95a9a3cdfc605d",
+  "split_payload_sha256": "2d8d32abd3abefa0cbda955855b7944942c6b754580e7ea25a7d9405a2777c9d",
+  "registry": [
+    {
+      "model_id": "morgan2048__rf",
+      "representation": "morgan2048",
+      "algorithm": "RF",
+      "estimator_key": "rf",
+      "selection_method": "fixed_original",
+      "configuration_count": 1,
+      "role": "main"
+    },
+    {
+      "model_id": "morgan2048__svm",
+      "representation": "morgan2048",
+      "algorithm": "SVM",
+      "estimator_key": "svm",
+      "selection_method": "fixed_original",
+      "configuration_count": 1,
+      "role": "main"
+    },
+    {
+      "model_id": "morgan2048__mlp",
+      "representation": "morgan2048",
+      "algorithm": "MLP",
+      "estimator_key": "mlp",
+      "selection_method": "fixed_original",
+      "configuration_count": 1,
+      "role": "main"
+    },
+    {
+      "model_id": "morgan2048__xgb",
+      "representation": "morgan2048",
+      "algorithm": "XGB",
+      "estimator_key": "xgb",
+      "selection_method": "fixed_original",
+      "configuration_count": 1,
+      "role": "main"
+    },
+    {
+      "model_id": "morgan2048__dnn",
+      "representation": "morgan2048",
+      "algorithm": "DNN",
+      "estimator_key": "dnn",
+      "selection_method": "fixed_original",
+      "configuration_count": 1,
+      "role": "main"
+    },
+    {
+      "model_id": "maccs166__rf",
+      "representation": "maccs166",
+      "algorithm": "RF",
+      "estimator_key": "rf",
+      "selection_method": "fixed_original",
+      "configuration_count": 1,
+      "role": "main"
+    },
+    {
+      "model_id": "maccs166__svm",
+      "representation": "maccs166",
+      "algorithm": "SVM",
+      "estimator_key": "svm",
+      "selection_method": "fixed_original",
+      "configuration_count": 1,
+      "role": "main"
+    },
+    {
+      "model_id": "maccs166__mlp",
+      "representation": "maccs166",
+      "algorithm": "MLP",
+      "estimator_key": "mlp",
+      "selection_method": "fixed_original",
+      "configuration_count": 1,
+      "role": "main"
+    },
+    {
+      "model_id": "maccs166__xgb",
+      "representation": "maccs166",
+      "algorithm": "XGB",
+      "estimator_key": "xgb",
+      "selection_method": "fixed_original",
+      "configuration_count": 1,
+      "role": "main"
+    },
+    {
+      "model_id": "maccs166__dnn",
+      "representation": "maccs166",
+      "algorithm": "DNN",
+      "estimator_key": "dnn",
+      "selection_method": "fixed_original",
+      "configuration_count": 1,
+      "role": "main"
+    },
+    {
+      "model_id": "atompair1024__rf",
+      "representation": "atompair1024",
+      "algorithm": "RF",
+      "estimator_key": "rf",
+      "selection_method": "fixed_original",
+      "configuration_count": 1,
+      "role": "main"
+    },
+    {
+      "model_id": "atompair1024__svm",
+      "representation": "atompair1024",
+      "algorithm": "SVM",
+      "estimator_key": "svm",
+      "selection_method": "fixed_original",
+      "configuration_count": 1,
+      "role": "main"
+    },
+    {
+      "model_id": "atompair1024__mlp",
+      "representation": "atompair1024",
+      "algorithm": "MLP",
+      "estimator_key": "mlp",
+      "selection_method": "fixed_original",
+      "configuration_count": 1,
+      "role": "main"
+    },
+    {
+      "model_id": "atompair1024__xgb",
+      "representation": "atompair1024",
+      "algorithm": "XGB",
+      "estimator_key": "xgb",
+      "selection_method": "fixed_original",
+      "configuration_count": 1,
+      "role": "main"
+    },
+    {
+      "model_id": "atompair1024__dnn",
+      "representation": "atompair1024",
+      "algorithm": "DNN",
+      "estimator_key": "dnn",
+      "selection_method": "fixed_original",
+      "configuration_count": 1,
+      "role": "main"
+    },
+    {
+      "model_id": "torsion1024__rf",
+      "representation": "torsion1024",
+      "algorithm": "RF",
+      "estimator_key": "rf",
+      "selection_method": "fixed_original",
+      "configuration_count": 1,
+      "role": "main"
+    },
+    {
+      "model_id": "torsion1024__svm",
+      "representation": "torsion1024",
+      "algorithm": "SVM",
+      "estimator_key": "svm",
+      "selection_method": "fixed_original",
+      "configuration_count": 1,
+      "role": "main"
+    },
+    {
+      "model_id": "torsion1024__mlp",
+      "representation": "torsion1024",
+      "algorithm": "MLP",
+      "estimator_key": "mlp",
+      "selection_method": "fixed_original",
+      "configuration_count": 1,
+      "role": "main"
+    },
+    {
+      "model_id": "torsion1024__xgb",
+      "representation": "torsion1024",
+      "algorithm": "XGB",
+      "estimator_key": "xgb",
+      "selection_method": "fixed_original",
+      "configuration_count": 1,
+      "role": "main"
+    },
+    {
+      "model_id": "torsion1024__dnn",
+      "representation": "torsion1024",
+      "algorithm": "DNN",
+      "estimator_key": "dnn",
+      "selection_method": "fixed_original",
+      "configuration_count": 1,
+      "role": "main"
+    },
+    {
+      "model_id": "rdkit166__rf",
+      "representation": "rdkit166",
+      "algorithm": "RF",
+      "estimator_key": "rf",
+      "selection_method": "fixed_original",
+      "configuration_count": 1,
+      "role": "main"
+    },
+    {
+      "model_id": "rdkit166__svm",
+      "representation": "rdkit166",
+      "algorithm": "SVM",
+      "estimator_key": "svm",
+      "selection_method": "fixed_original",
+      "configuration_count": 1,
+      "role": "main"
+    },
+    {
+      "model_id": "rdkit166__mlp",
+      "representation": "rdkit166",
+      "algorithm": "MLP",
+      "estimator_key": "mlp",
+      "selection_method": "fixed_original",
+      "configuration_count": 1,
+      "role": "main"
+    },
+    {
+      "model_id": "rdkit166__xgb",
+      "representation": "rdkit166",
+      "algorithm": "XGB",
+      "estimator_key": "xgb",
+      "selection_method": "fixed_original",
+      "configuration_count": 1,
+      "role": "main"
+    },
+    {
+      "model_id": "rdkit166__dnn",
+      "representation": "rdkit166",
+      "algorithm": "DNN",
+      "estimator_key": "dnn",
+      "selection_method": "fixed_original",
+      "configuration_count": 1,
+      "role": "main"
+    },
+    {
+      "model_id": "morgan_count2048__rf",
+      "representation": "morgan_count2048",
+      "algorithm": "RF",
+      "estimator_key": "rf",
+      "selection_method": "fixed_original",
+      "configuration_count": 1,
+      "role": "sensitivity_count"
+    },
+    {
+      "model_id": "morgan_count2048__svm",
+      "representation": "morgan_count2048",
+      "algorithm": "SVM",
+      "estimator_key": "svm",
+      "selection_method": "fixed_original",
+      "configuration_count": 1,
+      "role": "sensitivity_count"
+    },
+    {
+      "model_id": "morgan_count2048__mlp",
+      "representation": "morgan_count2048",
+      "algorithm": "MLP",
+      "estimator_key": "mlp",
+      "selection_method": "fixed_original",
+      "configuration_count": 1,
+      "role": "sensitivity_count"
+    },
+    {
+      "model_id": "morgan_count2048__xgb",
+      "representation": "morgan_count2048",
+      "algorithm": "XGB",
+      "estimator_key": "xgb",
+      "selection_method": "fixed_original",
+      "configuration_count": 1,
+      "role": "sensitivity_count"
+    },
+    {
+      "model_id": "morgan_count2048__dnn",
+      "representation": "morgan_count2048",
+      "algorithm": "DNN",
+      "estimator_key": "dnn",
+      "selection_method": "fixed_original",
+      "configuration_count": 1,
+      "role": "sensitivity_count"
+    },
+    {
+      "model_id": "atompair_count1024__rf",
+      "representation": "atompair_count1024",
+      "algorithm": "RF",
+      "estimator_key": "rf",
+      "selection_method": "fixed_original",
+      "configuration_count": 1,
+      "role": "sensitivity_count"
+    },
+    {
+      "model_id": "atompair_count1024__svm",
+      "representation": "atompair_count1024",
+      "algorithm": "SVM",
+      "estimator_key": "svm",
+      "selection_method": "fixed_original",
+      "configuration_count": 1,
+      "role": "sensitivity_count"
+    },
+    {
+      "model_id": "atompair_count1024__mlp",
+      "representation": "atompair_count1024",
+      "algorithm": "MLP",
+      "estimator_key": "mlp",
+      "selection_method": "fixed_original",
+      "configuration_count": 1,
+      "role": "sensitivity_count"
+    },
+    {
+      "model_id": "atompair_count1024__xgb",
+      "representation": "atompair_count1024",
+      "algorithm": "XGB",
+      "estimator_key": "xgb",
+      "selection_method": "fixed_original",
+      "configuration_count": 1,
+      "role": "sensitivity_count"
+    },
+    {
+      "model_id": "atompair_count1024__dnn",
+      "representation": "atompair_count1024",
+      "algorithm": "DNN",
+      "estimator_key": "dnn",
+      "selection_method": "fixed_original",
+      "configuration_count": 1,
+      "role": "sensitivity_count"
+    },
+    {
+      "model_id": "torsion_count1024__rf",
+      "representation": "torsion_count1024",
+      "algorithm": "RF",
+      "estimator_key": "rf",
+      "selection_method": "fixed_original",
+      "configuration_count": 1,
+      "role": "sensitivity_count"
+    },
+    {
+      "model_id": "torsion_count1024__svm",
+      "representation": "torsion_count1024",
+      "algorithm": "SVM",
+      "estimator_key": "svm",
+      "selection_method": "fixed_original",
+      "configuration_count": 1,
+      "role": "sensitivity_count"
+    },
+    {
+      "model_id": "torsion_count1024__mlp",
+      "representation": "torsion_count1024",
+      "algorithm": "MLP",
+      "estimator_key": "mlp",
+      "selection_method": "fixed_original",
+      "configuration_count": 1,
+      "role": "sensitivity_count"
+    },
+    {
+      "model_id": "torsion_count1024__xgb",
+      "representation": "torsion_count1024",
+      "algorithm": "XGB",
+      "estimator_key": "xgb",
+      "selection_method": "fixed_original",
+      "configuration_count": 1,
+      "role": "sensitivity_count"
+    },
+    {
+      "model_id": "torsion_count1024__dnn",
+      "representation": "torsion_count1024",
+      "algorithm": "DNN",
+      "estimator_key": "dnn",
+      "selection_method": "fixed_original",
+      "configuration_count": 1,
+      "role": "sensitivity_count"
+    },
+    {
+      "model_id": "graph__DMPNN",
+      "representation": "graph",
+      "algorithm": "DMPNN",
+      "estimator_key": "D-MPNN",
+      "role": "main",
+      "selection_method": "fixed_original",
+      "configuration_count": 1
+    },
+    {
+      "model_id": "graph__GINE",
+      "representation": "graph",
+      "algorithm": "GINE",
+      "estimator_key": "GINE",
+      "role": "main",
+      "selection_method": "fixed_original",
+      "configuration_count": 1
+    },
+    {
+      "model_id": "graph__AttentiveFP",
+      "representation": "graph",
+      "algorithm": "AttentiveFP",
+      "estimator_key": "AttentiveFP",
+      "role": "main",
+      "selection_method": "fixed_original",
+      "configuration_count": 1
+    }
+  ],
+  "outer_validation": "original stratified random 80% development / 20% test split and ten stratified random development folds; exact seeds/rules in split_manifest; structure overlap is permitted and explicitly audited",
+  "inner_validation": {
+    "hyperparameter_search": false,
+    "scope": "Additional grouped calibration and neural epoch-selection splits occur only inside each fitting subset."
+  },
+  "search": "No current-data hyperparameter search; original selected configurations are fixed before training.",
+  "candidate_parameters": {
+    "morgan2048__rf": [
+      {
+        "max_depth": null,
+        "max_features": "sqrt",
+        "min_samples_leaf": 1,
+        "n_estimators": 300
+      }
+    ],
+    "morgan2048__svm": [
+      {
+        "C": 1.0,
+        "gamma": "scale"
+      }
+    ],
+    "morgan2048__mlp": [
+      {
+        "alpha": 0.0001,
+        "hidden_layer_sizes": [
+          128
+        ],
+        "learning_rate_init": 0.0005
+      }
+    ],
+    "morgan2048__xgb": [
+      {
+        "colsample_bytree": 0.8,
+        "learning_rate": 0.05,
+        "max_depth": 5,
+        "n_estimators": 300,
+        "subsample": 0.8
+      }
+    ],
+    "morgan2048__dnn": [
+      {
+        "batch_norm": true,
+        "batch_size": 64,
+        "dropout": 0.3,
+        "hidden_layers": [
+          256,
+          128
+        ],
+        "learning_rate": 0.001,
+        "weight_decay": 0.0001
+      }
+    ],
+    "maccs166__rf": [
+      {
+        "max_depth": 20,
+        "max_features": "sqrt",
+        "min_samples_leaf": 1,
+        "n_estimators": 500
+      }
+    ],
+    "maccs166__svm": [
+      {
+        "C": 1.0,
+        "gamma": "scale"
+      }
+    ],
+    "maccs166__mlp": [
+      {
+        "alpha": 0.001,
+        "hidden_layer_sizes": [
+          128,
+          64
+        ],
+        "learning_rate_init": 0.001
+      }
+    ],
+    "maccs166__xgb": [
+      {
+        "colsample_bytree": 0.8,
+        "learning_rate": 0.05,
+        "max_depth": 5,
+        "n_estimators": 300,
+        "subsample": 0.8
+      }
+    ],
+    "maccs166__dnn": [
+      {
+        "batch_norm": true,
+        "batch_size": 64,
+        "dropout": 0.3,
+        "hidden_layers": [
+          256,
+          128
+        ],
+        "learning_rate": 0.001,
+        "weight_decay": 0.0001
+      }
+    ],
+    "atompair1024__rf": [
+      {
+        "max_depth": null,
+        "max_features": "sqrt",
+        "min_samples_leaf": 1,
+        "n_estimators": 300
+      }
+    ],
+    "atompair1024__svm": [
+      {
+        "C": 1.0,
+        "gamma": "scale"
+      }
+    ],
+    "atompair1024__mlp": [
+      {
+        "alpha": 0.001,
+        "hidden_layer_sizes": [
+          128,
+          64
+        ],
+        "learning_rate_init": 0.001
+      }
+    ],
+    "atompair1024__xgb": [
+      {
+        "colsample_bytree": 0.8,
+        "learning_rate": 0.05,
+        "max_depth": 5,
+        "n_estimators": 300,
+        "subsample": 0.8
+      }
+    ],
+    "atompair1024__dnn": [
+      {
+        "batch_norm": true,
+        "batch_size": 64,
+        "dropout": 0.25,
+        "hidden_layers": [
+          128,
+          64
+        ],
+        "learning_rate": 0.0005,
+        "weight_decay": 1e-05
+      }
+    ],
+    "torsion1024__rf": [
+      {
+        "max_depth": 20,
+        "max_features": "sqrt",
+        "min_samples_leaf": 1,
+        "n_estimators": 500
+      }
+    ],
+    "torsion1024__svm": [
+      {
+        "C": 1.0,
+        "gamma": "scale"
+      }
+    ],
+    "torsion1024__mlp": [
+      {
+        "alpha": 0.001,
+        "hidden_layer_sizes": [
+          128,
+          64
+        ],
+        "learning_rate_init": 0.001
+      }
+    ],
+    "torsion1024__xgb": [
+      {
+        "colsample_bytree": 0.8,
+        "learning_rate": 0.05,
+        "max_depth": 5,
+        "n_estimators": 300,
+        "subsample": 0.8
+      }
+    ],
+    "torsion1024__dnn": [
+      {
+        "batch_norm": true,
+        "batch_size": 64,
+        "dropout": 0.4,
+        "hidden_layers": [
+          512,
+          256
+        ],
+        "learning_rate": 0.0005,
+        "weight_decay": 0.0001
+      }
+    ],
+    "rdkit166__rf": [
+      {
+        "max_depth": null,
+        "max_features": "sqrt",
+        "min_samples_leaf": 1,
+        "n_estimators": 300
+      }
+    ],
+    "rdkit166__svm": [
+      {
+        "C": 1.0,
+        "gamma": "scale"
+      }
+    ],
+    "rdkit166__mlp": [
+      {
+        "alpha": 0.001,
+        "hidden_layer_sizes": [
+          128,
+          64
+        ],
+        "learning_rate_init": 0.001
+      }
+    ],
+    "rdkit166__xgb": [
+      {
+        "colsample_bytree": 0.8,
+        "learning_rate": 0.05,
+        "max_depth": 5,
+        "n_estimators": 300,
+        "subsample": 0.8
+      }
+    ],
+    "rdkit166__dnn": [
+      {
+        "batch_norm": true,
+        "batch_size": 64,
+        "dropout": 0.3,
+        "hidden_layers": [
+          256,
+          128
+        ],
+        "learning_rate": 0.001,
+        "weight_decay": 0.0001
+      }
+    ],
+    "morgan_count2048__rf": [
+      {
+        "max_depth": null,
+        "max_features": "sqrt",
+        "min_samples_leaf": 1,
+        "n_estimators": 300
+      }
+    ],
+    "morgan_count2048__svm": [
+      {
+        "C": 1.0,
+        "gamma": "scale"
+      }
+    ],
+    "morgan_count2048__mlp": [
+      {
+        "alpha": 0.0001,
+        "hidden_layer_sizes": [
+          128
+        ],
+        "learning_rate_init": 0.0005
+      }
+    ],
+    "morgan_count2048__xgb": [
+      {
+        "colsample_bytree": 0.8,
+        "learning_rate": 0.05,
+        "max_depth": 5,
+        "n_estimators": 300,
+        "subsample": 0.8
+      }
+    ],
+    "morgan_count2048__dnn": [
+      {
+        "batch_norm": true,
+        "batch_size": 64,
+        "dropout": 0.3,
+        "hidden_layers": [
+          256,
+          128
+        ],
+        "learning_rate": 0.001,
+        "weight_decay": 0.0001
+      }
+    ],
+    "atompair_count1024__rf": [
+      {
+        "max_depth": null,
+        "max_features": "sqrt",
+        "min_samples_leaf": 1,
+        "n_estimators": 300
+      }
+    ],
+    "atompair_count1024__svm": [
+      {
+        "C": 1.0,
+        "gamma": "scale"
+      }
+    ],
+    "atompair_count1024__mlp": [
+      {
+        "alpha": 0.001,
+        "hidden_layer_sizes": [
+          128,
+          64
+        ],
+        "learning_rate_init": 0.001
+      }
+    ],
+    "atompair_count1024__xgb": [
+      {
+        "colsample_bytree": 0.8,
+        "learning_rate": 0.05,
+        "max_depth": 5,
+        "n_estimators": 300,
+        "subsample": 0.8
+      }
+    ],
+    "atompair_count1024__dnn": [
+      {
+        "batch_norm": true,
+        "batch_size": 64,
+        "dropout": 0.25,
+        "hidden_layers": [
+          128,
+          64
+        ],
+        "learning_rate": 0.0005,
+        "weight_decay": 1e-05
+      }
+    ],
+    "torsion_count1024__rf": [
+      {
+        "max_depth": 20,
+        "max_features": "sqrt",
+        "min_samples_leaf": 1,
+        "n_estimators": 500
+      }
+    ],
+    "torsion_count1024__svm": [
+      {
+        "C": 1.0,
+        "gamma": "scale"
+      }
+    ],
+    "torsion_count1024__mlp": [
+      {
+        "alpha": 0.001,
+        "hidden_layer_sizes": [
+          128,
+          64
+        ],
+        "learning_rate_init": 0.001
+      }
+    ],
+    "torsion_count1024__xgb": [
+      {
+        "colsample_bytree": 0.8,
+        "learning_rate": 0.05,
+        "max_depth": 5,
+        "n_estimators": 300,
+        "subsample": 0.8
+      }
+    ],
+    "torsion_count1024__dnn": [
+      {
+        "batch_norm": true,
+        "batch_size": 64,
+        "dropout": 0.4,
+        "hidden_layers": [
+          512,
+          256
+        ],
+        "learning_rate": 0.0005,
+        "weight_decay": 0.0001
+      }
+    ]
+  },
+  "graph_candidate_parameters": {
+    "D-MPNN": [
+      {
+        "max_epochs": 200,
+        "patience": 20,
+        "min_delta": 0.0001,
+        "gradient_clip": 5.0,
+        "early_stop_fraction": 0.2,
+        "learning_rate_schedule": "constant",
+        "aggregation": "sum",
+        "batch_size": 32,
+        "ffn_dropout": 0.25,
+        "ffn_hidden_dim": 300,
+        "ffn_num_layers": 3,
+        "learning_rate": 0.0002875575337885439,
+        "message_depth": 5,
+        "message_dropout": 0,
+        "message_hidden_dim": 256,
+        "weight_decay": 9.791096446029439e-05,
+        "epoch_monitor": "roc_auc"
+      }
+    ],
+    "GINE": [
+      {
+        "max_epochs": 200,
+        "patience": 20,
+        "min_delta": 0.0001,
+        "gradient_clip": 5.0,
+        "early_stop_fraction": 0.2,
+        "learning_rate_schedule": "constant",
+        "batch_size": 32,
+        "dropout": 0.2,
+        "hidden_dim": 256,
+        "learning_rate": 0.0003,
+        "mlp_num_layers": 2,
+        "normalization": "batch_norm",
+        "num_layers": 4,
+        "pooling": "gated_attention",
+        "train_epsilon": true,
+        "weight_decay": 0.0001,
+        "epoch_monitor": "roc_auc"
+      }
+    ],
+    "AttentiveFP": [
+      {
+        "max_epochs": 200,
+        "patience": 20,
+        "min_delta": 0.0001,
+        "gradient_clip": 5.0,
+        "early_stop_fraction": 0.2,
+        "learning_rate_schedule": "constant",
+        "batch_size": 32,
+        "dropout": 0.2,
+        "hidden_channels": 256,
+        "learning_rate": 0.0003,
+        "num_layers": 3,
+        "num_timesteps": 2,
+        "weight_decay": 0.0001,
+        "epoch_monitor": "roc_auc"
+      }
+    ]
+  },
+  "parameter_design_file": "configs/original_parameter_design.json",
+  "parameter_design_sha256": "0ec6ea068e97c612574500e6b75cde836a07283a51323e5ace97007467250ef0",
+  "parameter_source_references": [
+    {
+      "workbook": "NephroTox_Supplementary_Tables.xlsx",
+      "sheet": "S2A Conv Search",
+      "range": "A1:D16",
+      "sha256": "4ffeb64e9955853523ae07281e9c0fa998ab471b99dbd9357bffb9dc060a018a"
+    },
+    {
+      "workbook": "NephroTox_Supplementary_Tables_Recommended_20260812.xlsx",
+      "sheet": "S3 Graph Configs",
+      "range": "A1:I4",
+      "parameter_column": "G",
+      "sha256": "b4625ac2f0e515e7669c76070ea8c6562a3b918db815f329105f1e80cd2394a5"
+    }
+  ],
+  "search_design_file": "configs/model_search_spaces.json",
+  "search_design_sha256": "a439979bc2a553e7c6149dece7a112f600362b093bb53b036bd6eb8f26d29fba",
+  "graph_selection_mode": "fixed_original",
+  "graph_reference_parameters": {
+    "D-MPNN": {
+      "aggregation": "sum",
+      "batch_size": 32,
+      "ffn_dropout": 0.25,
+      "ffn_hidden_dim": 300,
+      "ffn_num_layers": 3,
+      "learning_rate": 0.0002875575337885439,
+      "message_depth": 5,
+      "message_dropout": 0,
+      "message_hidden_dim": 256,
+      "weight_decay": 9.791096446029439e-05
+    },
+    "GINE": {
+      "batch_size": 32,
+      "dropout": 0.2,
+      "hidden_dim": 256,
+      "learning_rate": 0.0003,
+      "mlp_num_layers": 2,
+      "normalization": "batch_norm",
+      "num_layers": 4,
+      "pooling": "gated_attention",
+      "train_epsilon": true,
+      "weight_decay": 0.0001
+    },
+    "AttentiveFP": {
+      "batch_size": 32,
+      "dropout": 0.2,
+      "hidden_channels": 256,
+      "learning_rate": 0.0003,
+      "num_layers": 3,
+      "num_timesteps": 2,
+      "weight_decay": 0.0001
+    }
+  },
+  "graph_reference_configuration_ids": {
+    "D-MPNN": "dmpnn_fixed_v1_prior_trial7",
+    "GINE": "gine_fixed_v1_small_data_regularized",
+    "AttentiveFP": "attentivefp_fixed_v1_small_data_regularized"
+  },
+  "original_graph_table_selection_mode": "prespecified_no_hpo",
+  "implementation_training_defaults": {
+    "DNN": {
+      "max_epochs": 80,
+      "patience": 10,
+      "min_delta": 0.0001,
+      "lr_patience": 4,
+      "lr_factor": 0.5,
+      "monitor": "training_internal_grouped_validation_roc_auc",
+      "refit_lr_policy": "replay selected epoch prefix of internal LR schedule"
+    },
+    "graph": {
+      "max_epochs": 200,
+      "patience": 20,
+      "min_delta": 0.0001,
+      "gradient_clip": 5.0,
+      "early_stop_fraction": 0.2,
+      "learning_rate_schedule": "constant",
+      "epoch_monitor": "roc_auc"
+    }
+  },
+  "algorithm_fixed_parameters": {
+    "RF": {
+      "criterion": "gini",
+      "bootstrap": true,
+      "class_weight": "balanced",
+      "min_samples_split": 2,
+      "min_weight_fraction_leaf": 0.0,
+      "max_leaf_nodes": null,
+      "min_impurity_decrease": 0.0,
+      "max_samples": null,
+      "ccp_alpha": 0.0,
+      "oob_score": false,
+      "warm_start": false,
+      "random_state": 20260810,
+      "n_jobs": "--threads"
+    },
+    "SVM": {
+      "kernel": "rbf",
+      "class_weight": "balanced",
+      "probability": true,
+      "shrinking": true,
+      "tol": 0.001,
+      "cache_size_MB": 2048,
+      "max_iter": -1,
+      "random_state": 20260810,
+      "calibration": {
+        "method": "native libsvm Platt sigmoid",
+        "cv": "libsvm internal five-fold",
+        "ensemble": false
+      }
+    },
+    "MLP": {
+      "activation": "relu",
+      "solver": "adam",
+      "batch_size": 128,
+      "max_iter": 150,
+      "early_stopping": true,
+      "tol": 0.0001,
+      "n_iter_no_change": 10,
+      "shuffle": true,
+      "learning_rate": "constant",
+      "beta_1": 0.9,
+      "beta_2": 0.999,
+      "epsilon": 1e-08,
+      "random_state": 20260810,
+      "validation_fraction": 0.15,
+      "early_stopping_monitor": "native sklearn random training-internal validation accuracy",
+      "refit": "native best validation weights restored; no fresh full-fit-subset refit",
+      "internal_validation_group_isolated": false
+    },
+    "XGB": {
+      "booster": "gbtree",
+      "objective": "binary:logistic",
+      "eval_metric": "logloss",
+      "tree_method": "hist",
+      "device": "cpu",
+      "scale_pos_weight": "negative/positive count in this fit subset",
+      "random_state": 20260810,
+      "early_stopping": false,
+      "missing": "NaN sentinel; current DATA raw features must be finite",
+      "n_jobs": "--threads",
+      "reg_lambda": 1.0,
+      "min_child_weight": 1
+    },
+    "DNN": {
+      "max_epochs": 80,
+      "patience": 10,
+      "min_delta": 0.0001,
+      "optimizer": "AdamW",
+      "betas": [
+        0.9,
+        0.999
+      ],
+      "eps": 1e-08,
+      "learning_rate_schedule": "ReduceLROnPlateau(mode=max, patience=4, factor=0.5) on training-internal grouped validation ROC-AUC; replay actual epoch LR prefix during all-fit-subset refit",
+      "activation": "ReLU",
+      "output": "single logit",
+      "loss": "BCEWithLogitsLoss; pos_weight = fit-subset negatives/positives",
+      "epoch_monitor": "ROC-AUC on first training-internal 5-fold StratifiedGroupKFold validation fold",
+      "refit": "fresh same-seed initialization; complete fit subset; fixed selected epoch"
+    },
+    "graph_models": {
+      "optimizer": "AdamW",
+      "betas": [
+        0.9,
+        0.999
+      ],
+      "eps": 1e-08,
+      "learning_rate_schedule": "constant",
+      "loss": "BCEWithLogitsLoss; training-subset positive weight",
+      "epoch_monitor": "ROC-AUC on two-class grouped internal holdout; maximize",
+      "max_epochs": 200,
+      "patience": 20,
+      "min_delta": 0.0001,
+      "epoch_monitor_source": "manuscript max200/validation ROC-AUC; patience20/min_delta0.0001 are predeclared current controls",
+      "refit": "fresh same-seed initialization; complete fit subset; fixed selected epoch",
+      "architecture_source": "modeling_graph.py; full per-fit model_definition saved",
+      "readout_steps": "used by AttentiveFP only"
+    }
+  },
+  "preprocessing": {
+    "binary_fingerprints": "unchanged",
+    "rdkit166": "fit-subset median imputer; StandardScaler additionally for SVM/MLP/DNN; no scaler for RF/XGB",
+    "count_fingerprints": "raw counts for RF/XGB; log1p then fit-subset StandardScaler for SVM/MLP/DNN",
+    "scope": "each outer-training and final-development fit; native MLP early-stop and SVC calibration use that fit-subset transform; no outer-validation or held-out rows fit preprocessing"
+  },
+  "search_seeds": [],
+  "neural_evaluation_seeds": [
+    20260810,
+    20260811,
+    20260812
+  ],
+  "classical_evaluation_seed": 20260810,
+  "probability_aggregation": "neural only: arithmetic mean across three seeds; classical: single fitted model",
+  "final_training": "Refit each original fixed configuration on all development records; determine neural epochs inside the fitting population; do not inherit historical fitted epochs, weights, scores or predictions.",
+  "neural_early_stopping": "MLP uses native random 15% fitting-internal validation accuracy with restored best weights; DNN and graph epoch selection retain additional training-internal group-disjoint holdouts followed by fresh all-fit-subset refit; main train/test and CV splits are random, not structure isolated",
+  "svm_probability": "native SVC(probability=True): libsvm internal five-fold sigmoid probability calibration and full-fit-subset SVC decision function; no CalibratedClassifierCV ensemble",
+  "primary_model": "highest mean of ten outer-fold ROC-AUC among the 25 conventional main models; ties by model_id; holdout not used",
+  "classification_threshold": 0.5,
+  "ci": {
+    "method": "class-stratified bootstrap",
+    "resamples": 2000,
+    "seed": 20260810
+  },
+  "ci_sensitivity": "2000 structure-group bootstrap resamples for development-selected primary and three graph models; conditional on saved fitted predictions",
+  "paired_comparison": "primary vs other main models plus all three graph pairs; two-sided paired bootstrap AUC difference; Holm family correction",
+  "applicability_domain": "Morgan2048 chiral binary Tanimoto; dev leave-self-out lower fifth percentile for max and mean5 neighbor similarity; OOF per-fold training scope",
+  "label_cliffs": "opposite binary labels; Morgan2048 chiral Tanimoto >=0.85; exploratory, no potency claims",
+  "structural_alerts": "predefined 166 MACCS keys; development-label Fisher tests; BH across all 166; association only",
+  "attribution": {
+    "method": "TreeSHAP for predeclared MACCS RF and descriptor RF; graph bond removal with atom features fixed",
+    "clipping_percentile": 95
+  },
+  "versions": {
+    "numpy": "2.4.6",
+    "scipy": "1.17.1",
+    "scikit-learn": "1.8.0",
+    "rdkit": "2026.3.3",
+    "torch": "2.13.0+cpu",
+    "xgboost": "3.3.0",
+    "joblib": "1.6.0"
+  },
+  "python": "3.14.5",
+  "compute": "CPU; bounded worker threads; per-fit elapsed wall times logged",
+  "fitting_source_sha256": {
+    "modeling_common.py": "4fd75aee0724a41c62ce68e7c8cfffaa0966131078370fd6516cf4a63fcf7b69",
+    "modeling_pipeline.py": "d68ad718219c902e19d36aaefb39f2db9ff254fa2e5d69421e278f2b4e88681b",
+    "modeling_classical.py": "2bd2b9adb4279ebb14f17bf78877ba8ea98408cc9f6f44c005216d668ab3df0c",
+    "modeling_neural.py": "ff81823936ebbe792a2dc7227c1aa6d80c8d21f10dbd36eec59f274157b1570c",
+    "modeling_graph.py": "c6ee4444a0030d4be3ad3d6bdd9270313ab2e1172c90a3e9f8f895ec206fb345",
+    "search_space.py": "a6e358d6c4057e57a26b8467451056a3ba9de7db3fcfc2e335bf42af67993cf7",
+    "fixed_parameters.py": "5057c2369319e4ee1314c66698e4ce4fb653ee7b82bc02ccf02022d889366a20"
+  },
+  "test_reporting": "only after every registered model is complete and the global lock verifies file hashes",
+  "endpoint_limit": "existing binary endpoint carried unchanged from DATA; chemical identity validation does not establish label provenance or absence of renal toxicity",
+  "split_mode": "legacy_random",
+  "split_manifest": {
+    "n": 1673,
+    "random_seed": 20260810,
+    "split_mode": "legacy_random",
+    "structural_group_isolation_enforced": false,
+    "structural_overlap_interpretation": "Random compound split: parent/scaffold groups may cross holdout and CV; reported overlap is not constrained and no structure-isolation claim is made.",
+    "partition_counts": {
+      "development": {
+        "n": 1338,
+        "positive": 673,
+        "negative": 665,
+        "groups": 800
+      },
+      "test": {
+        "n": 335,
+        "positive": 169,
+        "negative": 166,
+        "groups": 230
+      }
+    },
+    "group_count": 959,
+    "parent_group_count": 1670,
+    "nonempty_scaffold_count": 909,
+    "acyclic_rows": 109,
+    "cross_validation": [
+      {
+        "fold": 1,
+        "validation_n": 134,
+        "validation_positive": 67,
+        "validation_negative": 67,
+        "training_n": 1204,
+        "validation_groups": 107
+      },
+      {
+        "fold": 2,
+        "validation_n": 134,
+        "validation_positive": 67,
+        "validation_negative": 67,
+        "training_n": 1204,
+        "validation_groups": 110
+      },
+      {
+        "fold": 3,
+        "validation_n": 134,
+        "validation_positive": 67,
+        "validation_negative": 67,
+        "training_n": 1204,
+        "validation_groups": 103
+      },
+      {
+        "fold": 4,
+        "validation_n": 134,
+        "validation_positive": 67,
+        "validation_negative": 67,
+        "training_n": 1204,
+        "validation_groups": 99
+      },
+      {
+        "fold": 5,
+        "validation_n": 134,
+        "validation_positive": 67,
+        "validation_negative": 67,
+        "training_n": 1204,
+        "validation_groups": 105
+      },
+      {
+        "fold": 6,
+        "validation_n": 134,
+        "validation_positive": 68,
+        "validation_negative": 66,
+        "training_n": 1204,
+        "validation_groups": 108
+      },
+      {
+        "fold": 7,
+        "validation_n": 134,
+        "validation_positive": 68,
+        "validation_negative": 66,
+        "training_n": 1204,
+        "validation_groups": 105
+      },
+      {
+        "fold": 8,
+        "validation_n": 134,
+        "validation_positive": 68,
+        "validation_negative": 66,
+        "training_n": 1204,
+        "validation_groups": 110
+      },
+      {
+        "fold": 9,
+        "validation_n": 133,
+        "validation_positive": 67,
+        "validation_negative": 66,
+        "training_n": 1205,
+        "validation_groups": 109
+      },
+      {
+        "fold": 10,
+        "validation_n": 133,
+        "validation_positive": 67,
+        "validation_negative": 66,
+        "training_n": 1205,
+        "validation_groups": 108
+      }
+    ],
+    "holdout_method": {
+      "method": "train_test_split",
+      "test_size": 0.2,
+      "shuffle": true,
+      "stratify": "current DATA label",
+      "random_state": 20260810,
+      "development_test_indices_sorted": true,
+      "development_cv": {
+        "method": "StratifiedKFold",
+        "n_splits": 10,
+        "shuffle": true,
+        "random_state": 20260810
+      },
+      "original_fold_numbers": "0..9; stored as1..10 by adding1",
+      "source_function": "traditional_models/nephrotox/data.py::make_random_split",
+      "original_source_sha256": "d8034c70f2586a0d6874b4e6425d17b89bb62864ca553174265e66fc42069d25",
+      "seed_selection": "One prespecified seed; no model outcomes used or seed search"
+    },
+    "leakage_checks": {
+      "structure_group_id_cross_partition_overlap": 71,
+      "structure_group_id_cross_cv_fold_overlap": 126,
+      "parent_group_key_cross_partition_overlap": 0,
+      "parent_group_key_cross_cv_fold_overlap": 2,
+      "protomer_group_key_cross_partition_overlap": 0,
+      "protomer_group_key_cross_cv_fold_overlap": 1,
+      "scaffold_group_key_cross_partition_overlap": 73,
+      "scaffold_group_key_cross_cv_fold_overlap": 121,
+      "raw_scaffold_group_key_cross_partition_overlap": 73,
+      "raw_scaffold_group_key_cross_cv_fold_overlap": 121,
+      "tautomer_scaffold_group_key_cross_partition_overlap": 73,
+      "tautomer_scaffold_group_key_cross_cv_fold_overlap": 121,
+      "element_parent_group_key_cross_partition_overlap": 6,
+      "element_parent_group_key_cross_cv_fold_overlap": 18,
+      "element_scaffold_group_key_cross_partition_overlap": 75,
+      "element_scaffold_group_key_cross_cv_fold_overlap": 127
+    },
+    "tautomer_enumeration_status_counts": {
+      "Completed": 1633,
+      "MaxTransformsReached": 33,
+      "MaxTautomersReached": 7
+    },
+    "tautomer_enumeration_limit_records": [
+      "NTX0085",
+      "NTX0098",
+      "NTX0186",
+      "NTX0198",
+      "NTX0323",
+      "NTX0334",
+      "NTX0354",
+      "NTX0376",
+      "NTX0400",
+      "NTX0574",
+      "NTX0642",
+      "NTX0651",
+      "NTX0688",
+      "NTX0716",
+      "NTX0970",
+      "NTX0976",
+      "NTX0997",
+      "NTX1027",
+      "NTX1097",
+      "NTX1107",
+      "NTX1156",
+      "NTX1169",
+      "NTX1181",
+      "NTX1198",
+      "NTX1242",
+      "NTX1257",
+      "NTX1320",
+      "NTX1359",
+      "NTX1398",
+      "NTX1403",
+      "NTX1558",
+      "NTX1628",
+      "NTX1653",
+      "NTX1718",
+      "NTX1723",
+      "NTX1768",
+      "NTX1769",
+      "NTX1804",
+      "NTX1838",
+      "NTX1849"
+    ],
+    "scaffold_tautomer_enumeration_status_counts": {
+      "Completed": 1558,
+      "acyclic_parent_fallback": 109,
+      "MaxTransformsReached": 5,
+      "MaxTautomersReached": 1
+    },
+    "scaffold_tautomer_limit_records": [
+      "NTX1181",
+      "NTX1210",
+      "NTX1359",
+      "NTX1723",
+      "NTX1769",
+      "NTX1849"
+    ],
+    "largest_groups": [
+      {
+        "group_id": "G0005",
+        "n": 136,
+        "positive": 65,
+        "negative": 71,
+        "members": [
+          "NTX0005",
+          "NTX0023",
+          "NTX0024",
+          "NTX0043",
+          "NTX0061",
+          "NTX0080",
+          "NTX0086",
+          "NTX0105",
+          "NTX0109",
+          "NTX0115",
+          "NTX0139",
+          "NTX0145",
+          "NTX0158",
+          "NTX0163",
+          "NTX0176",
+          "NTX0183",
+          "NTX0189",
+          "NTX0199",
+          "NTX0210",
+          "NTX0221",
+          "NTX0237",
+          "NTX0240",
+          "NTX0241",
+          "NTX0252",
+          "NTX0253",
+          "NTX0259",
+          "NTX0261",
+          "NTX0262",
+          "NTX0269",
+          "NTX0272",
+          "NTX0285",
+          "NTX0291",
+          "NTX0304",
+          "NTX0314",
+          "NTX0341",
+          "NTX0350",
+          "NTX0363",
+          "NTX0384",
+          "NTX0405",
+          "NTX0412",
+          "NTX0452",
+          "NTX0454",
+          "NTX0504",
+          "NTX0505",
+          "NTX0507",
+          "NTX0529",
+          "NTX0542",
+          "NTX0572",
+          "NTX0573",
+          "NTX0581",
+          "NTX0588",
+          "NTX0594",
+          "NTX0612",
+          "NTX0615",
+          "NTX0616",
+          "NTX0618",
+          "NTX0623",
+          "NTX0656",
+          "NTX0668",
+          "NTX0677",
+          "NTX0719",
+          "NTX0736",
+          "NTX0741",
+          "NTX0744",
+          "NTX0752",
+          "NTX0773",
+          "NTX0774",
+          "NTX0778",
+          "NTX0806",
+          "NTX0875",
+          "NTX0880",
+          "NTX0893",
+          "NTX0905",
+          "NTX0907",
+          "NTX0914",
+          "NTX0932",
+          "NTX0950",
+          "NTX0954",
+          "NTX0955",
+          "NTX0971",
+          "NTX0979",
+          "NTX0981",
+          "NTX0998",
+          "NTX1019",
+          "NTX1031",
+          "NTX1085",
+          "NTX1130",
+          "NTX1147",
+          "NTX1150",
+          "NTX1165",
+          "NTX1170",
+          "NTX1183",
+          "NTX1220",
+          "NTX1231",
+          "NTX1306",
+          "NTX1330",
+          "NTX1352",
+          "NTX1379",
+          "NTX1387",
+          "NTX1416",
+          "NTX1418",
+          "NTX1439",
+          "NTX1441",
+          "NTX1459",
+          "NTX1461",
+          "NTX1465",
+          "NTX1493",
+          "NTX1499",
+          "NTX1524",
+          "NTX1539",
+          "NTX1547",
+          "NTX1565",
+          "NTX1570",
+          "NTX1578",
+          "NTX1582",
+          "NTX1585",
+          "NTX1593",
+          "NTX1612",
+          "NTX1617",
+          "NTX1625",
+          "NTX1661",
+          "NTX1687",
+          "NTX1688",
+          "NTX1697",
+          "NTX1704",
+          "NTX1722",
+          "NTX1727",
+          "NTX1739",
+          "NTX1750",
+          "NTX1759",
+          "NTX1780",
+          "NTX1782",
+          "NTX1785",
+          "NTX1801",
+          "NTX1814",
+          "NTX1816"
+        ]
+      },
+      {
+        "group_id": "G0007",
+        "n": 70,
+        "positive": 8,
+        "negative": 62,
+        "members": [
+          "NTX0007",
+          "NTX0025",
+          "NTX0048",
+          "NTX0052",
+          "NTX0059",
+          "NTX0069",
+          "NTX0108",
+          "NTX0117",
+          "NTX0143",
+          "NTX0187",
+          "NTX0193",
+          "NTX0244",
+          "NTX0283",
+          "NTX0288",
+          "NTX0332",
+          "NTX0339",
+          "NTX0423",
+          "NTX0444",
+          "NTX0455",
+          "NTX0464",
+          "NTX0467",
+          "NTX0486",
+          "NTX0525",
+          "NTX0539",
+          "NTX0585",
+          "NTX0599",
+          "NTX0608",
+          "NTX0663",
+          "NTX0685",
+          "NTX0776",
+          "NTX0786",
+          "NTX0803",
+          "NTX0854",
+          "NTX0856",
+          "NTX0908",
+          "NTX0909",
+          "NTX0915",
+          "NTX0945",
+          "NTX0948",
+          "NTX0952",
+          "NTX0972",
+          "NTX0975",
+          "NTX1067",
+          "NTX1105",
+          "NTX1145",
+          "NTX1210",
+          "NTX1230",
+          "NTX1235",
+          "NTX1291",
+          "NTX1317",
+          "NTX1336",
+          "NTX1386",
+          "NTX1402",
+          "NTX1435",
+          "NTX1475",
+          "NTX1476",
+          "NTX1494",
+          "NTX1543",
+          "NTX1564",
+          "NTX1589",
+          "NTX1605",
+          "NTX1631",
+          "NTX1659",
+          "NTX1729",
+          "NTX1767",
+          "NTX1792",
+          "NTX1799",
+          "NTX1807",
+          "NTX1836",
+          "NTX1848"
+        ]
+      },
+      {
+        "group_id": "G0019",
+        "n": 40,
+        "positive": 4,
+        "negative": 36,
+        "members": [
+          "NTX0021",
+          "NTX0079",
+          "NTX0097",
+          "NTX0099",
+          "NTX0103",
+          "NTX0185",
+          "NTX0200",
+          "NTX0203",
+          "NTX0225",
+          "NTX0245",
+          "NTX0333",
+          "NTX0387",
+          "NTX0398",
+          "NTX0407",
+          "NTX0408",
+          "NTX0517",
+          "NTX0532",
+          "NTX0564",
+          "NTX0583",
+          "NTX0609",
+          "NTX0636",
+          "NTX0675",
+          "NTX0695",
+          "NTX0759",
+          "NTX0834",
+          "NTX0835",
+          "NTX0838",
+          "NTX0899",
+          "NTX0906",
+          "NTX0969",
+          "NTX1005",
+          "NTX1184",
+          "NTX1372",
+          "NTX1384",
+          "NTX1483",
+          "NTX1492",
+          "NTX1694",
+          "NTX1703",
+          "NTX1709",
+          "NTX1745"
+        ]
+      },
+      {
+        "group_id": "G0041",
+        "n": 25,
+        "positive": 24,
+        "negative": 1,
+        "members": [
+          "NTX0060",
+          "NTX0094",
+          "NTX0134",
+          "NTX0151",
+          "NTX0358",
+          "NTX0393",
+          "NTX0521",
+          "NTX0550",
+          "NTX0560",
+          "NTX0659",
+          "NTX0888",
+          "NTX0989",
+          "NTX1028",
+          "NTX1035",
+          "NTX1224",
+          "NTX1401",
+          "NTX1419",
+          "NTX1423",
+          "NTX1556",
+          "NTX1561",
+          "NTX1594",
+          "NTX1627",
+          "NTX1674",
+          "NTX1689",
+          "NTX1845"
+        ]
+      },
+      {
+        "group_id": "G0002",
+        "n": 22,
+        "positive": 10,
+        "negative": 12,
+        "members": [
+          "NTX0002",
+          "NTX0070",
+          "NTX0113",
+          "NTX0515",
+          "NTX0543",
+          "NTX0545",
+          "NTX0690",
+          "NTX0734",
+          "NTX0821",
+          "NTX0919",
+          "NTX0925",
+          "NTX1070",
+          "NTX1250",
+          "NTX1255",
+          "NTX1316",
+          "NTX1325",
+          "NTX1329",
+          "NTX1378",
+          "NTX1437",
+          "NTX1626",
+          "NTX1650",
+          "NTX1763"
+        ]
+      },
+      {
+        "group_id": "G0012",
+        "n": 22,
+        "positive": 22,
+        "negative": 0,
+        "members": [
+          "NTX0012",
+          "NTX0054",
+          "NTX0128",
+          "NTX0219",
+          "NTX0316",
+          "NTX0355",
+          "NTX0414",
+          "NTX0418",
+          "NTX0469",
+          "NTX0471",
+          "NTX0683",
+          "NTX0860",
+          "NTX1060",
+          "NTX1144",
+          "NTX1238",
+          "NTX1263",
+          "NTX1374",
+          "NTX1396",
+          "NTX1522",
+          "NTX1624",
+          "NTX1711",
+          "NTX1749"
+        ]
+      },
+      {
+        "group_id": "G0018",
+        "n": 21,
+        "positive": 21,
+        "negative": 0,
+        "members": [
+          "NTX0020",
+          "NTX0040",
+          "NTX0066",
+          "NTX0078",
+          "NTX0209",
+          "NTX0248",
+          "NTX0394",
+          "NTX0462",
+          "NTX0552",
+          "NTX0748",
+          "NTX0900",
+          "NTX1002",
+          "NTX1136",
+          "NTX1243",
+          "NTX1278",
+          "NTX1433",
+          "NTX1573",
+          "NTX1584",
+          "NTX1600",
+          "NTX1652",
+          "NTX1835"
+        ]
+      },
+      {
+        "group_id": "G0033",
+        "n": 21,
+        "positive": 21,
+        "negative": 0,
+        "members": [
+          "NTX0045",
+          "NTX0119",
+          "NTX0348",
+          "NTX0367",
+          "NTX0468",
+          "NTX0613",
+          "NTX0633",
+          "NTX0638",
+          "NTX0804",
+          "NTX0974",
+          "NTX1046",
+          "NTX1132",
+          "NTX1274",
+          "NTX1355",
+          "NTX1360",
+          "NTX1434",
+          "NTX1442",
+          "NTX1574",
+          "NTX1629",
+          "NTX1776",
+          "NTX1791"
+        ]
+      },
+      {
+        "group_id": "G0067",
+        "n": 16,
+        "positive": 16,
+        "negative": 0,
+        "members": [
+          "NTX0104",
+          "NTX0167",
+          "NTX0218",
+          "NTX0459",
+          "NTX0649",
+          "NTX0723",
+          "NTX0831",
+          "NTX0898",
+          "NTX0926",
+          "NTX1211",
+          "NTX1275",
+          "NTX1332",
+          "NTX1369",
+          "NTX1444",
+          "NTX1514",
+          "NTX1797"
+        ]
+      },
+      {
+        "group_id": "G0092",
+        "n": 13,
+        "positive": 8,
+        "negative": 5,
+        "members": [
+          "NTX0141",
+          "NTX0391",
+          "NTX0440",
+          "NTX0484",
+          "NTX0497",
+          "NTX0956",
+          "NTX1016",
+          "NTX1077",
+          "NTX1151",
+          "NTX1159",
+          "NTX1266",
+          "NTX1537",
+          "NTX1764"
+        ]
+      }
+    ],
+    "software": {
+      "rdkit": "2026.03.3",
+      "scikit_learn": "1.8.0",
+      "scipy": "1.17.1",
+      "numpy": "2.4.6"
+    },
+    "source_identity_sha256": "ef5ffe8640137514662f36d2c27795d09595ed39badb870f216305a4fbf8801f",
+    "data_policy": "Original DATA SMILES, specified stereo, names, CIDs and labels unchanged; graph normalization only in grouping copies.",
+    "grouping_policy": "Union of seven keys: canonical tautomer parent, v2 protomer parent, original/normalized/tautomer typed Murcko scaffolds, ElementGraph parent/scaffold. ElementGraph conservatively also groups some saturation/redox analogues. Full-parent/scaffold enumeration limits are 1000 tautomers and 1000 transforms; enumeration-independent keys remain enforced.",
+    "acyclic_policy": "Empty Murcko scaffolds use parent keys; unrelated acyclic graphs are not put in one empty group. This is not a guarantee against every high-similarity analogue.",
+    "fold_interpretation": "Fold k: development fold k validates, other nine development folds train. Test has no CV fold and never enters cross-validation.",
+    "split_selection_policy": "Original stratified-random algorithm and seed applied once to current DATA; no features, predictions, test outcomes or seed search used.",
+    "source": {
+      "source_file": "data/NephroTox_Modeling_Data.xlsx",
+      "sha256": "2832a2b0679bf724b6acc3197e3ad8e4d2c15e0572b2bc9bb76b217f4a0ba752",
+      "sheet_name": "Modeling_Final",
+      "n_rows": 1673,
+      "label_counts": {
+        "0": 831,
+        "1": 842
+      },
+      "source_columns": [
+        "compound_id",
+        "name",
+        "PubChem_CID",
+        "standardized_smiles",
+        "label",
+        "standardized_InChIKey",
+        "molecular_formula",
+        "MW",
+        "heavy_atoms",
+        "PubChem_IUPACName",
+        "stereo_scope",
+        "representation_type"
+      ],
+      "empty_unnamed_columns_ignored": 5,
+      "source_policy": "The sole data source is the supplied DATA workbook. No historical tables, cached diagnostic structures, external chemistry records, or prior feature/split files are consulted.",
+      "rows_fingerprint": "51909c995bb610e02cb51e7ddc902b8224722a9ec31bbd9c5b95a9a3cdfc605d",
+      "all_source_values_preserved": true
+    }
+  },
+  "available_split_modes": {
+    "structure_group": "parent/scaffold group-isolated development/test and development ten-fold CV",
+    "legacy_random": "original stratified random 80/20 and development ten-fold CV; fixed parameters only; exact seeds and structural overlap recorded in the runtime split manifest"
+  },
+  "structure_overlap_audit": {
+    "group_definition": "parent/scaffold connected structure groups retained for audit and graph internal stopping",
+    "development_test_shared_group_count": 71,
+    "development_test_shared_group_ids": [
+      "G0002",
+      "G0005",
+      "G0006",
+      "G0007",
+      "G0009",
+      "G0011",
+      "G0012",
+      "G0018",
+      "G0019",
+      "G0020",
+      "G0023",
+      "G0027",
+      "G0030",
+      "G0033",
+      "G0038",
+      "G0041",
+      "G0042",
+      "G0043",
+      "G0048",
+      "G0052",
+      "G0054",
+      "G0066",
+      "G0067",
+      "G0068",
+      "G0069",
+      "G0072",
+      "G0081",
+      "G0085",
+      "G0091",
+      "G0092",
+      "G0094",
+      "G0101",
+      "G0110",
+      "G0115",
+      "G0120",
+      "G0127",
+      "G0128",
+      "G0144",
+      "G0149",
+      "G0158",
+      "G0176",
+      "G0198",
+      "G0212",
+      "G0223",
+      "G0233",
+      "G0236",
+      "G0237",
+      "G0240",
+      "G0281",
+      "G0296",
+      "G0305",
+      "G0306",
+      "G0309",
+      "G0329",
+      "G0339",
+      "G0341",
+      "G0353",
+      "G0359",
+      "G0378",
+      "G0383",
+      "G0480",
+      "G0497",
+      "G0501",
+      "G0504",
+      "G0521",
+      "G0528",
+      "G0551",
+      "G0594",
+      "G0674",
+      "G0683",
+      "G0754"
+    ],
+    "outer_fold_shared_group_counts": {
+      "1": 37,
+      "2": 43,
+      "3": 43,
+      "4": 36,
+      "5": 45,
+      "6": 34,
+      "7": 43,
+      "8": 44,
+      "9": 27,
+      "10": 38
+    },
+    "outer_fold_shared_group_ids": {
+      "1": [
+        "G0002",
+        "G0004",
+        "G0005",
+        "G0007",
+        "G0012",
+        "G0014",
+        "G0018",
+        "G0019",
+        "G0020",
+        "G0033",
+        "G0041",
+        "G0044",
+        "G0054",
+        "G0065",
+        "G0066",
+        "G0069",
+        "G0080",
+        "G0092",
+        "G0093",
+        "G0105",
+        "G0138",
+        "G0147",
+        "G0153",
+        "G0198",
+        "G0236",
+        "G0243",
+        "G0281",
+        "G0306",
+        "G0354",
+        "G0357",
+        "G0408",
+        "G0428",
+        "G0480",
+        "G0497",
+        "G0501",
+        "G0527",
+        "G0752"
+      ],
+      "2": [
+        "G0002",
+        "G0005",
+        "G0007",
+        "G0012",
+        "G0018",
+        "G0019",
+        "G0027",
+        "G0041",
+        "G0043",
+        "G0054",
+        "G0056",
+        "G0067",
+        "G0068",
+        "G0090",
+        "G0093",
+        "G0098",
+        "G0101",
+        "G0105",
+        "G0110",
+        "G0125",
+        "G0129",
+        "G0136",
+        "G0152",
+        "G0168",
+        "G0194",
+        "G0208",
+        "G0236",
+        "G0240",
+        "G0246",
+        "G0273",
+        "G0281",
+        "G0354",
+        "G0408",
+        "G0428",
+        "G0480",
+        "G0497",
+        "G0528",
+        "G0570",
+        "G0595",
+        "G0687",
+        "G0776",
+        "G0824",
+        "G0860"
+      ],
+      "3": [
+        "G0002",
+        "G0004",
+        "G0005",
+        "G0006",
+        "G0007",
+        "G0011",
+        "G0012",
+        "G0013",
+        "G0018",
+        "G0019",
+        "G0027",
+        "G0033",
+        "G0042",
+        "G0043",
+        "G0046",
+        "G0053",
+        "G0066",
+        "G0067",
+        "G0068",
+        "G0091",
+        "G0092",
+        "G0103",
+        "G0105",
+        "G0110",
+        "G0115",
+        "G0126",
+        "G0138",
+        "G0144",
+        "G0156",
+        "G0158",
+        "G0190",
+        "G0208",
+        "G0237",
+        "G0281",
+        "G0296",
+        "G0344",
+        "G0418",
+        "G0432",
+        "G0501",
+        "G0527",
+        "G0731",
+        "G0734",
+        "G0824"
+      ],
+      "4": [
+        "G0002",
+        "G0005",
+        "G0007",
+        "G0009",
+        "G0011",
+        "G0012",
+        "G0018",
+        "G0019",
+        "G0041",
+        "G0043",
+        "G0044",
+        "G0066",
+        "G0067",
+        "G0069",
+        "G0091",
+        "G0103",
+        "G0105",
+        "G0125",
+        "G0126",
+        "G0128",
+        "G0138",
+        "G0209",
+        "G0247",
+        "G0287",
+        "G0291",
+        "G0300",
+        "G0363",
+        "G0435",
+        "G0449",
+        "G0480",
+        "G0493",
+        "G0501",
+        "G0568",
+        "G0571",
+        "G0595",
+        "G0734"
+      ],
+      "5": [
+        "G0002",
+        "G0005",
+        "G0006",
+        "G0007",
+        "G0018",
+        "G0019",
+        "G0027",
+        "G0033",
+        "G0041",
+        "G0042",
+        "G0043",
+        "G0046",
+        "G0048",
+        "G0053",
+        "G0054",
+        "G0069",
+        "G0090",
+        "G0092",
+        "G0098",
+        "G0101",
+        "G0105",
+        "G0110",
+        "G0115",
+        "G0129",
+        "G0138",
+        "G0158",
+        "G0170",
+        "G0189",
+        "G0194",
+        "G0236",
+        "G0244",
+        "G0257",
+        "G0300",
+        "G0306",
+        "G0348",
+        "G0354",
+        "G0378",
+        "G0501",
+        "G0504",
+        "G0613",
+        "G0654",
+        "G0687",
+        "G0758",
+        "G0771",
+        "G0776"
+      ],
+      "6": [
+        "G0002",
+        "G0005",
+        "G0007",
+        "G0011",
+        "G0012",
+        "G0018",
+        "G0020",
+        "G0033",
+        "G0041",
+        "G0042",
+        "G0067",
+        "G0069",
+        "G0091",
+        "G0092",
+        "G0093",
+        "G0101",
+        "G0120",
+        "G0149",
+        "G0156",
+        "G0158",
+        "G0168",
+        "G0169",
+        "G0176",
+        "G0209",
+        "G0237",
+        "G0243",
+        "G0247",
+        "G0291",
+        "G0306",
+        "G0418",
+        "G0568",
+        "G0570",
+        "G0571",
+        "G0752"
+      ],
+      "7": [
+        "G0002",
+        "G0005",
+        "G0007",
+        "G0012",
+        "G0018",
+        "G0019",
+        "G0020",
+        "G0033",
+        "G0041",
+        "G0044",
+        "G0047",
+        "G0048",
+        "G0054",
+        "G0056",
+        "G0068",
+        "G0069",
+        "G0072",
+        "G0080",
+        "G0088",
+        "G0091",
+        "G0092",
+        "G0098",
+        "G0120",
+        "G0126",
+        "G0138",
+        "G0144",
+        "G0158",
+        "G0176",
+        "G0190",
+        "G0237",
+        "G0257",
+        "G0273",
+        "G0276",
+        "G0333",
+        "G0344",
+        "G0348",
+        "G0354",
+        "G0357",
+        "G0369",
+        "G0435",
+        "G0528",
+        "G0779",
+        "G0802"
+      ],
+      "8": [
+        "G0002",
+        "G0005",
+        "G0006",
+        "G0007",
+        "G0009",
+        "G0011",
+        "G0012",
+        "G0013",
+        "G0018",
+        "G0019",
+        "G0033",
+        "G0041",
+        "G0042",
+        "G0053",
+        "G0065",
+        "G0067",
+        "G0098",
+        "G0105",
+        "G0144",
+        "G0149",
+        "G0152",
+        "G0158",
+        "G0170",
+        "G0171",
+        "G0176",
+        "G0189",
+        "G0194",
+        "G0205",
+        "G0237",
+        "G0270",
+        "G0273",
+        "G0287",
+        "G0333",
+        "G0363",
+        "G0369",
+        "G0378",
+        "G0383",
+        "G0449",
+        "G0504",
+        "G0620",
+        "G0758",
+        "G0771",
+        "G0779",
+        "G0802"
+      ],
+      "9": [
+        "G0002",
+        "G0004",
+        "G0005",
+        "G0007",
+        "G0011",
+        "G0018",
+        "G0019",
+        "G0027",
+        "G0041",
+        "G0047",
+        "G0054",
+        "G0066",
+        "G0088",
+        "G0091",
+        "G0128",
+        "G0147",
+        "G0153",
+        "G0194",
+        "G0198",
+        "G0244",
+        "G0246",
+        "G0276",
+        "G0306",
+        "G0493",
+        "G0620",
+        "G0654",
+        "G0731"
+      ],
+      "10": [
+        "G0002",
+        "G0005",
+        "G0006",
+        "G0007",
+        "G0009",
+        "G0011",
+        "G0012",
+        "G0013",
+        "G0014",
+        "G0019",
+        "G0027",
+        "G0033",
+        "G0041",
+        "G0044",
+        "G0048",
+        "G0072",
+        "G0092",
+        "G0093",
+        "G0098",
+        "G0136",
+        "G0169",
+        "G0171",
+        "G0190",
+        "G0198",
+        "G0205",
+        "G0237",
+        "G0240",
+        "G0270",
+        "G0296",
+        "G0300",
+        "G0333",
+        "G0344",
+        "G0357",
+        "G0383",
+        "G0432",
+        "G0449",
+        "G0613",
+        "G0860"
+      ]
+    },
+    "outer_structure_isolation_required": false
+  },
+  "parameter_mode": "fixed_original",
+  "available_search_design": {
+    "schema_version": 1,
+    "conventional_method": "enumerate_original_S2A_candidates",
+    "graph_method": "seeded_random_search",
+    "graph_candidates_per_architecture": 20,
+    "include_original_reference_candidate": true,
+    "random_state": 20260810,
+    "sampler": "sklearn.model_selection.ParameterSampler",
+    "continuous_distribution": "scipy.stats.loguniform",
+    "selection_metric": "mean_inner_ROC_AUC",
+    "provenance": "Conventional candidates reproduce original Table S2A. Graph search ranges are added for this revision with author authorization; the original S3 configurations are reference candidates only, never automatically selected.",
+    "graph_spaces": {
+      "D-MPNN": {
+        "fixed_parameters": {
+          "aggregation": "sum"
+        },
+        "parameters": {
+          "message_hidden_dim": {
+            "type": "categorical",
+            "values": [
+              128,
+              256,
+              384
+            ]
+          },
+          "message_depth": {
+            "type": "categorical",
+            "values": [
+              3,
+              4,
+              5,
+              6
+            ]
+          },
+          "message_dropout": {
+            "type": "categorical",
+            "values": [
+              0.0,
+              0.1,
+              0.2
+            ]
+          },
+          "ffn_hidden_dim": {
+            "type": "categorical",
+            "values": [
+              128,
+              256,
+              300,
+              512
+            ]
+          },
+          "ffn_num_layers": {
+            "type": "categorical",
+            "values": [
+              1,
+              2,
+              3
+            ]
+          },
+          "ffn_dropout": {
+            "type": "categorical",
+            "values": [
+              0.1,
+              0.25,
+              0.4
+            ]
+          },
+          "batch_size": {
+            "type": "categorical",
+            "values": [
+              32,
+              64
+            ]
+          },
+          "learning_rate": {
+            "type": "loguniform",
+            "low": 0.0001,
+            "high": 0.001
+          },
+          "weight_decay": {
+            "type": "loguniform",
+            "low": 1e-06,
+            "high": 0.001
+          }
+        }
+      },
+      "GINE": {
+        "fixed_parameters": {
+          "mlp_num_layers": 2,
+          "normalization": "batch_norm",
+          "pooling": "gated_attention",
+          "train_epsilon": true
+        },
+        "parameters": {
+          "hidden_dim": {
+            "type": "categorical",
+            "values": [
+              128,
+              256,
+              384
+            ]
+          },
+          "num_layers": {
+            "type": "categorical",
+            "values": [
+              3,
+              4,
+              5
+            ]
+          },
+          "dropout": {
+            "type": "categorical",
+            "values": [
+              0.1,
+              0.2,
+              0.3
+            ]
+          },
+          "batch_size": {
+            "type": "categorical",
+            "values": [
+              32,
+              64
+            ]
+          },
+          "learning_rate": {
+            "type": "loguniform",
+            "low": 0.0001,
+            "high": 0.001
+          },
+          "weight_decay": {
+            "type": "loguniform",
+            "low": 1e-06,
+            "high": 0.001
+          }
+        }
+      },
+      "AttentiveFP": {
+        "fixed_parameters": {},
+        "parameters": {
+          "hidden_channels": {
+            "type": "categorical",
+            "values": [
+              128,
+              256,
+              384
+            ]
+          },
+          "num_layers": {
+            "type": "categorical",
+            "values": [
+              2,
+              3,
+              4
+            ]
+          },
+          "num_timesteps": {
+            "type": "categorical",
+            "values": [
+              1,
+              2,
+              3
+            ]
+          },
+          "dropout": {
+            "type": "categorical",
+            "values": [
+              0.1,
+              0.2,
+              0.3
+            ]
+          },
+          "batch_size": {
+            "type": "categorical",
+            "values": [
+              32,
+              64
+            ]
+          },
+          "learning_rate": {
+            "type": "loguniform",
+            "low": 0.0001,
+            "high": 0.001
+          },
+          "weight_decay": {
+            "type": "loguniform",
+            "low": 1e-06,
+            "high": 0.001
+          }
+        }
+      }
+    }
+  },
+  "fixed_parameter_records": {
+    "morgan2048__rf": {
+      "params": {
+        "max_depth": null,
+        "max_features": "sqrt",
+        "min_samples_leaf": 1,
+        "n_estimators": 300
+      },
+      "source_workbook": "NephroTox_Supplementary_Tables_Recommended_20260812.xlsx",
+      "source_workbook_sha256": "b4625ac2f0e515e7669c76070ea8c6562a3b918db815f329105f1e80cd2394a5",
+      "source_sheet": "S2B Conv Selected",
+      "source_parameter_cell": "F2",
+      "source_excel_row": 2,
+      "original_candidate_number": 1,
+      "original_candidate_id_in_code": 0,
+      "parameter_origin": "original selected numerical-representation configuration",
+      "count_inheritance": null,
+      "source_reference": "Original supplementary Table S2B, F2"
+    },
+    "maccs166__rf": {
+      "params": {
+        "max_depth": 20,
+        "max_features": "sqrt",
+        "min_samples_leaf": 1,
+        "n_estimators": 500
+      },
+      "source_workbook": "NephroTox_Supplementary_Tables_Recommended_20260812.xlsx",
+      "source_workbook_sha256": "b4625ac2f0e515e7669c76070ea8c6562a3b918db815f329105f1e80cd2394a5",
+      "source_sheet": "S2B Conv Selected",
+      "source_parameter_cell": "F3",
+      "source_excel_row": 3,
+      "original_candidate_number": 2,
+      "original_candidate_id_in_code": 1,
+      "parameter_origin": "original selected numerical-representation configuration",
+      "count_inheritance": null,
+      "source_reference": "Original supplementary Table S2B, F3"
+    },
+    "atompair1024__rf": {
+      "params": {
+        "max_depth": null,
+        "max_features": "sqrt",
+        "min_samples_leaf": 1,
+        "n_estimators": 300
+      },
+      "source_workbook": "NephroTox_Supplementary_Tables_Recommended_20260812.xlsx",
+      "source_workbook_sha256": "b4625ac2f0e515e7669c76070ea8c6562a3b918db815f329105f1e80cd2394a5",
+      "source_sheet": "S2B Conv Selected",
+      "source_parameter_cell": "F4",
+      "source_excel_row": 4,
+      "original_candidate_number": 1,
+      "original_candidate_id_in_code": 0,
+      "parameter_origin": "original selected numerical-representation configuration",
+      "count_inheritance": null,
+      "source_reference": "Original supplementary Table S2B, F4"
+    },
+    "torsion1024__rf": {
+      "params": {
+        "max_depth": 20,
+        "max_features": "sqrt",
+        "min_samples_leaf": 1,
+        "n_estimators": 500
+      },
+      "source_workbook": "NephroTox_Supplementary_Tables_Recommended_20260812.xlsx",
+      "source_workbook_sha256": "b4625ac2f0e515e7669c76070ea8c6562a3b918db815f329105f1e80cd2394a5",
+      "source_sheet": "S2B Conv Selected",
+      "source_parameter_cell": "F5",
+      "source_excel_row": 5,
+      "original_candidate_number": 2,
+      "original_candidate_id_in_code": 1,
+      "parameter_origin": "original selected numerical-representation configuration",
+      "count_inheritance": null,
+      "source_reference": "Original supplementary Table S2B, F5"
+    },
+    "rdkit166__rf": {
+      "params": {
+        "max_depth": null,
+        "max_features": "sqrt",
+        "min_samples_leaf": 1,
+        "n_estimators": 300
+      },
+      "source_workbook": "NephroTox_Supplementary_Tables_Recommended_20260812.xlsx",
+      "source_workbook_sha256": "b4625ac2f0e515e7669c76070ea8c6562a3b918db815f329105f1e80cd2394a5",
+      "source_sheet": "S2B Conv Selected",
+      "source_parameter_cell": "F6",
+      "source_excel_row": 6,
+      "original_candidate_number": 1,
+      "original_candidate_id_in_code": 0,
+      "parameter_origin": "original selected numerical-representation configuration",
+      "count_inheritance": null,
+      "source_reference": "Original supplementary Table S2B, F6"
+    },
+    "morgan2048__svm": {
+      "params": {
+        "C": 1.0,
+        "gamma": "scale"
+      },
+      "source_workbook": "NephroTox_Supplementary_Tables_Recommended_20260812.xlsx",
+      "source_workbook_sha256": "b4625ac2f0e515e7669c76070ea8c6562a3b918db815f329105f1e80cd2394a5",
+      "source_sheet": "S2B Conv Selected",
+      "source_parameter_cell": "F7",
+      "source_excel_row": 7,
+      "original_candidate_number": 1,
+      "original_candidate_id_in_code": 0,
+      "parameter_origin": "original selected numerical-representation configuration",
+      "count_inheritance": null,
+      "source_reference": "Original supplementary Table S2B, F7"
+    },
+    "maccs166__svm": {
+      "params": {
+        "C": 1.0,
+        "gamma": "scale"
+      },
+      "source_workbook": "NephroTox_Supplementary_Tables_Recommended_20260812.xlsx",
+      "source_workbook_sha256": "b4625ac2f0e515e7669c76070ea8c6562a3b918db815f329105f1e80cd2394a5",
+      "source_sheet": "S2B Conv Selected",
+      "source_parameter_cell": "F8",
+      "source_excel_row": 8,
+      "original_candidate_number": 1,
+      "original_candidate_id_in_code": 0,
+      "parameter_origin": "original selected numerical-representation configuration",
+      "count_inheritance": null,
+      "source_reference": "Original supplementary Table S2B, F8"
+    },
+    "atompair1024__svm": {
+      "params": {
+        "C": 1.0,
+        "gamma": "scale"
+      },
+      "source_workbook": "NephroTox_Supplementary_Tables_Recommended_20260812.xlsx",
+      "source_workbook_sha256": "b4625ac2f0e515e7669c76070ea8c6562a3b918db815f329105f1e80cd2394a5",
+      "source_sheet": "S2B Conv Selected",
+      "source_parameter_cell": "F9",
+      "source_excel_row": 9,
+      "original_candidate_number": 1,
+      "original_candidate_id_in_code": 0,
+      "parameter_origin": "original selected numerical-representation configuration",
+      "count_inheritance": null,
+      "source_reference": "Original supplementary Table S2B, F9"
+    },
+    "torsion1024__svm": {
+      "params": {
+        "C": 1.0,
+        "gamma": "scale"
+      },
+      "source_workbook": "NephroTox_Supplementary_Tables_Recommended_20260812.xlsx",
+      "source_workbook_sha256": "b4625ac2f0e515e7669c76070ea8c6562a3b918db815f329105f1e80cd2394a5",
+      "source_sheet": "S2B Conv Selected",
+      "source_parameter_cell": "F10",
+      "source_excel_row": 10,
+      "original_candidate_number": 1,
+      "original_candidate_id_in_code": 0,
+      "parameter_origin": "original selected numerical-representation configuration",
+      "count_inheritance": null,
+      "source_reference": "Original supplementary Table S2B, F10"
+    },
+    "rdkit166__svm": {
+      "params": {
+        "C": 1.0,
+        "gamma": "scale"
+      },
+      "source_workbook": "NephroTox_Supplementary_Tables_Recommended_20260812.xlsx",
+      "source_workbook_sha256": "b4625ac2f0e515e7669c76070ea8c6562a3b918db815f329105f1e80cd2394a5",
+      "source_sheet": "S2B Conv Selected",
+      "source_parameter_cell": "F11",
+      "source_excel_row": 11,
+      "original_candidate_number": 1,
+      "original_candidate_id_in_code": 0,
+      "parameter_origin": "original selected numerical-representation configuration",
+      "count_inheritance": null,
+      "source_reference": "Original supplementary Table S2B, F11"
+    },
+    "morgan2048__mlp": {
+      "params": {
+        "alpha": 0.0001,
+        "hidden_layer_sizes": [
+          128
+        ],
+        "learning_rate_init": 0.0005
+      },
+      "source_workbook": "NephroTox_Supplementary_Tables_Recommended_20260812.xlsx",
+      "source_workbook_sha256": "b4625ac2f0e515e7669c76070ea8c6562a3b918db815f329105f1e80cd2394a5",
+      "source_sheet": "S2B Conv Selected",
+      "source_parameter_cell": "F12",
+      "source_excel_row": 12,
+      "original_candidate_number": 2,
+      "original_candidate_id_in_code": 1,
+      "parameter_origin": "original selected numerical-representation configuration",
+      "count_inheritance": null,
+      "source_reference": "Original supplementary Table S2B, F12"
+    },
+    "maccs166__mlp": {
+      "params": {
+        "alpha": 0.001,
+        "hidden_layer_sizes": [
+          128,
+          64
+        ],
+        "learning_rate_init": 0.001
+      },
+      "source_workbook": "NephroTox_Supplementary_Tables_Recommended_20260812.xlsx",
+      "source_workbook_sha256": "b4625ac2f0e515e7669c76070ea8c6562a3b918db815f329105f1e80cd2394a5",
+      "source_sheet": "S2B Conv Selected",
+      "source_parameter_cell": "F13",
+      "source_excel_row": 13,
+      "original_candidate_number": 3,
+      "original_candidate_id_in_code": 2,
+      "parameter_origin": "original selected numerical-representation configuration",
+      "count_inheritance": null,
+      "source_reference": "Original supplementary Table S2B, F13"
+    },
+    "atompair1024__mlp": {
+      "params": {
+        "alpha": 0.001,
+        "hidden_layer_sizes": [
+          128,
+          64
+        ],
+        "learning_rate_init": 0.001
+      },
+      "source_workbook": "NephroTox_Supplementary_Tables_Recommended_20260812.xlsx",
+      "source_workbook_sha256": "b4625ac2f0e515e7669c76070ea8c6562a3b918db815f329105f1e80cd2394a5",
+      "source_sheet": "S2B Conv Selected",
+      "source_parameter_cell": "F14",
+      "source_excel_row": 14,
+      "original_candidate_number": 3,
+      "original_candidate_id_in_code": 2,
+      "parameter_origin": "original selected numerical-representation configuration",
+      "count_inheritance": null,
+      "source_reference": "Original supplementary Table S2B, F14"
+    },
+    "torsion1024__mlp": {
+      "params": {
+        "alpha": 0.001,
+        "hidden_layer_sizes": [
+          128,
+          64
+        ],
+        "learning_rate_init": 0.001
+      },
+      "source_workbook": "NephroTox_Supplementary_Tables_Recommended_20260812.xlsx",
+      "source_workbook_sha256": "b4625ac2f0e515e7669c76070ea8c6562a3b918db815f329105f1e80cd2394a5",
+      "source_sheet": "S2B Conv Selected",
+      "source_parameter_cell": "F15",
+      "source_excel_row": 15,
+      "original_candidate_number": 3,
+      "original_candidate_id_in_code": 2,
+      "parameter_origin": "original selected numerical-representation configuration",
+      "count_inheritance": null,
+      "source_reference": "Original supplementary Table S2B, F15"
+    },
+    "rdkit166__mlp": {
+      "params": {
+        "alpha": 0.001,
+        "hidden_layer_sizes": [
+          128,
+          64
+        ],
+        "learning_rate_init": 0.001
+      },
+      "source_workbook": "NephroTox_Supplementary_Tables_Recommended_20260812.xlsx",
+      "source_workbook_sha256": "b4625ac2f0e515e7669c76070ea8c6562a3b918db815f329105f1e80cd2394a5",
+      "source_sheet": "S2B Conv Selected",
+      "source_parameter_cell": "F16",
+      "source_excel_row": 16,
+      "original_candidate_number": 3,
+      "original_candidate_id_in_code": 2,
+      "parameter_origin": "original selected numerical-representation configuration",
+      "count_inheritance": null,
+      "source_reference": "Original supplementary Table S2B, F16"
+    },
+    "morgan2048__xgb": {
+      "params": {
+        "colsample_bytree": 0.8,
+        "learning_rate": 0.05,
+        "max_depth": 5,
+        "n_estimators": 300,
+        "subsample": 0.8
+      },
+      "source_workbook": "NephroTox_Supplementary_Tables_Recommended_20260812.xlsx",
+      "source_workbook_sha256": "b4625ac2f0e515e7669c76070ea8c6562a3b918db815f329105f1e80cd2394a5",
+      "source_sheet": "S2B Conv Selected",
+      "source_parameter_cell": "F17",
+      "source_excel_row": 17,
+      "original_candidate_number": 3,
+      "original_candidate_id_in_code": 2,
+      "parameter_origin": "original selected numerical-representation configuration",
+      "count_inheritance": null,
+      "source_reference": "Original supplementary Table S2B, F17"
+    },
+    "maccs166__xgb": {
+      "params": {
+        "colsample_bytree": 0.8,
+        "learning_rate": 0.05,
+        "max_depth": 5,
+        "n_estimators": 300,
+        "subsample": 0.8
+      },
+      "source_workbook": "NephroTox_Supplementary_Tables_Recommended_20260812.xlsx",
+      "source_workbook_sha256": "b4625ac2f0e515e7669c76070ea8c6562a3b918db815f329105f1e80cd2394a5",
+      "source_sheet": "S2B Conv Selected",
+      "source_parameter_cell": "F18",
+      "source_excel_row": 18,
+      "original_candidate_number": 3,
+      "original_candidate_id_in_code": 2,
+      "parameter_origin": "original selected numerical-representation configuration",
+      "count_inheritance": null,
+      "source_reference": "Original supplementary Table S2B, F18"
+    },
+    "atompair1024__xgb": {
+      "params": {
+        "colsample_bytree": 0.8,
+        "learning_rate": 0.05,
+        "max_depth": 5,
+        "n_estimators": 300,
+        "subsample": 0.8
+      },
+      "source_workbook": "NephroTox_Supplementary_Tables_Recommended_20260812.xlsx",
+      "source_workbook_sha256": "b4625ac2f0e515e7669c76070ea8c6562a3b918db815f329105f1e80cd2394a5",
+      "source_sheet": "S2B Conv Selected",
+      "source_parameter_cell": "F19",
+      "source_excel_row": 19,
+      "original_candidate_number": 3,
+      "original_candidate_id_in_code": 2,
+      "parameter_origin": "original selected numerical-representation configuration",
+      "count_inheritance": null,
+      "source_reference": "Original supplementary Table S2B, F19"
+    },
+    "torsion1024__xgb": {
+      "params": {
+        "colsample_bytree": 0.8,
+        "learning_rate": 0.05,
+        "max_depth": 5,
+        "n_estimators": 300,
+        "subsample": 0.8
+      },
+      "source_workbook": "NephroTox_Supplementary_Tables_Recommended_20260812.xlsx",
+      "source_workbook_sha256": "b4625ac2f0e515e7669c76070ea8c6562a3b918db815f329105f1e80cd2394a5",
+      "source_sheet": "S2B Conv Selected",
+      "source_parameter_cell": "F20",
+      "source_excel_row": 20,
+      "original_candidate_number": 3,
+      "original_candidate_id_in_code": 2,
+      "parameter_origin": "original selected numerical-representation configuration",
+      "count_inheritance": null,
+      "source_reference": "Original supplementary Table S2B, F20"
+    },
+    "rdkit166__xgb": {
+      "params": {
+        "colsample_bytree": 0.8,
+        "learning_rate": 0.05,
+        "max_depth": 5,
+        "n_estimators": 300,
+        "subsample": 0.8
+      },
+      "source_workbook": "NephroTox_Supplementary_Tables_Recommended_20260812.xlsx",
+      "source_workbook_sha256": "b4625ac2f0e515e7669c76070ea8c6562a3b918db815f329105f1e80cd2394a5",
+      "source_sheet": "S2B Conv Selected",
+      "source_parameter_cell": "F21",
+      "source_excel_row": 21,
+      "original_candidate_number": 3,
+      "original_candidate_id_in_code": 2,
+      "parameter_origin": "original selected numerical-representation configuration",
+      "count_inheritance": null,
+      "source_reference": "Original supplementary Table S2B, F21"
+    },
+    "morgan2048__dnn": {
+      "params": {
+        "batch_norm": true,
+        "batch_size": 64,
+        "dropout": 0.3,
+        "hidden_layers": [
+          256,
+          128
+        ],
+        "learning_rate": 0.001,
+        "weight_decay": 0.0001
+      },
+      "source_workbook": "NephroTox_Supplementary_Tables_Recommended_20260812.xlsx",
+      "source_workbook_sha256": "b4625ac2f0e515e7669c76070ea8c6562a3b918db815f329105f1e80cd2394a5",
+      "source_sheet": "S2B Conv Selected",
+      "source_parameter_cell": "F22",
+      "source_excel_row": 22,
+      "original_candidate_number": 1,
+      "original_candidate_id_in_code": 0,
+      "parameter_origin": "original selected numerical-representation configuration",
+      "count_inheritance": null,
+      "source_reference": "Original supplementary Table S2B, F22"
+    },
+    "maccs166__dnn": {
+      "params": {
+        "batch_norm": true,
+        "batch_size": 64,
+        "dropout": 0.3,
+        "hidden_layers": [
+          256,
+          128
+        ],
+        "learning_rate": 0.001,
+        "weight_decay": 0.0001
+      },
+      "source_workbook": "NephroTox_Supplementary_Tables_Recommended_20260812.xlsx",
+      "source_workbook_sha256": "b4625ac2f0e515e7669c76070ea8c6562a3b918db815f329105f1e80cd2394a5",
+      "source_sheet": "S2B Conv Selected",
+      "source_parameter_cell": "F23",
+      "source_excel_row": 23,
+      "original_candidate_number": 1,
+      "original_candidate_id_in_code": 0,
+      "parameter_origin": "original selected numerical-representation configuration",
+      "count_inheritance": null,
+      "source_reference": "Original supplementary Table S2B, F23"
+    },
+    "atompair1024__dnn": {
+      "params": {
+        "batch_norm": true,
+        "batch_size": 64,
+        "dropout": 0.25,
+        "hidden_layers": [
+          128,
+          64
+        ],
+        "learning_rate": 0.0005,
+        "weight_decay": 1e-05
+      },
+      "source_workbook": "NephroTox_Supplementary_Tables_Recommended_20260812.xlsx",
+      "source_workbook_sha256": "b4625ac2f0e515e7669c76070ea8c6562a3b918db815f329105f1e80cd2394a5",
+      "source_sheet": "S2B Conv Selected",
+      "source_parameter_cell": "F24",
+      "source_excel_row": 24,
+      "original_candidate_number": 3,
+      "original_candidate_id_in_code": 2,
+      "parameter_origin": "original selected numerical-representation configuration",
+      "count_inheritance": null,
+      "source_reference": "Original supplementary Table S2B, F24"
+    },
+    "torsion1024__dnn": {
+      "params": {
+        "batch_norm": true,
+        "batch_size": 64,
+        "dropout": 0.4,
+        "hidden_layers": [
+          512,
+          256
+        ],
+        "learning_rate": 0.0005,
+        "weight_decay": 0.0001
+      },
+      "source_workbook": "NephroTox_Supplementary_Tables_Recommended_20260812.xlsx",
+      "source_workbook_sha256": "b4625ac2f0e515e7669c76070ea8c6562a3b918db815f329105f1e80cd2394a5",
+      "source_sheet": "S2B Conv Selected",
+      "source_parameter_cell": "F25",
+      "source_excel_row": 25,
+      "original_candidate_number": 2,
+      "original_candidate_id_in_code": 1,
+      "parameter_origin": "original selected numerical-representation configuration",
+      "count_inheritance": null,
+      "source_reference": "Original supplementary Table S2B, F25"
+    },
+    "rdkit166__dnn": {
+      "params": {
+        "batch_norm": true,
+        "batch_size": 64,
+        "dropout": 0.3,
+        "hidden_layers": [
+          256,
+          128
+        ],
+        "learning_rate": 0.001,
+        "weight_decay": 0.0001
+      },
+      "source_workbook": "NephroTox_Supplementary_Tables_Recommended_20260812.xlsx",
+      "source_workbook_sha256": "b4625ac2f0e515e7669c76070ea8c6562a3b918db815f329105f1e80cd2394a5",
+      "source_sheet": "S2B Conv Selected",
+      "source_parameter_cell": "F26",
+      "source_excel_row": 26,
+      "original_candidate_number": 1,
+      "original_candidate_id_in_code": 0,
+      "parameter_origin": "original selected numerical-representation configuration",
+      "count_inheritance": null,
+      "source_reference": "Original supplementary Table S2B, F26"
+    },
+    "morgan_count2048__rf": {
+      "params": {
+        "max_depth": null,
+        "max_features": "sqrt",
+        "min_samples_leaf": 1,
+        "n_estimators": 300
+      },
+      "source_workbook": "NephroTox_Supplementary_Tables_Recommended_20260812.xlsx",
+      "source_workbook_sha256": "b4625ac2f0e515e7669c76070ea8c6562a3b918db815f329105f1e80cd2394a5",
+      "source_sheet": "S2B Conv Selected",
+      "source_parameter_cell": "F2",
+      "source_excel_row": 2,
+      "original_candidate_number": 1,
+      "original_candidate_id_in_code": 0,
+      "parameter_origin": "original selected numerical-representation configuration",
+      "count_inheritance": "morgan2048__rf",
+      "source_reference": "Original supplementary Table S2B, F2"
+    },
+    "morgan_count2048__svm": {
+      "params": {
+        "C": 1.0,
+        "gamma": "scale"
+      },
+      "source_workbook": "NephroTox_Supplementary_Tables_Recommended_20260812.xlsx",
+      "source_workbook_sha256": "b4625ac2f0e515e7669c76070ea8c6562a3b918db815f329105f1e80cd2394a5",
+      "source_sheet": "S2B Conv Selected",
+      "source_parameter_cell": "F7",
+      "source_excel_row": 7,
+      "original_candidate_number": 1,
+      "original_candidate_id_in_code": 0,
+      "parameter_origin": "original selected numerical-representation configuration",
+      "count_inheritance": "morgan2048__svm",
+      "source_reference": "Original supplementary Table S2B, F7"
+    },
+    "morgan_count2048__mlp": {
+      "params": {
+        "alpha": 0.0001,
+        "hidden_layer_sizes": [
+          128
+        ],
+        "learning_rate_init": 0.0005
+      },
+      "source_workbook": "NephroTox_Supplementary_Tables_Recommended_20260812.xlsx",
+      "source_workbook_sha256": "b4625ac2f0e515e7669c76070ea8c6562a3b918db815f329105f1e80cd2394a5",
+      "source_sheet": "S2B Conv Selected",
+      "source_parameter_cell": "F12",
+      "source_excel_row": 12,
+      "original_candidate_number": 2,
+      "original_candidate_id_in_code": 1,
+      "parameter_origin": "original selected numerical-representation configuration",
+      "count_inheritance": "morgan2048__mlp",
+      "source_reference": "Original supplementary Table S2B, F12"
+    },
+    "morgan_count2048__xgb": {
+      "params": {
+        "colsample_bytree": 0.8,
+        "learning_rate": 0.05,
+        "max_depth": 5,
+        "n_estimators": 300,
+        "subsample": 0.8
+      },
+      "source_workbook": "NephroTox_Supplementary_Tables_Recommended_20260812.xlsx",
+      "source_workbook_sha256": "b4625ac2f0e515e7669c76070ea8c6562a3b918db815f329105f1e80cd2394a5",
+      "source_sheet": "S2B Conv Selected",
+      "source_parameter_cell": "F17",
+      "source_excel_row": 17,
+      "original_candidate_number": 3,
+      "original_candidate_id_in_code": 2,
+      "parameter_origin": "original selected numerical-representation configuration",
+      "count_inheritance": "morgan2048__xgb",
+      "source_reference": "Original supplementary Table S2B, F17"
+    },
+    "morgan_count2048__dnn": {
+      "params": {
+        "batch_norm": true,
+        "batch_size": 64,
+        "dropout": 0.3,
+        "hidden_layers": [
+          256,
+          128
+        ],
+        "learning_rate": 0.001,
+        "weight_decay": 0.0001
+      },
+      "source_workbook": "NephroTox_Supplementary_Tables_Recommended_20260812.xlsx",
+      "source_workbook_sha256": "b4625ac2f0e515e7669c76070ea8c6562a3b918db815f329105f1e80cd2394a5",
+      "source_sheet": "S2B Conv Selected",
+      "source_parameter_cell": "F22",
+      "source_excel_row": 22,
+      "original_candidate_number": 1,
+      "original_candidate_id_in_code": 0,
+      "parameter_origin": "original selected numerical-representation configuration",
+      "count_inheritance": "morgan2048__dnn",
+      "source_reference": "Original supplementary Table S2B, F22"
+    },
+    "atompair_count1024__rf": {
+      "params": {
+        "max_depth": null,
+        "max_features": "sqrt",
+        "min_samples_leaf": 1,
+        "n_estimators": 300
+      },
+      "source_workbook": "NephroTox_Supplementary_Tables_Recommended_20260812.xlsx",
+      "source_workbook_sha256": "b4625ac2f0e515e7669c76070ea8c6562a3b918db815f329105f1e80cd2394a5",
+      "source_sheet": "S2B Conv Selected",
+      "source_parameter_cell": "F4",
+      "source_excel_row": 4,
+      "original_candidate_number": 1,
+      "original_candidate_id_in_code": 0,
+      "parameter_origin": "original selected numerical-representation configuration",
+      "count_inheritance": "atompair1024__rf",
+      "source_reference": "Original supplementary Table S2B, F4"
+    },
+    "atompair_count1024__svm": {
+      "params": {
+        "C": 1.0,
+        "gamma": "scale"
+      },
+      "source_workbook": "NephroTox_Supplementary_Tables_Recommended_20260812.xlsx",
+      "source_workbook_sha256": "b4625ac2f0e515e7669c76070ea8c6562a3b918db815f329105f1e80cd2394a5",
+      "source_sheet": "S2B Conv Selected",
+      "source_parameter_cell": "F9",
+      "source_excel_row": 9,
+      "original_candidate_number": 1,
+      "original_candidate_id_in_code": 0,
+      "parameter_origin": "original selected numerical-representation configuration",
+      "count_inheritance": "atompair1024__svm",
+      "source_reference": "Original supplementary Table S2B, F9"
+    },
+    "atompair_count1024__mlp": {
+      "params": {
+        "alpha": 0.001,
+        "hidden_layer_sizes": [
+          128,
+          64
+        ],
+        "learning_rate_init": 0.001
+      },
+      "source_workbook": "NephroTox_Supplementary_Tables_Recommended_20260812.xlsx",
+      "source_workbook_sha256": "b4625ac2f0e515e7669c76070ea8c6562a3b918db815f329105f1e80cd2394a5",
+      "source_sheet": "S2B Conv Selected",
+      "source_parameter_cell": "F14",
+      "source_excel_row": 14,
+      "original_candidate_number": 3,
+      "original_candidate_id_in_code": 2,
+      "parameter_origin": "original selected numerical-representation configuration",
+      "count_inheritance": "atompair1024__mlp",
+      "source_reference": "Original supplementary Table S2B, F14"
+    },
+    "atompair_count1024__xgb": {
+      "params": {
+        "colsample_bytree": 0.8,
+        "learning_rate": 0.05,
+        "max_depth": 5,
+        "n_estimators": 300,
+        "subsample": 0.8
+      },
+      "source_workbook": "NephroTox_Supplementary_Tables_Recommended_20260812.xlsx",
+      "source_workbook_sha256": "b4625ac2f0e515e7669c76070ea8c6562a3b918db815f329105f1e80cd2394a5",
+      "source_sheet": "S2B Conv Selected",
+      "source_parameter_cell": "F19",
+      "source_excel_row": 19,
+      "original_candidate_number": 3,
+      "original_candidate_id_in_code": 2,
+      "parameter_origin": "original selected numerical-representation configuration",
+      "count_inheritance": "atompair1024__xgb",
+      "source_reference": "Original supplementary Table S2B, F19"
+    },
+    "atompair_count1024__dnn": {
+      "params": {
+        "batch_norm": true,
+        "batch_size": 64,
+        "dropout": 0.25,
+        "hidden_layers": [
+          128,
+          64
+        ],
+        "learning_rate": 0.0005,
+        "weight_decay": 1e-05
+      },
+      "source_workbook": "NephroTox_Supplementary_Tables_Recommended_20260812.xlsx",
+      "source_workbook_sha256": "b4625ac2f0e515e7669c76070ea8c6562a3b918db815f329105f1e80cd2394a5",
+      "source_sheet": "S2B Conv Selected",
+      "source_parameter_cell": "F24",
+      "source_excel_row": 24,
+      "original_candidate_number": 3,
+      "original_candidate_id_in_code": 2,
+      "parameter_origin": "original selected numerical-representation configuration",
+      "count_inheritance": "atompair1024__dnn",
+      "source_reference": "Original supplementary Table S2B, F24"
+    },
+    "torsion_count1024__rf": {
+      "params": {
+        "max_depth": 20,
+        "max_features": "sqrt",
+        "min_samples_leaf": 1,
+        "n_estimators": 500
+      },
+      "source_workbook": "NephroTox_Supplementary_Tables_Recommended_20260812.xlsx",
+      "source_workbook_sha256": "b4625ac2f0e515e7669c76070ea8c6562a3b918db815f329105f1e80cd2394a5",
+      "source_sheet": "S2B Conv Selected",
+      "source_parameter_cell": "F5",
+      "source_excel_row": 5,
+      "original_candidate_number": 2,
+      "original_candidate_id_in_code": 1,
+      "parameter_origin": "original selected numerical-representation configuration",
+      "count_inheritance": "torsion1024__rf",
+      "source_reference": "Original supplementary Table S2B, F5"
+    },
+    "torsion_count1024__svm": {
+      "params": {
+        "C": 1.0,
+        "gamma": "scale"
+      },
+      "source_workbook": "NephroTox_Supplementary_Tables_Recommended_20260812.xlsx",
+      "source_workbook_sha256": "b4625ac2f0e515e7669c76070ea8c6562a3b918db815f329105f1e80cd2394a5",
+      "source_sheet": "S2B Conv Selected",
+      "source_parameter_cell": "F10",
+      "source_excel_row": 10,
+      "original_candidate_number": 1,
+      "original_candidate_id_in_code": 0,
+      "parameter_origin": "original selected numerical-representation configuration",
+      "count_inheritance": "torsion1024__svm",
+      "source_reference": "Original supplementary Table S2B, F10"
+    },
+    "torsion_count1024__mlp": {
+      "params": {
+        "alpha": 0.001,
+        "hidden_layer_sizes": [
+          128,
+          64
+        ],
+        "learning_rate_init": 0.001
+      },
+      "source_workbook": "NephroTox_Supplementary_Tables_Recommended_20260812.xlsx",
+      "source_workbook_sha256": "b4625ac2f0e515e7669c76070ea8c6562a3b918db815f329105f1e80cd2394a5",
+      "source_sheet": "S2B Conv Selected",
+      "source_parameter_cell": "F15",
+      "source_excel_row": 15,
+      "original_candidate_number": 3,
+      "original_candidate_id_in_code": 2,
+      "parameter_origin": "original selected numerical-representation configuration",
+      "count_inheritance": "torsion1024__mlp",
+      "source_reference": "Original supplementary Table S2B, F15"
+    },
+    "torsion_count1024__xgb": {
+      "params": {
+        "colsample_bytree": 0.8,
+        "learning_rate": 0.05,
+        "max_depth": 5,
+        "n_estimators": 300,
+        "subsample": 0.8
+      },
+      "source_workbook": "NephroTox_Supplementary_Tables_Recommended_20260812.xlsx",
+      "source_workbook_sha256": "b4625ac2f0e515e7669c76070ea8c6562a3b918db815f329105f1e80cd2394a5",
+      "source_sheet": "S2B Conv Selected",
+      "source_parameter_cell": "F20",
+      "source_excel_row": 20,
+      "original_candidate_number": 3,
+      "original_candidate_id_in_code": 2,
+      "parameter_origin": "original selected numerical-representation configuration",
+      "count_inheritance": "torsion1024__xgb",
+      "source_reference": "Original supplementary Table S2B, F20"
+    },
+    "torsion_count1024__dnn": {
+      "params": {
+        "batch_norm": true,
+        "batch_size": 64,
+        "dropout": 0.4,
+        "hidden_layers": [
+          512,
+          256
+        ],
+        "learning_rate": 0.0005,
+        "weight_decay": 0.0001
+      },
+      "source_workbook": "NephroTox_Supplementary_Tables_Recommended_20260812.xlsx",
+      "source_workbook_sha256": "b4625ac2f0e515e7669c76070ea8c6562a3b918db815f329105f1e80cd2394a5",
+      "source_sheet": "S2B Conv Selected",
+      "source_parameter_cell": "F25",
+      "source_excel_row": 25,
+      "original_candidate_number": 2,
+      "original_candidate_id_in_code": 1,
+      "parameter_origin": "original selected numerical-representation configuration",
+      "count_inheritance": "torsion1024__dnn",
+      "source_reference": "Original supplementary Table S2B, F25"
+    },
+    "graph__DMPNN": {
+      "params": {
+        "max_epochs": 200,
+        "patience": 20,
+        "min_delta": 0.0001,
+        "gradient_clip": 5.0,
+        "early_stop_fraction": 0.2,
+        "learning_rate_schedule": "constant",
+        "aggregation": "sum",
+        "batch_size": 32,
+        "ffn_dropout": 0.25,
+        "ffn_hidden_dim": 300,
+        "ffn_num_layers": 3,
+        "learning_rate": 0.0002875575337885439,
+        "message_depth": 5,
+        "message_dropout": 0,
+        "message_hidden_dim": 256,
+        "weight_decay": 9.791096446029439e-05,
+        "epoch_monitor": "roc_auc"
+      },
+      "source_workbook": "NephroTox_Supplementary_Tables_Recommended_20260812.xlsx",
+      "source_workbook_sha256": "b4625ac2f0e515e7669c76070ea8c6562a3b918db815f329105f1e80cd2394a5",
+      "source_sheet": "S3 Graph Configs",
+      "source_parameter_cell": "G2",
+      "source_excel_row": 2,
+      "source_reference": "S3 Graph Configs!G2",
+      "original_configuration_id": "dmpnn_fixed_v1_prior_trial7",
+      "parameter_origin": "Original S3 fixed architecture/LR/weight-decay/batch configuration; manuscript max200 and validation ROC-AUC epoch monitor; prespecified current grouped patience20/min_delta0.0001 controls",
+      "original_candidate_number": null,
+      "original_candidate_id_in_code": null,
+      "historical_epoch_counts_reused": false
+    },
+    "graph__GINE": {
+      "params": {
+        "max_epochs": 200,
+        "patience": 20,
+        "min_delta": 0.0001,
+        "gradient_clip": 5.0,
+        "early_stop_fraction": 0.2,
+        "learning_rate_schedule": "constant",
+        "batch_size": 32,
+        "dropout": 0.2,
+        "hidden_dim": 256,
+        "learning_rate": 0.0003,
+        "mlp_num_layers": 2,
+        "normalization": "batch_norm",
+        "num_layers": 4,
+        "pooling": "gated_attention",
+        "train_epsilon": true,
+        "weight_decay": 0.0001,
+        "epoch_monitor": "roc_auc"
+      },
+      "source_workbook": "NephroTox_Supplementary_Tables_Recommended_20260812.xlsx",
+      "source_workbook_sha256": "b4625ac2f0e515e7669c76070ea8c6562a3b918db815f329105f1e80cd2394a5",
+      "source_sheet": "S3 Graph Configs",
+      "source_parameter_cell": "G3",
+      "source_excel_row": 3,
+      "source_reference": "S3 Graph Configs!G3",
+      "original_configuration_id": "gine_fixed_v1_small_data_regularized",
+      "parameter_origin": "Original S3 fixed architecture/LR/weight-decay/batch configuration; manuscript max200 and validation ROC-AUC epoch monitor; prespecified current grouped patience20/min_delta0.0001 controls",
+      "original_candidate_number": null,
+      "original_candidate_id_in_code": null,
+      "historical_epoch_counts_reused": false
+    },
+    "graph__AttentiveFP": {
+      "params": {
+        "max_epochs": 200,
+        "patience": 20,
+        "min_delta": 0.0001,
+        "gradient_clip": 5.0,
+        "early_stop_fraction": 0.2,
+        "learning_rate_schedule": "constant",
+        "batch_size": 32,
+        "dropout": 0.2,
+        "hidden_channels": 256,
+        "learning_rate": 0.0003,
+        "num_layers": 3,
+        "num_timesteps": 2,
+        "weight_decay": 0.0001,
+        "epoch_monitor": "roc_auc"
+      },
+      "source_workbook": "NephroTox_Supplementary_Tables_Recommended_20260812.xlsx",
+      "source_workbook_sha256": "b4625ac2f0e515e7669c76070ea8c6562a3b918db815f329105f1e80cd2394a5",
+      "source_sheet": "S3 Graph Configs",
+      "source_parameter_cell": "G4",
+      "source_excel_row": 4,
+      "source_reference": "S3 Graph Configs!G4",
+      "original_configuration_id": "attentivefp_fixed_v1_small_data_regularized",
+      "parameter_origin": "Original S3 fixed architecture/LR/weight-decay/batch configuration; manuscript max200 and validation ROC-AUC epoch monitor; prespecified current grouped patience20/min_delta0.0001 controls",
+      "original_candidate_number": null,
+      "original_candidate_id_in_code": null,
+      "historical_epoch_counts_reused": false
+    }
+  },
+  "fixed_parameter_file": "configs/original_fixed_parameters.json",
+  "fixed_parameter_sha256": "af54e725c8a207e13b738c7ce430fbc65fe63c757820671022097e2d360d28dc",
+  "parameter_provenance_limit": "Original parameter values were selected in a prior version of the overlapping compound collection; this re-evaluation is not independent prospective parameter selection or an external cohort.",
+  "execution_seed_rule": {
+    "base_seed": 20260810,
+    "classical_outer_rf_mlp_xgb": "base_seed + static original_candidate_id_in_code * 100 + (outer_fold_1_based - 1)",
+    "classical_outer_svm": "base_seed + 1000 + (outer_fold_1_based - 1)",
+    "classical_final": "base_seed",
+    "dnn_and_graph_outer_and_final": [
+      20260810,
+      20260811,
+      20260812
+    ],
+    "count_control": "inherits binary-family static original candidate ID and seed formula",
+    "candidate_id_source": "fixed_parameter_records; no current-data search or seed selection"
+  },
+  "classical_original_candidate_id_in_code": {
+    "morgan2048__rf": 0,
+    "morgan2048__svm": 0,
+    "morgan2048__mlp": 1,
+    "morgan2048__xgb": 2,
+    "maccs166__rf": 1,
+    "maccs166__svm": 0,
+    "maccs166__mlp": 2,
+    "maccs166__xgb": 2,
+    "atompair1024__rf": 0,
+    "atompair1024__svm": 0,
+    "atompair1024__mlp": 2,
+    "atompair1024__xgb": 2,
+    "torsion1024__rf": 1,
+    "torsion1024__svm": 0,
+    "torsion1024__mlp": 2,
+    "torsion1024__xgb": 2,
+    "rdkit166__rf": 0,
+    "rdkit166__svm": 0,
+    "rdkit166__mlp": 2,
+    "rdkit166__xgb": 2,
+    "morgan_count2048__rf": 0,
+    "morgan_count2048__svm": 0,
+    "morgan_count2048__mlp": 1,
+    "morgan_count2048__xgb": 2,
+    "atompair_count1024__rf": 0,
+    "atompair_count1024__svm": 0,
+    "atompair_count1024__mlp": 2,
+    "atompair_count1024__xgb": 2,
+    "torsion_count1024__rf": 1,
+    "torsion_count1024__svm": 0,
+    "torsion_count1024__mlp": 2,
+    "torsion_count1024__xgb": 2
+  },
+  "classical_evaluation_seed_role": "base/final seed; outer fits follow execution_seed_rule rather than using one identical seed"
+}

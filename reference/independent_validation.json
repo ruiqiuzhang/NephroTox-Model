@@ -1,0 +1,136 @@
+{
+  "passed": true,
+  "scope": "Current DATA rows and newly generated artifacts only",
+  "rows": 1673,
+  "source": {
+    "source_file": "data/NephroTox_Modeling_Data.xlsx",
+    "sha256": "2832a2b0679bf724b6acc3197e3ad8e4d2c15e0572b2bc9bb76b217f4a0ba752",
+    "sheet_name": "Modeling_Final",
+    "n_rows": 1673,
+    "label_counts": {
+      "0": 831,
+      "1": 842
+    },
+    "source_columns": [
+      "compound_id",
+      "name",
+      "PubChem_CID",
+      "standardized_smiles",
+      "label",
+      "standardized_InChIKey",
+      "molecular_formula",
+      "MW",
+      "heavy_atoms",
+      "PubChem_IUPACName",
+      "stereo_scope",
+      "representation_type"
+    ],
+    "empty_unnamed_columns_ignored": 5,
+    "source_policy": "The sole data source is the supplied DATA workbook. No historical tables, cached diagnostic structures, external chemistry records, or prior feature/split files are consulted.",
+    "rows_fingerprint": "51909c995bb610e02cb51e7ddc902b8224722a9ec31bbd9c5b95a9a3cdfc605d",
+    "all_source_values_preserved": true
+  },
+  "input_records_sha256": "51909c995bb610e02cb51e7ddc902b8224722a9ec31bbd9c5b95a9a3cdfc605d",
+  "rdkit_version": "2026.03.3",
+  "checks": {
+    "DATA_identity_label_fingerprint": true,
+    "all_holdout_CV_and_seven_key_components": true,
+    "independent_group_graphs": true,
+    "all_FP_bits_and166_descriptor_values_independently_recomputed": true,
+    "all11_training_only_preprocessing_stages": true,
+    "all_modeling_split_fold_and_parameter_CSV_JSON_values_match": true,
+    "DATA_rows_unchanged": true
+  },
+  "issues": [],
+  "split_mode": "legacy_random",
+  "structural_group_isolation_enforced": false,
+  "structural_overlap_audit": {
+    "structure_group_id_cross_partition_overlap": 71,
+    "structure_group_id_cross_cv_fold_overlap": 126,
+    "parent_group_key_cross_partition_overlap": 0,
+    "parent_group_key_cross_cv_fold_overlap": 2,
+    "protomer_group_key_cross_partition_overlap": 0,
+    "protomer_group_key_cross_cv_fold_overlap": 1,
+    "scaffold_group_key_cross_partition_overlap": 73,
+    "scaffold_group_key_cross_cv_fold_overlap": 121,
+    "raw_scaffold_group_key_cross_partition_overlap": 73,
+    "raw_scaffold_group_key_cross_cv_fold_overlap": 121,
+    "tautomer_scaffold_group_key_cross_partition_overlap": 73,
+    "tautomer_scaffold_group_key_cross_cv_fold_overlap": 121,
+    "element_parent_group_key_cross_partition_overlap": 6,
+    "element_parent_group_key_cross_cv_fold_overlap": 18,
+    "element_scaffold_group_key_cross_partition_overlap": 75,
+    "element_scaffold_group_key_cross_cv_fold_overlap": 127
+  },
+  "group_graph_checks": {
+    "all_rows_fast_keys_recomputed": 5,
+    "canonical_tautomer_sample_rows": 12
+  },
+  "preprocessing": [
+    {
+      "stage": "final_development",
+      "training": 1338,
+      "held_out": 335
+    },
+    {
+      "stage": "CV01",
+      "training": 1204,
+      "held_out": 134
+    },
+    {
+      "stage": "CV02",
+      "training": 1204,
+      "held_out": 134
+    },
+    {
+      "stage": "CV03",
+      "training": 1204,
+      "held_out": 134
+    },
+    {
+      "stage": "CV04",
+      "training": 1204,
+      "held_out": 134
+    },
+    {
+      "stage": "CV05",
+      "training": 1204,
+      "held_out": 134
+    },
+    {
+      "stage": "CV06",
+      "training": 1204,
+      "held_out": 134
+    },
+    {
+      "stage": "CV07",
+      "training": 1204,
+      "held_out": 134
+    },
+    {
+      "stage": "CV08",
+      "training": 1204,
+      "held_out": 134
+    },
+    {
+      "stage": "CV09",
+      "training": 1205,
+      "held_out": 133
+    },
+    {
+      "stage": "CV10",
+      "training": 1205,
+      "held_out": 133
+    }
+  ],
+  "features": {
+    "descriptor_cells_recomputed": 277718,
+    "descriptor_nonfinite_values": 0,
+    "FP_widths": {
+      "morgan2048": 2048,
+      "maccs166": 166,
+      "atompair1024": 1024,
+      "torsion1024": 1024
+    }
+  }
+}

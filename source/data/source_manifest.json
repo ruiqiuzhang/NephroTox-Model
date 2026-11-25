@@ -1,0 +1,26 @@
+{
+  "source_file": "data/NephroTox_Modeling_Data.csv",
+  "sha256": "ea647d7b617a9fe5ee40f06d6916454b7be785e11fff31aeb382218aa21dd8d0",
+  "n_rows": 1673,
+  "label_counts": {
+    "0": 831,
+    "1": 842
+  },
+  "source_columns": [
+    "compound_id",
+    "name",
+    "PubChem_CID",
+    "standardized_smiles",
+    "label",
+    "standardized_InChIKey",
+    "molecular_formula",
+    "MW",
+    "heavy_atoms",
+    "PubChem_IUPACName",
+    "stereo_scope",
+    "representation_type"
+  ],
+  "source_policy": "Training reads the frozen UTF-8 CSV of 1,673 compounds in their original order. The reference model records retain the file identity of the archived run.",
+  "source_format": "csv",
+  "rows_fingerprint": "51909c995bb610e02cb51e7ddc902b8224722a9ec31bbd9c5b95a9a3cdfc605d"
+}

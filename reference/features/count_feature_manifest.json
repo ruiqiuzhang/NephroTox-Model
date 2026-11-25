@@ -1,0 +1,40 @@
+{
+  "source_rows_fingerprint": "51909c995bb610e02cb51e7ddc902b8224722a9ec31bbd9c5b95a9a3cdfc605d",
+  "rdkit_version": "2026.03.3",
+  "representations": {
+    "morgan_count2048": {
+      "file_sha256": "7d5800f70af1a9d70ad822d615d51f137469a0a0ad8a81e5c364fe1c6a7ef9a5",
+      "shape": [
+        1673,
+        2048
+      ],
+      "dtype": "int32",
+      "numeric_sha256": "27246d138e5b507b9ad3f4de0efa246d3b4939065a2cd3279e679797685ec6dd",
+      "includeChirality": true,
+      "generator_method": "GetCountFingerprint"
+    },
+    "atompair_count1024": {
+      "file_sha256": "a6aea235fc51c47f068103d5233ac0195e00431e33d82e772107dad30be74d25",
+      "shape": [
+        1673,
+        1024
+      ],
+      "dtype": "int32",
+      "numeric_sha256": "0804d99c17bbc7378278cae51c5d89df6cc9d2b4cb2e7842a8a83b61ad625b11",
+      "includeChirality": true,
+      "generator_method": "GetCountFingerprint"
+    },
+    "torsion_count1024": {
+      "file_sha256": "c414927986144efb38dbb9a7cd71f6f0fa29b1dcbbfba4392c1722ddd77d6f19",
+      "shape": [
+        1673,
+        1024
+      ],
+      "dtype": "int32",
+      "numeric_sha256": "f5a05814d723b6441aaf3b5b42977b467a31f3d6f76ef40155ea775eac6887df",
+      "includeChirality": true,
+      "generator_method": "GetCountFingerprint"
+    }
+  },
+  "definition": "RDKit GetCountFingerprint; hashed counts, same dimensions and chirality settings as corresponding binary generators; not count-simulated binary bits"
+}

@@ -1,0 +1,449 @@
+{
+  "checked_uses": 55,
+  "checks": [
+    {
+      "representation": "morgan2048",
+      "stage": "final_development",
+      "training_rows": 1338,
+      "evaluation_rows": 335,
+      "training_only_preprocessing": false,
+      "all_values_finite": true
+    },
+    {
+      "representation": "morgan2048",
+      "stage": "CV01",
+      "training_rows": 1204,
+      "evaluation_rows": 134,
+      "training_only_preprocessing": false,
+      "all_values_finite": true
+    },
+    {
+      "representation": "morgan2048",
+      "stage": "CV02",
+      "training_rows": 1204,
+      "evaluation_rows": 134,
+      "training_only_preprocessing": false,
+      "all_values_finite": true
+    },
+    {
+      "representation": "morgan2048",
+      "stage": "CV03",
+      "training_rows": 1204,
+      "evaluation_rows": 134,
+      "training_only_preprocessing": false,
+      "all_values_finite": true
+    },
+    {
+      "representation": "morgan2048",
+      "stage": "CV04",
+      "training_rows": 1204,
+      "evaluation_rows": 134,
+      "training_only_preprocessing": false,
+      "all_values_finite": true
+    },
+    {
+      "representation": "morgan2048",
+      "stage": "CV05",
+      "training_rows": 1204,
+      "evaluation_rows": 134,
+      "training_only_preprocessing": false,
+      "all_values_finite": true
+    },
+    {
+      "representation": "morgan2048",
+      "stage": "CV06",
+      "training_rows": 1204,
+      "evaluation_rows": 134,
+      "training_only_preprocessing": false,
+      "all_values_finite": true
+    },
+    {
+      "representation": "morgan2048",
+      "stage": "CV07",
+      "training_rows": 1204,
+      "evaluation_rows": 134,
+      "training_only_preprocessing": false,
+      "all_values_finite": true
+    },
+    {
+      "representation": "morgan2048",
+      "stage": "CV08",
+      "training_rows": 1204,
+      "evaluation_rows": 134,
+      "training_only_preprocessing": false,
+      "all_values_finite": true
+    },
+    {
+      "representation": "morgan2048",
+      "stage": "CV09",
+      "training_rows": 1205,
+      "evaluation_rows": 133,
+      "training_only_preprocessing": false,
+      "all_values_finite": true
+    },
+    {
+      "representation": "morgan2048",
+      "stage": "CV10",
+      "training_rows": 1205,
+      "evaluation_rows": 133,
+      "training_only_preprocessing": false,
+      "all_values_finite": true
+    },
+    {
+      "representation": "maccs166",
+      "stage": "final_development",
+      "training_rows": 1338,
+      "evaluation_rows": 335,
+      "training_only_preprocessing": false,
+      "all_values_finite": true
+    },
+    {
+      "representation": "maccs166",
+      "stage": "CV01",
+      "training_rows": 1204,
+      "evaluation_rows": 134,
+      "training_only_preprocessing": false,
+      "all_values_finite": true
+    },
+    {
+      "representation": "maccs166",
+      "stage": "CV02",
+      "training_rows": 1204,
+      "evaluation_rows": 134,
+      "training_only_preprocessing": false,
+      "all_values_finite": true
+    },
+    {
+      "representation": "maccs166",
+      "stage": "CV03",
+      "training_rows": 1204,
+      "evaluation_rows": 134,
+      "training_only_preprocessing": false,
+      "all_values_finite": true
+    },
+    {
+      "representation": "maccs166",
+      "stage": "CV04",
+      "training_rows": 1204,
+      "evaluation_rows": 134,
+      "training_only_preprocessing": false,
+      "all_values_finite": true
+    },
+    {
+      "representation": "maccs166",
+      "stage": "CV05",
+      "training_rows": 1204,
+      "evaluation_rows": 134,
+      "training_only_preprocessing": false,
+      "all_values_finite": true
+    },
+    {
+      "representation": "maccs166",
+      "stage": "CV06",
+      "training_rows": 1204,
+      "evaluation_rows": 134,
+      "training_only_preprocessing": false,
+      "all_values_finite": true
+    },
+    {
+      "representation": "maccs166",
+      "stage": "CV07",
+      "training_rows": 1204,
+      "evaluation_rows": 134,
+      "training_only_preprocessing": false,
+      "all_values_finite": true
+    },
+    {
+      "representation": "maccs166",
+      "stage": "CV08",
+      "training_rows": 1204,
+      "evaluation_rows": 134,
+      "training_only_preprocessing": false,
+      "all_values_finite": true
+    },
+    {
+      "representation": "maccs166",
+      "stage": "CV09",
+      "training_rows": 1205,
+      "evaluation_rows": 133,
+      "training_only_preprocessing": false,
+      "all_values_finite": true
+    },
+    {
+      "representation": "maccs166",
+      "stage": "CV10",
+      "training_rows": 1205,
+      "evaluation_rows": 133,
+      "training_only_preprocessing": false,
+      "all_values_finite": true
+    },
+    {
+      "representation": "atompair1024",
+      "stage": "final_development",
+      "training_rows": 1338,
+      "evaluation_rows": 335,
+      "training_only_preprocessing": false,
+      "all_values_finite": true
+    },
+    {
+      "representation": "atompair1024",
+      "stage": "CV01",
+      "training_rows": 1204,
+      "evaluation_rows": 134,
+      "training_only_preprocessing": false,
+      "all_values_finite": true
+    },
+    {
+      "representation": "atompair1024",
+      "stage": "CV02",
+      "training_rows": 1204,
+      "evaluation_rows": 134,
+      "training_only_preprocessing": false,
+      "all_values_finite": true
+    },
+    {
+      "representation": "atompair1024",
+      "stage": "CV03",
+      "training_rows": 1204,
+      "evaluation_rows": 134,
+      "training_only_preprocessing": false,
+      "all_values_finite": true
+    },
+    {
+      "representation": "atompair1024",
+      "stage": "CV04",
+      "training_rows": 1204,
+      "evaluation_rows": 134,
+      "training_only_preprocessing": false,
+      "all_values_finite": true
+    },
+    {
+      "representation": "atompair1024",
+      "stage": "CV05",
+      "training_rows": 1204,
+      "evaluation_rows": 134,
+      "training_only_preprocessing": false,
+      "all_values_finite": true
+    },
+    {
+      "representation": "atompair1024",
+      "stage": "CV06",
+      "training_rows": 1204,
+      "evaluation_rows": 134,
+      "training_only_preprocessing": false,
+      "all_values_finite": true
+    },
+    {
+      "representation": "atompair1024",
+      "stage": "CV07",
+      "training_rows": 1204,
+      "evaluation_rows": 134,
+      "training_only_preprocessing": false,
+      "all_values_finite": true
+    },
+    {
+      "representation": "atompair1024",
+      "stage": "CV08",
+      "training_rows": 1204,
+      "evaluation_rows": 134,
+      "training_only_preprocessing": false,
+      "all_values_finite": true
+    },
+    {
+      "representation": "atompair1024",
+      "stage": "CV09",
+      "training_rows": 1205,
+      "evaluation_rows": 133,
+      "training_only_preprocessing": false,
+      "all_values_finite": true
+    },
+    {
+      "representation": "atompair1024",
+      "stage": "CV10",
+      "training_rows": 1205,
+      "evaluation_rows": 133,
+      "training_only_preprocessing": false,
+      "all_values_finite": true
+    },
+    {
+      "representation": "torsion1024",
+      "stage": "final_development",
+      "training_rows": 1338,
+      "evaluation_rows": 335,
+      "training_only_preprocessing": false,
+      "all_values_finite": true
+    },
+    {
+      "representation": "torsion1024",
+      "stage": "CV01",
+      "training_rows": 1204,
+      "evaluation_rows": 134,
+      "training_only_preprocessing": false,
+      "all_values_finite": true
+    },
+    {
+      "representation": "torsion1024",
+      "stage": "CV02",
+      "training_rows": 1204,
+      "evaluation_rows": 134,
+      "training_only_preprocessing": false,
+      "all_values_finite": true
+    },
+    {
+      "representation": "torsion1024",
+      "stage": "CV03",
+      "training_rows": 1204,
+      "evaluation_rows": 134,
+      "training_only_preprocessing": false,
+      "all_values_finite": true
+    },
+    {
+      "representation": "torsion1024",
+      "stage": "CV04",
+      "training_rows": 1204,
+      "evaluation_rows": 134,
+      "training_only_preprocessing": false,
+      "all_values_finite": true
+    },
+    {
+      "representation": "torsion1024",
+      "stage": "CV05",
+      "training_rows": 1204,
+      "evaluation_rows": 134,
+      "training_only_preprocessing": false,
+      "all_values_finite": true
+    },
+    {
+      "representation": "torsion1024",
+      "stage": "CV06",
+      "training_rows": 1204,
+      "evaluation_rows": 134,
+      "training_only_preprocessing": false,
+      "all_values_finite": true
+    },
+    {
+      "representation": "torsion1024",
+      "stage": "CV07",
+      "training_rows": 1204,
+      "evaluation_rows": 134,
+      "training_only_preprocessing": false,
+      "all_values_finite": true
+    },
+    {
+      "representation": "torsion1024",
+      "stage": "CV08",
+      "training_rows": 1204,
+      "evaluation_rows": 134,
+      "training_only_preprocessing": false,
+      "all_values_finite": true
+    },
+    {
+      "representation": "torsion1024",
+      "stage": "CV09",
+      "training_rows": 1205,
+      "evaluation_rows": 133,
+      "training_only_preprocessing": false,
+      "all_values_finite": true
+    },
+    {
+      "representation": "torsion1024",
+      "stage": "CV10",
+      "training_rows": 1205,
+      "evaluation_rows": 133,
+      "training_only_preprocessing": false,
+      "all_values_finite": true
+    },
+    {
+      "representation": "rdkit166",
+      "stage": "final_development",
+      "training_rows": 1338,
+      "evaluation_rows": 335,
+      "training_only_preprocessing": true,
+      "all_values_finite": true
+    },
+    {
+      "representation": "rdkit166",
+      "stage": "CV01",
+      "training_rows": 1204,
+      "evaluation_rows": 134,
+      "training_only_preprocessing": true,
+      "all_values_finite": true
+    },
+    {
+      "representation": "rdkit166",
+      "stage": "CV02",
+      "training_rows": 1204,
+      "evaluation_rows": 134,
+      "training_only_preprocessing": true,
+      "all_values_finite": true
+    },
+    {
+      "representation": "rdkit166",
+      "stage": "CV03",
+      "training_rows": 1204,
+      "evaluation_rows": 134,
+      "training_only_preprocessing": true,
+      "all_values_finite": true
+    },
+    {
+      "representation": "rdkit166",
+      "stage": "CV04",
+      "training_rows": 1204,
+      "evaluation_rows": 134,
+      "training_only_preprocessing": true,
+      "all_values_finite": true
+    },
+    {
+      "representation": "rdkit166",
+      "stage": "CV05",
+      "training_rows": 1204,
+      "evaluation_rows": 134,
+      "training_only_preprocessing": true,
+      "all_values_finite": true
+    },
+    {
+      "representation": "rdkit166",
+      "stage": "CV06",
+      "training_rows": 1204,
+      "evaluation_rows": 134,
+      "training_only_preprocessing": true,
+      "all_values_finite": true
+    },
+    {
+      "representation": "rdkit166",
+      "stage": "CV07",
+      "training_rows": 1204,
+      "evaluation_rows": 134,
+      "training_only_preprocessing": true,
+      "all_values_finite": true
+    },
+    {
+      "representation": "rdkit166",
+      "stage": "CV08",
+      "training_rows": 1204,
+      "evaluation_rows": 134,
+      "training_only_preprocessing": true,
+      "all_values_finite": true
+    },
+    {
+      "representation": "rdkit166",
+      "stage": "CV09",
+      "training_rows": 1205,
+      "evaluation_rows": 133,
+      "training_only_preprocessing": true,
+      "all_values_finite": true
+    },
+    {
+      "representation": "rdkit166",
+      "stage": "CV10",
+      "training_rows": 1205,
+      "evaluation_rows": 133,
+      "training_only_preprocessing": true,
+      "all_values_finite": true
+    }
+  ],
+  "raw_features_unchanged": true,
+  "test_never_in_cross_validation": true,
+  "models_trained": false,
+  "cv_performance_computed": false
+}

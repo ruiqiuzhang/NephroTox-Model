@@ -1,0 +1,875 @@
+{
+  "schema_version": 1,
+  "parameter_mode": "fixed_original",
+  "models": {
+    "morgan2048__rf": {
+      "params": {
+        "max_depth": null,
+        "max_features": "sqrt",
+        "min_samples_leaf": 1,
+        "n_estimators": 300
+      },
+      "source_workbook": "NephroTox_Supplementary_Tables_Recommended_20260812.xlsx",
+      "source_workbook_sha256": "b4625ac2f0e515e7669c76070ea8c6562a3b918db815f329105f1e80cd2394a5",
+      "source_sheet": "S2B Conv Selected",
+      "source_parameter_cell": "F2",
+      "source_excel_row": 2,
+      "original_candidate_number": 1,
+      "original_candidate_id_in_code": 0,
+      "parameter_origin": "original selected numerical-representation configuration",
+      "count_inheritance": null,
+      "source_reference": "Original supplementary Table S2B, F2"
+    },
+    "maccs166__rf": {
+      "params": {
+        "max_depth": 20,
+        "max_features": "sqrt",
+        "min_samples_leaf": 1,
+        "n_estimators": 500
+      },
+      "source_workbook": "NephroTox_Supplementary_Tables_Recommended_20260812.xlsx",
+      "source_workbook_sha256": "b4625ac2f0e515e7669c76070ea8c6562a3b918db815f329105f1e80cd2394a5",
+      "source_sheet": "S2B Conv Selected",
+      "source_parameter_cell": "F3",
+      "source_excel_row": 3,
+      "original_candidate_number": 2,
+      "original_candidate_id_in_code": 1,
+      "parameter_origin": "original selected numerical-representation configuration",
+      "count_inheritance": null,
+      "source_reference": "Original supplementary Table S2B, F3"
+    },
+    "atompair1024__rf": {
+      "params": {
+        "max_depth": null,
+        "max_features": "sqrt",
+        "min_samples_leaf": 1,
+        "n_estimators": 300
+      },
+      "source_workbook": "NephroTox_Supplementary_Tables_Recommended_20260812.xlsx",
+      "source_workbook_sha256": "b4625ac2f0e515e7669c76070ea8c6562a3b918db815f329105f1e80cd2394a5",
+      "source_sheet": "S2B Conv Selected",
+      "source_parameter_cell": "F4",
+      "source_excel_row": 4,
+      "original_candidate_number": 1,
+      "original_candidate_id_in_code": 0,
+      "parameter_origin": "original selected numerical-representation configuration",
+      "count_inheritance": null,
+      "source_reference": "Original supplementary Table S2B, F4"
+    },
+    "torsion1024__rf": {
+      "params": {
+        "max_depth": 20,
+        "max_features": "sqrt",
+        "min_samples_leaf": 1,
+        "n_estimators": 500
+      },
+      "source_workbook": "NephroTox_Supplementary_Tables_Recommended_20260812.xlsx",
+      "source_workbook_sha256": "b4625ac2f0e515e7669c76070ea8c6562a3b918db815f329105f1e80cd2394a5",
+      "source_sheet": "S2B Conv Selected",
+      "source_parameter_cell": "F5",
+      "source_excel_row": 5,
+      "original_candidate_number": 2,
+      "original_candidate_id_in_code": 1,
+      "parameter_origin": "original selected numerical-representation configuration",
+      "count_inheritance": null,
+      "source_reference": "Original supplementary Table S2B, F5"
+    },
+    "rdkit166__rf": {
+      "params": {
+        "max_depth": null,
+        "max_features": "sqrt",
+        "min_samples_leaf": 1,
+        "n_estimators": 300
+      },
+      "source_workbook": "NephroTox_Supplementary_Tables_Recommended_20260812.xlsx",
+      "source_workbook_sha256": "b4625ac2f0e515e7669c76070ea8c6562a3b918db815f329105f1e80cd2394a5",
+      "source_sheet": "S2B Conv Selected",
+      "source_parameter_cell": "F6",
+      "source_excel_row": 6,
+      "original_candidate_number": 1,
+      "original_candidate_id_in_code": 0,
+      "parameter_origin": "original selected numerical-representation configuration",
+      "count_inheritance": null,
+      "source_reference": "Original supplementary Table S2B, F6"
+    },
+    "morgan2048__svm": {
+      "params": {
+        "C": 1.0,
+        "gamma": "scale"
+      },
+      "source_workbook": "NephroTox_Supplementary_Tables_Recommended_20260812.xlsx",
+      "source_workbook_sha256": "b4625ac2f0e515e7669c76070ea8c6562a3b918db815f329105f1e80cd2394a5",
+      "source_sheet": "S2B Conv Selected",
+      "source_parameter_cell": "F7",
+      "source_excel_row": 7,
+      "original_candidate_number": 1,
+      "original_candidate_id_in_code": 0,
+      "parameter_origin": "original selected numerical-representation configuration",
+      "count_inheritance": null,
+      "source_reference": "Original supplementary Table S2B, F7"
+    },
+    "maccs166__svm": {
+      "params": {
+        "C": 1.0,
+        "gamma": "scale"
+      },
+      "source_workbook": "NephroTox_Supplementary_Tables_Recommended_20260812.xlsx",
+      "source_workbook_sha256": "b4625ac2f0e515e7669c76070ea8c6562a3b918db815f329105f1e80cd2394a5",
+      "source_sheet": "S2B Conv Selected",
+      "source_parameter_cell": "F8",
+      "source_excel_row": 8,
+      "original_candidate_number": 1,
+      "original_candidate_id_in_code": 0,
+      "parameter_origin": "original selected numerical-representation configuration",
+      "count_inheritance": null,
+      "source_reference": "Original supplementary Table S2B, F8"
+    },
+    "atompair1024__svm": {
+      "params": {
+        "C": 1.0,
+        "gamma": "scale"
+      },
+      "source_workbook": "NephroTox_Supplementary_Tables_Recommended_20260812.xlsx",
+      "source_workbook_sha256": "b4625ac2f0e515e7669c76070ea8c6562a3b918db815f329105f1e80cd2394a5",
+      "source_sheet": "S2B Conv Selected",
+      "source_parameter_cell": "F9",
+      "source_excel_row": 9,
+      "original_candidate_number": 1,
+      "original_candidate_id_in_code": 0,
+      "parameter_origin": "original selected numerical-representation configuration",
+      "count_inheritance": null,
+      "source_reference": "Original supplementary Table S2B, F9"
+    },
+    "torsion1024__svm": {
+      "params": {
+        "C": 1.0,
+        "gamma": "scale"
+      },
+      "source_workbook": "NephroTox_Supplementary_Tables_Recommended_20260812.xlsx",
+      "source_workbook_sha256": "b4625ac2f0e515e7669c76070ea8c6562a3b918db815f329105f1e80cd2394a5",
+      "source_sheet": "S2B Conv Selected",
+      "source_parameter_cell": "F10",
+      "source_excel_row": 10,
+      "original_candidate_number": 1,
+      "original_candidate_id_in_code": 0,
+      "parameter_origin": "original selected numerical-representation configuration",
+      "count_inheritance": null,
+      "source_reference": "Original supplementary Table S2B, F10"
+    },
+    "rdkit166__svm": {
+      "params": {
+        "C": 1.0,
+        "gamma": "scale"
+      },
+      "source_workbook": "NephroTox_Supplementary_Tables_Recommended_20260812.xlsx",
+      "source_workbook_sha256": "b4625ac2f0e515e7669c76070ea8c6562a3b918db815f329105f1e80cd2394a5",
+      "source_sheet": "S2B Conv Selected",
+      "source_parameter_cell": "F11",
+      "source_excel_row": 11,
+      "original_candidate_number": 1,
+      "original_candidate_id_in_code": 0,
+      "parameter_origin": "original selected numerical-representation configuration",
+      "count_inheritance": null,
+      "source_reference": "Original supplementary Table S2B, F11"
+    },
+    "morgan2048__mlp": {
+      "params": {
+        "alpha": 0.0001,
+        "hidden_layer_sizes": [
+          128
+        ],
+        "learning_rate_init": 0.0005
+      },
+      "source_workbook": "NephroTox_Supplementary_Tables_Recommended_20260812.xlsx",
+      "source_workbook_sha256": "b4625ac2f0e515e7669c76070ea8c6562a3b918db815f329105f1e80cd2394a5",
+      "source_sheet": "S2B Conv Selected",
+      "source_parameter_cell": "F12",
+      "source_excel_row": 12,
+      "original_candidate_number": 2,
+      "original_candidate_id_in_code": 1,
+      "parameter_origin": "original selected numerical-representation configuration",
+      "count_inheritance": null,
+      "source_reference": "Original supplementary Table S2B, F12"
+    },
+    "maccs166__mlp": {
+      "params": {
+        "alpha": 0.001,
+        "hidden_layer_sizes": [
+          128,
+          64
+        ],
+        "learning_rate_init": 0.001
+      },
+      "source_workbook": "NephroTox_Supplementary_Tables_Recommended_20260812.xlsx",
+      "source_workbook_sha256": "b4625ac2f0e515e7669c76070ea8c6562a3b918db815f329105f1e80cd2394a5",
+      "source_sheet": "S2B Conv Selected",
+      "source_parameter_cell": "F13",
+      "source_excel_row": 13,
+      "original_candidate_number": 3,
+      "original_candidate_id_in_code": 2,
+      "parameter_origin": "original selected numerical-representation configuration",
+      "count_inheritance": null,
+      "source_reference": "Original supplementary Table S2B, F13"
+    },
+    "atompair1024__mlp": {
+      "params": {
+        "alpha": 0.001,
+        "hidden_layer_sizes": [
+          128,
+          64
+        ],
+        "learning_rate_init": 0.001
+      },
+      "source_workbook": "NephroTox_Supplementary_Tables_Recommended_20260812.xlsx",
+      "source_workbook_sha256": "b4625ac2f0e515e7669c76070ea8c6562a3b918db815f329105f1e80cd2394a5",
+      "source_sheet": "S2B Conv Selected",
+      "source_parameter_cell": "F14",
+      "source_excel_row": 14,
+      "original_candidate_number": 3,
+      "original_candidate_id_in_code": 2,
+      "parameter_origin": "original selected numerical-representation configuration",
+      "count_inheritance": null,
+      "source_reference": "Original supplementary Table S2B, F14"
+    },
+    "torsion1024__mlp": {
+      "params": {
+        "alpha": 0.001,
+        "hidden_layer_sizes": [
+          128,
+          64
+        ],
+        "learning_rate_init": 0.001
+      },
+      "source_workbook": "NephroTox_Supplementary_Tables_Recommended_20260812.xlsx",
+      "source_workbook_sha256": "b4625ac2f0e515e7669c76070ea8c6562a3b918db815f329105f1e80cd2394a5",
+      "source_sheet": "S2B Conv Selected",
+      "source_parameter_cell": "F15",
+      "source_excel_row": 15,
+      "original_candidate_number": 3,
+      "original_candidate_id_in_code": 2,
+      "parameter_origin": "original selected numerical-representation configuration",
+      "count_inheritance": null,
+      "source_reference": "Original supplementary Table S2B, F15"
+    },
+    "rdkit166__mlp": {
+      "params": {
+        "alpha": 0.001,
+        "hidden_layer_sizes": [
+          128,
+          64
+        ],
+        "learning_rate_init": 0.001
+      },
+      "source_workbook": "NephroTox_Supplementary_Tables_Recommended_20260812.xlsx",
+      "source_workbook_sha256": "b4625ac2f0e515e7669c76070ea8c6562a3b918db815f329105f1e80cd2394a5",
+      "source_sheet": "S2B Conv Selected",
+      "source_parameter_cell": "F16",
+      "source_excel_row": 16,
+      "original_candidate_number": 3,
+      "original_candidate_id_in_code": 2,
+      "parameter_origin": "original selected numerical-representation configuration",
+      "count_inheritance": null,
+      "source_reference": "Original supplementary Table S2B, F16"
+    },
+    "morgan2048__xgb": {
+      "params": {
+        "colsample_bytree": 0.8,
+        "learning_rate": 0.05,
+        "max_depth": 5,
+        "n_estimators": 300,
+        "subsample": 0.8
+      },
+      "source_workbook": "NephroTox_Supplementary_Tables_Recommended_20260812.xlsx",
+      "source_workbook_sha256": "b4625ac2f0e515e7669c76070ea8c6562a3b918db815f329105f1e80cd2394a5",
+      "source_sheet": "S2B Conv Selected",
+      "source_parameter_cell": "F17",
+      "source_excel_row": 17,
+      "original_candidate_number": 3,
+      "original_candidate_id_in_code": 2,
+      "parameter_origin": "original selected numerical-representation configuration",
+      "count_inheritance": null,
+      "source_reference": "Original supplementary Table S2B, F17"
+    },
+    "maccs166__xgb": {
+      "params": {
+        "colsample_bytree": 0.8,
+        "learning_rate": 0.05,
+        "max_depth": 5,
+        "n_estimators": 300,
+        "subsample": 0.8
+      },
+      "source_workbook": "NephroTox_Supplementary_Tables_Recommended_20260812.xlsx",
+      "source_workbook_sha256": "b4625ac2f0e515e7669c76070ea8c6562a3b918db815f329105f1e80cd2394a5",
+      "source_sheet": "S2B Conv Selected",
+      "source_parameter_cell": "F18",
+      "source_excel_row": 18,
+      "original_candidate_number": 3,
+      "original_candidate_id_in_code": 2,
+      "parameter_origin": "original selected numerical-representation configuration",
+      "count_inheritance": null,
+      "source_reference": "Original supplementary Table S2B, F18"
+    },
+    "atompair1024__xgb": {
+      "params": {
+        "colsample_bytree": 0.8,
+        "learning_rate": 0.05,
+        "max_depth": 5,
+        "n_estimators": 300,
+        "subsample": 0.8
+      },
+      "source_workbook": "NephroTox_Supplementary_Tables_Recommended_20260812.xlsx",
+      "source_workbook_sha256": "b4625ac2f0e515e7669c76070ea8c6562a3b918db815f329105f1e80cd2394a5",
+      "source_sheet": "S2B Conv Selected",
+      "source_parameter_cell": "F19",
+      "source_excel_row": 19,
+      "original_candidate_number": 3,
+      "original_candidate_id_in_code": 2,
+      "parameter_origin": "original selected numerical-representation configuration",
+      "count_inheritance": null,
+      "source_reference": "Original supplementary Table S2B, F19"
+    },
+    "torsion1024__xgb": {
+      "params": {
+        "colsample_bytree": 0.8,
+        "learning_rate": 0.05,
+        "max_depth": 5,
+        "n_estimators": 300,
+        "subsample": 0.8
+      },
+      "source_workbook": "NephroTox_Supplementary_Tables_Recommended_20260812.xlsx",
+      "source_workbook_sha256": "b4625ac2f0e515e7669c76070ea8c6562a3b918db815f329105f1e80cd2394a5",
+      "source_sheet": "S2B Conv Selected",
+      "source_parameter_cell": "F20",
+      "source_excel_row": 20,
+      "original_candidate_number": 3,
+      "original_candidate_id_in_code": 2,
+      "parameter_origin": "original selected numerical-representation configuration",
+      "count_inheritance": null,
+      "source_reference": "Original supplementary Table S2B, F20"
+    },
+    "rdkit166__xgb": {
+      "params": {
+        "colsample_bytree": 0.8,
+        "learning_rate": 0.05,
+        "max_depth": 5,
+        "n_estimators": 300,
+        "subsample": 0.8
+      },
+      "source_workbook": "NephroTox_Supplementary_Tables_Recommended_20260812.xlsx",
+      "source_workbook_sha256": "b4625ac2f0e515e7669c76070ea8c6562a3b918db815f329105f1e80cd2394a5",
+      "source_sheet": "S2B Conv Selected",
+      "source_parameter_cell": "F21",
+      "source_excel_row": 21,
+      "original_candidate_number": 3,
+      "original_candidate_id_in_code": 2,
+      "parameter_origin": "original selected numerical-representation configuration",
+      "count_inheritance": null,
+      "source_reference": "Original supplementary Table S2B, F21"
+    },
+    "morgan2048__dnn": {
+      "params": {
+        "batch_norm": true,
+        "batch_size": 64,
+        "dropout": 0.3,
+        "hidden_layers": [
+          256,
+          128
+        ],
+        "learning_rate": 0.001,
+        "weight_decay": 0.0001
+      },
+      "source_workbook": "NephroTox_Supplementary_Tables_Recommended_20260812.xlsx",
+      "source_workbook_sha256": "b4625ac2f0e515e7669c76070ea8c6562a3b918db815f329105f1e80cd2394a5",
+      "source_sheet": "S2B Conv Selected",
+      "source_parameter_cell": "F22",
+      "source_excel_row": 22,
+      "original_candidate_number": 1,
+      "original_candidate_id_in_code": 0,
+      "parameter_origin": "original selected numerical-representation configuration",
+      "count_inheritance": null,
+      "source_reference": "Original supplementary Table S2B, F22"
+    },
+    "maccs166__dnn": {
+      "params": {
+        "batch_norm": true,
+        "batch_size": 64,
+        "dropout": 0.3,
+        "hidden_layers": [
+          256,
+          128
+        ],
+        "learning_rate": 0.001,
+        "weight_decay": 0.0001
+      },
+      "source_workbook": "NephroTox_Supplementary_Tables_Recommended_20260812.xlsx",
+      "source_workbook_sha256": "b4625ac2f0e515e7669c76070ea8c6562a3b918db815f329105f1e80cd2394a5",
+      "source_sheet": "S2B Conv Selected",
+      "source_parameter_cell": "F23",
+      "source_excel_row": 23,
+      "original_candidate_number": 1,
+      "original_candidate_id_in_code": 0,
+      "parameter_origin": "original selected numerical-representation configuration",
+      "count_inheritance": null,
+      "source_reference": "Original supplementary Table S2B, F23"
+    },
+    "atompair1024__dnn": {
+      "params": {
+        "batch_norm": true,
+        "batch_size": 64,
+        "dropout": 0.25,
+        "hidden_layers": [
+          128,
+          64
+        ],
+        "learning_rate": 0.0005,
+        "weight_decay": 1e-05
+      },
+      "source_workbook": "NephroTox_Supplementary_Tables_Recommended_20260812.xlsx",
+      "source_workbook_sha256": "b4625ac2f0e515e7669c76070ea8c6562a3b918db815f329105f1e80cd2394a5",
+      "source_sheet": "S2B Conv Selected",
+      "source_parameter_cell": "F24",
+      "source_excel_row": 24,
+      "original_candidate_number": 3,
+      "original_candidate_id_in_code": 2,
+      "parameter_origin": "original selected numerical-representation configuration",
+      "count_inheritance": null,
+      "source_reference": "Original supplementary Table S2B, F24"
+    },
+    "torsion1024__dnn": {
+      "params": {
+        "batch_norm": true,
+        "batch_size": 64,
+        "dropout": 0.4,
+        "hidden_layers": [
+          512,
+          256
+        ],
+        "learning_rate": 0.0005,
+        "weight_decay": 0.0001
+      },
+      "source_workbook": "NephroTox_Supplementary_Tables_Recommended_20260812.xlsx",
+      "source_workbook_sha256": "b4625ac2f0e515e7669c76070ea8c6562a3b918db815f329105f1e80cd2394a5",
+      "source_sheet": "S2B Conv Selected",
+      "source_parameter_cell": "F25",
+      "source_excel_row": 25,
+      "original_candidate_number": 2,
+      "original_candidate_id_in_code": 1,
+      "parameter_origin": "original selected numerical-representation configuration",
+      "count_inheritance": null,
+      "source_reference": "Original supplementary Table S2B, F25"
+    },
+    "rdkit166__dnn": {
+      "params": {
+        "batch_norm": true,
+        "batch_size": 64,
+        "dropout": 0.3,
+        "hidden_layers": [
+          256,
+          128
+        ],
+        "learning_rate": 0.001,
+        "weight_decay": 0.0001
+      },
+      "source_workbook": "NephroTox_Supplementary_Tables_Recommended_20260812.xlsx",
+      "source_workbook_sha256": "b4625ac2f0e515e7669c76070ea8c6562a3b918db815f329105f1e80cd2394a5",
+      "source_sheet": "S2B Conv Selected",
+      "source_parameter_cell": "F26",
+      "source_excel_row": 26,
+      "original_candidate_number": 1,
+      "original_candidate_id_in_code": 0,
+      "parameter_origin": "original selected numerical-representation configuration",
+      "count_inheritance": null,
+      "source_reference": "Original supplementary Table S2B, F26"
+    },
+    "morgan_count2048__rf": {
+      "params": {
+        "max_depth": null,
+        "max_features": "sqrt",
+        "min_samples_leaf": 1,
+        "n_estimators": 300
+      },
+      "source_workbook": "NephroTox_Supplementary_Tables_Recommended_20260812.xlsx",
+      "source_workbook_sha256": "b4625ac2f0e515e7669c76070ea8c6562a3b918db815f329105f1e80cd2394a5",
+      "source_sheet": "S2B Conv Selected",
+      "source_parameter_cell": "F2",
+      "source_excel_row": 2,
+      "original_candidate_number": 1,
+      "original_candidate_id_in_code": 0,
+      "parameter_origin": "original selected numerical-representation configuration",
+      "count_inheritance": "morgan2048__rf",
+      "source_reference": "Original supplementary Table S2B, F2"
+    },
+    "morgan_count2048__svm": {
+      "params": {
+        "C": 1.0,
+        "gamma": "scale"
+      },
+      "source_workbook": "NephroTox_Supplementary_Tables_Recommended_20260812.xlsx",
+      "source_workbook_sha256": "b4625ac2f0e515e7669c76070ea8c6562a3b918db815f329105f1e80cd2394a5",
+      "source_sheet": "S2B Conv Selected",
+      "source_parameter_cell": "F7",
+      "source_excel_row": 7,
+      "original_candidate_number": 1,
+      "original_candidate_id_in_code": 0,
+      "parameter_origin": "original selected numerical-representation configuration",
+      "count_inheritance": "morgan2048__svm",
+      "source_reference": "Original supplementary Table S2B, F7"
+    },
+    "morgan_count2048__mlp": {
+      "params": {
+        "alpha": 0.0001,
+        "hidden_layer_sizes": [
+          128
+        ],
+        "learning_rate_init": 0.0005
+      },
+      "source_workbook": "NephroTox_Supplementary_Tables_Recommended_20260812.xlsx",
+      "source_workbook_sha256": "b4625ac2f0e515e7669c76070ea8c6562a3b918db815f329105f1e80cd2394a5",
+      "source_sheet": "S2B Conv Selected",
+      "source_parameter_cell": "F12",
+      "source_excel_row": 12,
+      "original_candidate_number": 2,
+      "original_candidate_id_in_code": 1,
+      "parameter_origin": "original selected numerical-representation configuration",
+      "count_inheritance": "morgan2048__mlp",
+      "source_reference": "Original supplementary Table S2B, F12"
+    },
+    "morgan_count2048__xgb": {
+      "params": {
+        "colsample_bytree": 0.8,
+        "learning_rate": 0.05,
+        "max_depth": 5,
+        "n_estimators": 300,
+        "subsample": 0.8
+      },
+      "source_workbook": "NephroTox_Supplementary_Tables_Recommended_20260812.xlsx",
+      "source_workbook_sha256": "b4625ac2f0e515e7669c76070ea8c6562a3b918db815f329105f1e80cd2394a5",
+      "source_sheet": "S2B Conv Selected",
+      "source_parameter_cell": "F17",
+      "source_excel_row": 17,
+      "original_candidate_number": 3,
+      "original_candidate_id_in_code": 2,
+      "parameter_origin": "original selected numerical-representation configuration",
+      "count_inheritance": "morgan2048__xgb",
+      "source_reference": "Original supplementary Table S2B, F17"
+    },
+    "morgan_count2048__dnn": {
+      "params": {
+        "batch_norm": true,
+        "batch_size": 64,
+        "dropout": 0.3,
+        "hidden_layers": [
+          256,
+          128
+        ],
+        "learning_rate": 0.001,
+        "weight_decay": 0.0001
+      },
+      "source_workbook": "NephroTox_Supplementary_Tables_Recommended_20260812.xlsx",
+      "source_workbook_sha256": "b4625ac2f0e515e7669c76070ea8c6562a3b918db815f329105f1e80cd2394a5",
+      "source_sheet": "S2B Conv Selected",
+      "source_parameter_cell": "F22",
+      "source_excel_row": 22,
+      "original_candidate_number": 1,
+      "original_candidate_id_in_code": 0,
+      "parameter_origin": "original selected numerical-representation configuration",
+      "count_inheritance": "morgan2048__dnn",
+      "source_reference": "Original supplementary Table S2B, F22"
+    },
+    "atompair_count1024__rf": {
+      "params": {
+        "max_depth": null,
+        "max_features": "sqrt",
+        "min_samples_leaf": 1,
+        "n_estimators": 300
+      },
+      "source_workbook": "NephroTox_Supplementary_Tables_Recommended_20260812.xlsx",
+      "source_workbook_sha256": "b4625ac2f0e515e7669c76070ea8c6562a3b918db815f329105f1e80cd2394a5",
+      "source_sheet": "S2B Conv Selected",
+      "source_parameter_cell": "F4",
+      "source_excel_row": 4,
+      "original_candidate_number": 1,
+      "original_candidate_id_in_code": 0,
+      "parameter_origin": "original selected numerical-representation configuration",
+      "count_inheritance": "atompair1024__rf",
+      "source_reference": "Original supplementary Table S2B, F4"
+    },
+    "atompair_count1024__svm": {
+      "params": {
+        "C": 1.0,
+        "gamma": "scale"
+      },
+      "source_workbook": "NephroTox_Supplementary_Tables_Recommended_20260812.xlsx",
+      "source_workbook_sha256": "b4625ac2f0e515e7669c76070ea8c6562a3b918db815f329105f1e80cd2394a5",
+      "source_sheet": "S2B Conv Selected",
+      "source_parameter_cell": "F9",
+      "source_excel_row": 9,
+      "original_candidate_number": 1,
+      "original_candidate_id_in_code": 0,
+      "parameter_origin": "original selected numerical-representation configuration",
+      "count_inheritance": "atompair1024__svm",
+      "source_reference": "Original supplementary Table S2B, F9"
+    },
+    "atompair_count1024__mlp": {
+      "params": {
+        "alpha": 0.001,
+        "hidden_layer_sizes": [
+          128,
+          64
+        ],
+        "learning_rate_init": 0.001
+      },
+      "source_workbook": "NephroTox_Supplementary_Tables_Recommended_20260812.xlsx",
+      "source_workbook_sha256": "b4625ac2f0e515e7669c76070ea8c6562a3b918db815f329105f1e80cd2394a5",
+      "source_sheet": "S2B Conv Selected",
+      "source_parameter_cell": "F14",
+      "source_excel_row": 14,
+      "original_candidate_number": 3,
+      "original_candidate_id_in_code": 2,
+      "parameter_origin": "original selected numerical-representation configuration",
+      "count_inheritance": "atompair1024__mlp",
+      "source_reference": "Original supplementary Table S2B, F14"
+    },
+    "atompair_count1024__xgb": {
+      "params": {
+        "colsample_bytree": 0.8,
+        "learning_rate": 0.05,
+        "max_depth": 5,
+        "n_estimators": 300,
+        "subsample": 0.8
+      },
+      "source_workbook": "NephroTox_Supplementary_Tables_Recommended_20260812.xlsx",
+      "source_workbook_sha256": "b4625ac2f0e515e7669c76070ea8c6562a3b918db815f329105f1e80cd2394a5",
+      "source_sheet": "S2B Conv Selected",
+      "source_parameter_cell": "F19",
+      "source_excel_row": 19,
+      "original_candidate_number": 3,
+      "original_candidate_id_in_code": 2,
+      "parameter_origin": "original selected numerical-representation configuration",
+      "count_inheritance": "atompair1024__xgb",
+      "source_reference": "Original supplementary Table S2B, F19"
+    },
+    "atompair_count1024__dnn": {
+      "params": {
+        "batch_norm": true,
+        "batch_size": 64,
+        "dropout": 0.25,
+        "hidden_layers": [
+          128,
+          64
+        ],
+        "learning_rate": 0.0005,
+        "weight_decay": 1e-05
+      },
+      "source_workbook": "NephroTox_Supplementary_Tables_Recommended_20260812.xlsx",
+      "source_workbook_sha256": "b4625ac2f0e515e7669c76070ea8c6562a3b918db815f329105f1e80cd2394a5",
+      "source_sheet": "S2B Conv Selected",
+      "source_parameter_cell": "F24",
+      "source_excel_row": 24,
+      "original_candidate_number": 3,
+      "original_candidate_id_in_code": 2,
+      "parameter_origin": "original selected numerical-representation configuration",
+      "count_inheritance": "atompair1024__dnn",
+      "source_reference": "Original supplementary Table S2B, F24"
+    },
+    "torsion_count1024__rf": {
+      "params": {
+        "max_depth": 20,
+        "max_features": "sqrt",
+        "min_samples_leaf": 1,
+        "n_estimators": 500
+      },
+      "source_workbook": "NephroTox_Supplementary_Tables_Recommended_20260812.xlsx",
+      "source_workbook_sha256": "b4625ac2f0e515e7669c76070ea8c6562a3b918db815f329105f1e80cd2394a5",
+      "source_sheet": "S2B Conv Selected",
+      "source_parameter_cell": "F5",
+      "source_excel_row": 5,
+      "original_candidate_number": 2,
+      "original_candidate_id_in_code": 1,
+      "parameter_origin": "original selected numerical-representation configuration",
+      "count_inheritance": "torsion1024__rf",
+      "source_reference": "Original supplementary Table S2B, F5"
+    },
+    "torsion_count1024__svm": {
+      "params": {
+        "C": 1.0,
+        "gamma": "scale"
+      },
+      "source_workbook": "NephroTox_Supplementary_Tables_Recommended_20260812.xlsx",
+      "source_workbook_sha256": "b4625ac2f0e515e7669c76070ea8c6562a3b918db815f329105f1e80cd2394a5",
+      "source_sheet": "S2B Conv Selected",
+      "source_parameter_cell": "F10",
+      "source_excel_row": 10,
+      "original_candidate_number": 1,
+      "original_candidate_id_in_code": 0,
+      "parameter_origin": "original selected numerical-representation configuration",
+      "count_inheritance": "torsion1024__svm",
+      "source_reference": "Original supplementary Table S2B, F10"
+    },
+    "torsion_count1024__mlp": {
+      "params": {
+        "alpha": 0.001,
+        "hidden_layer_sizes": [
+          128,
+          64
+        ],
+        "learning_rate_init": 0.001
+      },
+      "source_workbook": "NephroTox_Supplementary_Tables_Recommended_20260812.xlsx",
+      "source_workbook_sha256": "b4625ac2f0e515e7669c76070ea8c6562a3b918db815f329105f1e80cd2394a5",
+      "source_sheet": "S2B Conv Selected",
+      "source_parameter_cell": "F15",
+      "source_excel_row": 15,
+      "original_candidate_number": 3,
+      "original_candidate_id_in_code": 2,
+      "parameter_origin": "original selected numerical-representation configuration",
+      "count_inheritance": "torsion1024__mlp",
+      "source_reference": "Original supplementary Table S2B, F15"
+    },
+    "torsion_count1024__xgb": {
+      "params": {
+        "colsample_bytree": 0.8,
+        "learning_rate": 0.05,
+        "max_depth": 5,
+        "n_estimators": 300,
+        "subsample": 0.8
+      },
+      "source_workbook": "NephroTox_Supplementary_Tables_Recommended_20260812.xlsx",
+      "source_workbook_sha256": "b4625ac2f0e515e7669c76070ea8c6562a3b918db815f329105f1e80cd2394a5",
+      "source_sheet": "S2B Conv Selected",
+      "source_parameter_cell": "F20",
+      "source_excel_row": 20,
+      "original_candidate_number": 3,
+      "original_candidate_id_in_code": 2,
+      "parameter_origin": "original selected numerical-representation configuration",
+      "count_inheritance": "torsion1024__xgb",
+      "source_reference": "Original supplementary Table S2B, F20"
+    },
+    "torsion_count1024__dnn": {
+      "params": {
+        "batch_norm": true,
+        "batch_size": 64,
+        "dropout": 0.4,
+        "hidden_layers": [
+          512,
+          256
+        ],
+        "learning_rate": 0.0005,
+        "weight_decay": 0.0001
+      },
+      "source_workbook": "NephroTox_Supplementary_Tables_Recommended_20260812.xlsx",
+      "source_workbook_sha256": "b4625ac2f0e515e7669c76070ea8c6562a3b918db815f329105f1e80cd2394a5",
+      "source_sheet": "S2B Conv Selected",
+      "source_parameter_cell": "F25",
+      "source_excel_row": 25,
+      "original_candidate_number": 2,
+      "original_candidate_id_in_code": 1,
+      "parameter_origin": "original selected numerical-representation configuration",
+      "count_inheritance": "torsion1024__dnn",
+      "source_reference": "Original supplementary Table S2B, F25"
+    },
+    "graph__DMPNN": {
+      "params": {
+        "max_epochs": 200,
+        "patience": 20,
+        "min_delta": 0.0001,
+        "gradient_clip": 5.0,
+        "early_stop_fraction": 0.2,
+        "learning_rate_schedule": "constant",
+        "aggregation": "sum",
+        "batch_size": 32,
+        "ffn_dropout": 0.25,
+        "ffn_hidden_dim": 300,
+        "ffn_num_layers": 3,
+        "learning_rate": 0.0002875575337885439,
+        "message_depth": 5,
+        "message_dropout": 0,
+        "message_hidden_dim": 256,
+        "weight_decay": 9.791096446029439e-05,
+        "epoch_monitor": "roc_auc"
+      },
+      "source_workbook": "NephroTox_Supplementary_Tables_Recommended_20260812.xlsx",
+      "source_workbook_sha256": "b4625ac2f0e515e7669c76070ea8c6562a3b918db815f329105f1e80cd2394a5",
+      "source_sheet": "S3 Graph Configs",
+      "source_parameter_cell": "G2",
+      "source_excel_row": 2,
+      "source_reference": "S3 Graph Configs!G2",
+      "original_configuration_id": "dmpnn_fixed_v1_prior_trial7",
+      "parameter_origin": "Original S3 fixed architecture/LR/weight-decay/batch configuration; manuscript max200 and validation ROC-AUC epoch monitor; prespecified current grouped patience20/min_delta0.0001 controls",
+      "original_candidate_number": null,
+      "original_candidate_id_in_code": null,
+      "historical_epoch_counts_reused": false
+    },
+    "graph__GINE": {
+      "params": {
+        "max_epochs": 200,
+        "patience": 20,
+        "min_delta": 0.0001,
+        "gradient_clip": 5.0,
+        "early_stop_fraction": 0.2,
+        "learning_rate_schedule": "constant",
+        "batch_size": 32,
+        "dropout": 0.2,
+        "hidden_dim": 256,
+        "learning_rate": 0.0003,
+        "mlp_num_layers": 2,
+        "normalization": "batch_norm",
+        "num_layers": 4,
+        "pooling": "gated_attention",
+        "train_epsilon": true,
+        "weight_decay": 0.0001,
+        "epoch_monitor": "roc_auc"
+      },
+      "source_workbook": "NephroTox_Supplementary_Tables_Recommended_20260812.xlsx",
+      "source_workbook_sha256": "b4625ac2f0e515e7669c76070ea8c6562a3b918db815f329105f1e80cd2394a5",
+      "source_sheet": "S3 Graph Configs",
+      "source_parameter_cell": "G3",
+      "source_excel_row": 3,
+      "source_reference": "S3 Graph Configs!G3",
+      "original_configuration_id": "gine_fixed_v1_small_data_regularized",
+      "parameter_origin": "Original S3 fixed architecture/LR/weight-decay/batch configuration; manuscript max200 and validation ROC-AUC epoch monitor; prespecified current grouped patience20/min_delta0.0001 controls",
+      "original_candidate_number": null,
+      "original_candidate_id_in_code": null,
+      "historical_epoch_counts_reused": false
+    },
+    "graph__AttentiveFP": {
+      "params": {
+        "max_epochs": 200,
+        "patience": 20,
+        "min_delta": 0.0001,
+        "gradient_clip": 5.0,
+        "early_stop_fraction": 0.2,
+        "learning_rate_schedule": "constant",
+        "batch_size": 32,
+        "dropout": 0.2,
+        "hidden_channels": 256,
+        "learning_rate": 0.0003,
+        "num_layers": 3,
+        "num_timesteps": 2,
+        "weight_decay": 0.0001,
+        "epoch_monitor": "roc_auc"
+      },
+      "source_workbook": "NephroTox_Supplementary_Tables_Recommended_20260812.xlsx",
+      "source_workbook_sha256": "b4625ac2f0e515e7669c76070ea8c6562a3b918db815f329105f1e80cd2394a5",
+      "source_sheet": "S3 Graph Configs",
+      "source_parameter_cell": "G4",
+      "source_excel_row": 4,
+      "source_reference": "S3 Graph Configs!G4",
+      "original_configuration_id": "attentivefp_fixed_v1_small_data_regularized",
+      "parameter_origin": "Original S3 fixed architecture/LR/weight-decay/batch configuration; manuscript max200 and validation ROC-AUC epoch monitor; prespecified current grouped patience20/min_delta0.0001 controls",
+      "original_candidate_number": null,
+      "original_candidate_id_in_code": null,
+      "historical_epoch_counts_reused": false
+    }
+  },
+  "current_data_rows": 1673,
+  "source_scores_or_predictions_imported": false,
+  "training_rule": "Original selected network/classifier parameters are fixed before this run. Epochs, preprocessing and SVM calibration are fitted only within the current fitting subset. No current-data hyperparameter search is performed.",
+  "count_rule": "Count-fingerprint controls inherit the original selected settings of their corresponding binary representation and algorithm.",
+  "neural_evaluation_seeds": [
+    20260810,
+    20260811,
+    20260812
+  ],
+  "implementation_note": "Original graph executable source was not supplied. Fixed S3 architecture and numerical optimization settings are preserved. The manuscript graph max200/validation ROC-AUC procedure is implemented using grouped training-internal epoch selection, predeclared patience20/min_delta0.0001 and fresh all-fit-subset refit; these grouping/patience details are current declared controls, not recovered original code."
+}

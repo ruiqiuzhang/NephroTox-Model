@@ -1,0 +1,51 @@
+{
+  "schema_version": 1,
+  "conventional_method": "enumerate_original_S2A_candidates",
+  "graph_method": "seeded_random_search",
+  "graph_candidates_per_architecture": 20,
+  "include_original_reference_candidate": true,
+  "random_state": 20260810,
+  "sampler": "sklearn.model_selection.ParameterSampler",
+  "continuous_distribution": "scipy.stats.loguniform",
+  "selection_metric": "mean_inner_ROC_AUC",
+  "provenance": "Conventional candidates reproduce original Table S2A. Graph search ranges are added for this revision with author authorization; the original S3 configurations are reference candidates only, never automatically selected.",
+  "graph_spaces": {
+    "D-MPNN": {
+      "fixed_parameters": {"aggregation": "sum"},
+      "parameters": {
+        "message_hidden_dim": {"type": "categorical", "values": [128, 256, 384]},
+        "message_depth": {"type": "categorical", "values": [3, 4, 5, 6]},
+        "message_dropout": {"type": "categorical", "values": [0.0, 0.1, 0.2]},
+        "ffn_hidden_dim": {"type": "categorical", "values": [128, 256, 300, 512]},
+        "ffn_num_layers": {"type": "categorical", "values": [1, 2, 3]},
+        "ffn_dropout": {"type": "categorical", "values": [0.1, 0.25, 0.4]},
+        "batch_size": {"type": "categorical", "values": [32, 64]},
+        "learning_rate": {"type": "loguniform", "low": 0.0001, "high": 0.001},
+        "weight_decay": {"type": "loguniform", "low": 0.000001, "high": 0.001}
+      }
+    },
+    "GINE": {
+      "fixed_parameters": {"mlp_num_layers": 2, "normalization": "batch_norm", "pooling": "gated_attention", "train_epsilon": true},
+      "parameters": {
+        "hidden_dim": {"type": "categorical", "values": [128, 256, 384]},
+        "num_layers": {"type": "categorical", "values": [3, 4, 5]},
+        "dropout": {"type": "categorical", "values": [0.1, 0.2, 0.3]},
+        "batch_size": {"type": "categorical", "values": [32, 64]},
+        "learning_rate": {"type": "loguniform", "low": 0.0001, "high": 0.001},
+        "weight_decay": {"type": "loguniform", "low": 0.000001, "high": 0.001}
+      }
+    },
+    "AttentiveFP": {
+      "fixed_parameters": {},
+      "parameters": {
+        "hidden_channels": {"type": "categorical", "values": [128, 256, 384]},
+        "num_layers": {"type": "categorical", "values": [2, 3, 4]},
+        "num_timesteps": {"type": "categorical", "values": [1, 2, 3]},
+        "dropout": {"type": "categorical", "values": [0.1, 0.2, 0.3]},
+        "batch_size": {"type": "categorical", "values": [32, 64]},
+        "learning_rate": {"type": "loguniform", "low": 0.0001, "high": 0.001},
+        "weight_decay": {"type": "loguniform", "low": 0.000001, "high": 0.001}
+      }
+    }
+  }
+}
